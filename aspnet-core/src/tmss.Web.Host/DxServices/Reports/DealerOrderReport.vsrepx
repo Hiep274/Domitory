@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="21.2.6.0" Ref="0" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="DealerOrderReport" Landscape="true" Margins="0, 0, 0, 0" PaperKind="A4" PageWidth="1169" PageHeight="827" Version="21.2" Font="Arial, 9.75pt">
+  <Extensions>
+    <Item1 Ref="1" Key="VSReportExtInfo" Value=".vsrepx" />
+  </Extensions>
+  <Bands>
+    <Item1 Ref="2" ControlType="TopMarginBand" Name="TopMargin" HeightF="0" />
+    <Item2 Ref="3" ControlType="BottomMarginBand" Name="BottomMargin" HeightF="0" />
+    <Item3 Ref="4" ControlType="ReportHeaderBand" Name="ReportHeader" HeightF="157.291672">
+      <Controls>
+        <Item1 Ref="5" ControlType="XRTable" Name="table1" SizeF="1169,31.2500076" LocationFloat="0,126.041664" Padding="2,2,0,0,96">
+          <Rows>
+            <Item1 Ref="6" ControlType="XRTableRow" Name="tableRow1" Weight="1">
+              <Cells>
+                <Item1 Ref="7" ControlType="XRTableCell" Name="tableCell1" Weight="0.2289189578872825" Multiline="true" Text="&#xD;&#xA;" TextAlignment="MiddleCenter" ForeColor="White" BackColor="255,68,84,106" BorderColor="Black">
+                  <StylePriority Ref="8" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="9" ControlType="XRTableCell" Name="tableCell2" Weight="0.41776590692739923" Multiline="true" Text="Model" TextAlignment="MiddleCenter" ForeColor="White" BackColor="255,68,84,106" BorderColor="Black">
+                  <StylePriority Ref="10" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                </Item2>
+                <Item3 Ref="11" ControlType="XRTableCell" Name="tableCell3" Weight="0.32958717414079675" Multiline="true" TextAlignment="MiddleCenter" ForeColor="White" BackColor="255,68,84,106" BorderColor="Black">
+                  <StylePriority Ref="12" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                </Item3>
+                <Item4 Ref="13" ControlType="XRTableCell" Name="tableCell4" Weight="1.0711836154430743" Multiline="true" Text="Order month" TextAlignment="MiddleCenter" ForeColor="White" BackColor="255,68,84,106" BorderColor="Black">
+                  <StylePriority Ref="14" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                </Item4>
+                <Item5 Ref="15" ControlType="XRTableCell" Name="tableCell5" Weight="0.46063486496598288" Multiline="true" Text="Grade" TextAlignment="MiddleCenter" ForeColor="White" BackColor="255,68,84,106" BorderColor="Black">
+                  <StylePriority Ref="16" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                </Item5>
+                <Item6 Ref="17" ControlType="XRTableCell" Name="tableCell6" Weight="0.57499814670185623" Multiline="true" Text="Dealer order&#xD;&#xA;" TextAlignment="MiddleCenter" ForeColor="White" BackColor="255,68,84,106" BorderColor="Black">
+                  <StylePriority Ref="18" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                </Item6>
+                <Item7 Ref="19" ControlType="XRTableCell" Name="tableCell7" Weight="1.08670007781678" Multiline="true" Text="Tentative Order month" TextAlignment="MiddleCenter" ForeColor="White" BackColor="255,68,84,106" BorderColor="Black">
+                  <StylePriority Ref="20" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                </Item7>
+                <Item8 Ref="21" ControlType="XRTableCell" Name="tableCell8" Weight="0.50766910615648408" Multiline="true" Text="Grade" TextAlignment="MiddleCenter" ForeColor="White" BackColor="255,68,84,106" BorderColor="Black">
+                  <StylePriority Ref="22" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                </Item8>
+                <Item9 Ref="23" ControlType="XRTableCell" Name="tableCell9" Weight="0.6827246510251" Multiline="true" Text="Dealer order" TextAlignment="MiddleCenter" ForeColor="White" BackColor="255,68,84,106" BorderColor="Black">
+                  <StylePriority Ref="24" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                </Item9>
+                <Item10 Ref="25" ControlType="XRTableCell" Name="tableCell10" Weight="1.1472939064446939" Multiline="true" Text="Tentative Order month" TextAlignment="MiddleCenter" ForeColor="White" BackColor="255,68,84,106" BorderColor="Black">
+                  <StylePriority Ref="26" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                </Item10>
+                <Item11 Ref="27" ControlType="XRTableCell" Name="tableCell11" Weight="0.44034144638379996" Multiline="true" Text="Grade" TextAlignment="MiddleCenter" ForeColor="White" BackColor="255,68,84,106" BorderColor="Black">
+                  <StylePriority Ref="28" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                </Item11>
+                <Item12 Ref="29" ControlType="XRTableCell" Name="tableCell12" Weight="0.60812377111984872" Multiline="true" Text="Dealer order" TextAlignment="MiddleCenter" ForeColor="White" BackColor="255,68,84,106" BorderColor="Black">
+                  <StylePriority Ref="30" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                </Item12>
+              </Cells>
+            </Item1>
+          </Rows>
+        </Item1>
+        <Item2 Ref="31" ControlType="XRLabel" Name="label6" Multiline="true" Text="&lt;Dựa vào kế hoạch bán hàng Đại lý&gt;" TextAlignment="MiddleCenter" SizeF="802.0833,23.0000038" LocationFloat="248.958328,41.6666679" Padding="2,2,0,0,100">
+          <StylePriority Ref="32" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="33" ControlType="XRLabel" Name="label5" TextFormatString="{0:MM/dd/yyyy}" Multiline="true" TextAlignment="MiddleCenter" SizeF="100,23" LocationFloat="52.0833321,64.66667" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="34" EventName="BeforePrint" PropertyName="Text" Expression="Today()" />
+          </ExpressionBindings>
+          <StylePriority Ref="35" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="36" ControlType="XRLabel" Name="label4" Multiline="true" Text="Date" TextAlignment="MiddleCenter" SizeF="52.0833321,23" LocationFloat="0,64.66667" Font="Arial, 9.75pt, style=Italic" Padding="2,2,0,0,100">
+          <StylePriority Ref="37" UseFont="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="38" ControlType="XRLabel" Name="label3" Multiline="true" TextAlignment="MiddleCenter" SizeF="98.95834,23.0000038" LocationFloat="52.0833321,41.6666679" Padding="2,2,0,0,100" Borders="All">
+          <ExpressionBindings>
+            <Item1 Ref="39" EventName="BeforePrint" PropertyName="Text" Expression="[Dealer]" />
+          </ExpressionBindings>
+          <StylePriority Ref="40" UseBorders="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="41" ControlType="XRLabel" Name="label2" Multiline="true" Text="DLR:" TextAlignment="MiddleCenter" SizeF="52.0833321,23.0000038" LocationFloat="0,41.6666679" Font="Arial, 9.75pt, style=Bold" BackColor="Yellow" Padding="2,2,0,0,100" Borders="Left, Top, Bottom">
+          <StylePriority Ref="42" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="43" ControlType="XRLabel" Name="label1" Multiline="true" Text="Monthly DLR Order Summary" TextAlignment="MiddleCenter" SizeF="1169,22.916666" LocationFloat="0,0" Font="Arial, 12pt, style=Bold, charSet=0" ForeColor="White" BackColor="CornflowerBlue" Padding="2,2,0,0,100">
+          <StylePriority Ref="44" UseFont="false" UseForeColor="false" UseBackColor="false" UseTextAlignment="false" />
+        </Item7>
+      </Controls>
+    </Item3>
+    <Item4 Ref="45" ControlType="DetailBand" Name="Detail" HeightF="0" />
+    <Item5 Ref="46" ControlType="DetailReportBand" Name="DetailReport" Level="0" DataMember="ListOrder">
+      <Bands>
+        <Item1 Ref="47" ControlType="DetailBand" Name="Detail1" HeightF="31.2500076">
+          <Controls>
+            <Item1 Ref="48" ControlType="XRTable" Name="table2" SizeF="1169,31.2500076" LocationFloat="0,0" Padding="2,2,0,0,96" Borders="Left, Top, Bottom">
+              <Rows>
+                <Item1 Ref="49" ControlType="XRTableRow" Name="tableRow2" Weight="1">
+                  <Cells>
+                    <Item1 Ref="50" ControlType="XRTableCell" Name="tableCell13" Weight="0.2289189578872825" Multiline="true" ProcessDuplicatesMode="Merge" Text="CKD" TextAlignment="MiddleCenter" ForeColor="Black" BackColor="White" BorderColor="Black">
+                      <StylePriority Ref="51" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                    </Item1>
+                    <Item2 Ref="52" ControlType="XRTableCell" Name="tableCell14" Weight="0.41776590692739923" Multiline="true" ProcessDuplicatesMode="Merge" TextAlignment="MiddleCenter" ForeColor="Black" BackColor="White" BorderColor="Black">
+                      <ExpressionBindings>
+                        <Item1 Ref="53" EventName="BeforePrint" PropertyName="Text" Expression="[Model]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="54" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                    </Item2>
+                    <Item3 Ref="55" ControlType="XRTableCell" Name="tableCell15" Weight="0.32958717414079675" Multiline="true" ProcessDuplicatesMode="Merge" ProcessDuplicatesTarget="Tag" TextAlignment="MiddleCenter" ForeColor="Black" BackColor="White" BorderColor="Black">
+                      <ExpressionBindings>
+                        <Item1 Ref="56" EventName="BeforePrint" PropertyName="Text" Expression="[TotalDealerOrderByModel]" />
+                        <Item2 Ref="57" EventName="BeforePrint" PropertyName="Tag" Expression="[Model]&#xA;" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="58" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                    </Item3>
+                    <Item4 Ref="59" ControlType="XRTableCell" Name="tableCell16" Weight="1.0711836154430743" TextFormatString="{0:MMM-yy}" Multiline="true" ProcessDuplicatesMode="Merge" ProcessDuplicatesTarget="Tag" TextAlignment="MiddleCenter" ForeColor="Black" BackColor="White" BorderColor="Black">
+                      <ExpressionBindings>
+                        <Item1 Ref="60" EventName="BeforePrint" PropertyName="Text" Expression="[MonthOrder1]" />
+                        <Item2 Ref="61" EventName="BeforePrint" PropertyName="Tag" Expression="[Model]&#xA;" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="62" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                    </Item4>
+                    <Item5 Ref="63" ControlType="XRTableCell" Name="tableCell17" Weight="0.46063486496598288" Multiline="true" TextAlignment="MiddleCenter" ForeColor="Black" BackColor="White" BorderColor="Black">
+                      <ExpressionBindings>
+                        <Item1 Ref="64" EventName="BeforePrint" PropertyName="Text" Expression="[Grade]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="65" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                    </Item5>
+                    <Item6 Ref="66" ControlType="XRTableCell" Name="tableCell18" Weight="0.57499814670185623" Multiline="true" TextAlignment="MiddleCenter" ForeColor="Black" BackColor="White" BorderColor="Black">
+                      <ExpressionBindings>
+                        <Item1 Ref="67" EventName="BeforePrint" PropertyName="Text" Expression="[DealerOrder1]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="68" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                    </Item6>
+                    <Item7 Ref="69" ControlType="XRTableCell" Name="tableCell19" Weight="1.08670007781678" TextFormatString="{0:MMM-yy}" Multiline="true" ProcessDuplicatesMode="Merge" ProcessDuplicatesTarget="Tag" TextAlignment="MiddleCenter" ForeColor="Black" BackColor="White" BorderColor="Black">
+                      <ExpressionBindings>
+                        <Item1 Ref="70" EventName="BeforePrint" PropertyName="Text" Expression="[MonthOrder2]" />
+                        <Item2 Ref="71" EventName="BeforePrint" PropertyName="Tag" Expression="[Model]&#xA;" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="72" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                    </Item7>
+                    <Item8 Ref="73" ControlType="XRTableCell" Name="tableCell20" Weight="0.50766910615648408" Multiline="true" TextAlignment="MiddleCenter" ForeColor="Black" BackColor="White" BorderColor="Black">
+                      <ExpressionBindings>
+                        <Item1 Ref="74" EventName="BeforePrint" PropertyName="Text" Expression="[Grade]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="75" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                    </Item8>
+                    <Item9 Ref="76" ControlType="XRTableCell" Name="tableCell21" Weight="0.6827246510251" Multiline="true" TextAlignment="MiddleCenter" ForeColor="Black" BackColor="White" BorderColor="Black">
+                      <ExpressionBindings>
+                        <Item1 Ref="77" EventName="BeforePrint" PropertyName="Text" Expression="[DealerOrder2]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="78" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                    </Item9>
+                    <Item10 Ref="79" ControlType="XRTableCell" Name="tableCell22" Weight="1.1472939064446939" TextFormatString="{0:MMM-yy}" Multiline="true" ProcessDuplicatesMode="Merge" ProcessDuplicatesTarget="Tag" TextAlignment="MiddleCenter" ForeColor="Black" BackColor="White" BorderColor="Black">
+                      <ExpressionBindings>
+                        <Item1 Ref="80" EventName="BeforePrint" PropertyName="Text" Expression="[MonthOrder3]" />
+                        <Item2 Ref="81" EventName="BeforePrint" PropertyName="Tag" Expression="[Model]&#xA;" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="82" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                    </Item10>
+                    <Item11 Ref="83" ControlType="XRTableCell" Name="tableCell23" Weight="0.44034144638379996" Multiline="true" TextAlignment="MiddleCenter" ForeColor="Black" BackColor="White" BorderColor="Black">
+                      <ExpressionBindings>
+                        <Item1 Ref="84" EventName="BeforePrint" PropertyName="Text" Expression="[Grade]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="85" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                    </Item11>
+                    <Item12 Ref="86" ControlType="XRTableCell" Name="tableCell24" Weight="0.60812377111984872" Multiline="true" TextAlignment="MiddleCenter" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="All">
+                      <ExpressionBindings>
+                        <Item1 Ref="87" EventName="BeforePrint" PropertyName="Text" Expression="[DealerOrder3]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="88" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseTextAlignment="false" />
+                    </Item12>
+                  </Cells>
+                </Item1>
+              </Rows>
+              <StylePriority Ref="89" UseBorders="false" />
+            </Item1>
+          </Controls>
+        </Item1>
+      </Bands>
+    </Item5>
+    <Item6 Ref="90" ControlType="ReportFooterBand" Name="ReportFooter" HeightF="144.398117">
+      <Controls>
+        <Item1 Ref="91" ControlType="XRLabel" Name="label8" Multiline="true" SizeF="344.083435,67.00001" LocationFloat="723.662048,76.3564453" Padding="2,2,0,0,100" Borders="All" BorderWidth="2">
+          <StylePriority Ref="92" UseBorders="false" UseBorderWidth="false" />
+        </Item1>
+        <Item2 Ref="93" ControlType="XRLabel" Name="label7" Multiline="true" Text="Dealer confirmation" TextAlignment="MiddleCenter" SizeF="344.083374,27.6296425" LocationFloat="723.662048,48.7268448" Padding="2,2,0,0,100" Borders="Left, Top, Right" BorderWidth="2">
+          <StylePriority Ref="94" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+        </Item2>
+      </Controls>
+    </Item6>
+    <Item7 Ref="95" ControlType="DetailReportBand" Name="DetailReport1" Level="1" DataMember="ListOrderCbu">
+      <Bands>
+        <Item1 Ref="96" ControlType="DetailBand" Name="Detail2" HeightF="31.2500076">
+          <Controls>
+            <Item1 Ref="97" ControlType="XRTable" Name="table3" SizeF="1169,31.2500076" LocationFloat="0,0" Padding="2,2,0,0,96" Borders="Left, Top, Bottom">
+              <Rows>
+                <Item1 Ref="98" ControlType="XRTableRow" Name="tableRow3" Weight="1">
+                  <Cells>
+                    <Item1 Ref="99" ControlType="XRTableCell" Name="tableCell25" Weight="0.2289189578872825" Multiline="true" ProcessDuplicatesMode="Merge" Text="CBU" TextAlignment="MiddleCenter" ForeColor="Black" BackColor="White" BorderColor="Black">
+                      <StylePriority Ref="100" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                    </Item1>
+                    <Item2 Ref="101" ControlType="XRTableCell" Name="tableCell26" Weight="0.41776590692739923" Multiline="true" ProcessDuplicatesMode="Merge" TextAlignment="MiddleCenter" ForeColor="Black" BackColor="White" BorderColor="Black">
+                      <ExpressionBindings>
+                        <Item1 Ref="102" EventName="BeforePrint" PropertyName="Text" Expression="[ModelCbu]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="103" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                    </Item2>
+                    <Item3 Ref="104" ControlType="XRTableCell" Name="tableCell27" Weight="0.32958717414079675" Multiline="true" ProcessDuplicatesMode="Merge" ProcessDuplicatesTarget="Tag" TextAlignment="MiddleCenter" ForeColor="Black" BackColor="White" BorderColor="Black">
+                      <ExpressionBindings>
+                        <Item1 Ref="105" EventName="BeforePrint" PropertyName="Text" Expression="[TotalDealerOrderByModelCbu]" />
+                        <Item2 Ref="106" EventName="BeforePrint" PropertyName="Tag" Expression="[ModelCbu]&#xA;" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="107" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                    </Item3>
+                    <Item4 Ref="108" ControlType="XRTableCell" Name="tableCell28" Weight="1.0711836154430743" TextFormatString="{0:MMM-yy}" Multiline="true" ProcessDuplicatesMode="Merge" ProcessDuplicatesTarget="Tag" TextAlignment="MiddleCenter" ForeColor="Black" BackColor="White" BorderColor="Black">
+                      <ExpressionBindings>
+                        <Item1 Ref="109" EventName="BeforePrint" PropertyName="Text" Expression="[MonthOrder1Cbu]" />
+                        <Item2 Ref="110" EventName="BeforePrint" PropertyName="Tag" Expression="[ModelCbu]&#xA;" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="111" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                    </Item4>
+                    <Item5 Ref="112" ControlType="XRTableCell" Name="tableCell29" Weight="0.46063486496598288" Multiline="true" TextAlignment="MiddleCenter" ForeColor="Black" BackColor="White" BorderColor="Black">
+                      <ExpressionBindings>
+                        <Item1 Ref="113" EventName="BeforePrint" PropertyName="Text" Expression="[GradeCbu]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="114" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                    </Item5>
+                    <Item6 Ref="115" ControlType="XRTableCell" Name="tableCell30" Weight="0.57499814670185623" Multiline="true" TextAlignment="MiddleCenter" ForeColor="Black" BackColor="White" BorderColor="Black">
+                      <ExpressionBindings>
+                        <Item1 Ref="116" EventName="BeforePrint" PropertyName="Text" Expression="[DealerOrder1Cbu]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="117" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                    </Item6>
+                    <Item7 Ref="118" ControlType="XRTableCell" Name="tableCell31" Weight="1.08670007781678" TextFormatString="{0:MMM-yy}" Multiline="true" ProcessDuplicatesMode="Merge" ProcessDuplicatesTarget="Tag" TextAlignment="MiddleCenter" ForeColor="Black" BackColor="White" BorderColor="Black">
+                      <ExpressionBindings>
+                        <Item1 Ref="119" EventName="BeforePrint" PropertyName="Text" Expression="[MonthOrder2Cbu]" />
+                        <Item2 Ref="120" EventName="BeforePrint" PropertyName="Tag" Expression="[ModelCbu]&#xA;" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="121" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                    </Item7>
+                    <Item8 Ref="122" ControlType="XRTableCell" Name="tableCell32" Weight="0.50766910615648408" Multiline="true" TextAlignment="MiddleCenter" ForeColor="Black" BackColor="White" BorderColor="Black">
+                      <ExpressionBindings>
+                        <Item1 Ref="123" EventName="BeforePrint" PropertyName="Text" Expression="[GradeCbu]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="124" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                    </Item8>
+                    <Item9 Ref="125" ControlType="XRTableCell" Name="tableCell33" Weight="0.6827246510251" Multiline="true" TextAlignment="MiddleCenter" ForeColor="Black" BackColor="White" BorderColor="Black">
+                      <ExpressionBindings>
+                        <Item1 Ref="126" EventName="BeforePrint" PropertyName="Text" Expression="[DealerOrder2Cbu]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="127" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                    </Item9>
+                    <Item10 Ref="128" ControlType="XRTableCell" Name="tableCell34" Weight="1.1472939064446939" TextFormatString="{0:MMM-yy}" Multiline="true" ProcessDuplicatesMode="Merge" ProcessDuplicatesTarget="Tag" TextAlignment="MiddleCenter" ForeColor="Black" BackColor="White" BorderColor="Black">
+                      <ExpressionBindings>
+                        <Item1 Ref="129" EventName="BeforePrint" PropertyName="Text" Expression="[MonthOrder3Cbu]" />
+                        <Item2 Ref="130" EventName="BeforePrint" PropertyName="Tag" Expression="[ModelCbu]&#xA;" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="131" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                    </Item10>
+                    <Item11 Ref="132" ControlType="XRTableCell" Name="tableCell35" Weight="0.44034144638379996" Multiline="true" TextAlignment="MiddleCenter" ForeColor="Black" BackColor="White" BorderColor="Black">
+                      <ExpressionBindings>
+                        <Item1 Ref="133" EventName="BeforePrint" PropertyName="Text" Expression="[GradeCbu]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="134" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+                    </Item11>
+                    <Item12 Ref="135" ControlType="XRTableCell" Name="tableCell36" Weight="0.60812377111984872" Multiline="true" TextAlignment="MiddleCenter" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="All">
+                      <ExpressionBindings>
+                        <Item1 Ref="136" EventName="BeforePrint" PropertyName="Text" Expression="[DealerOrder3Cbu]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="137" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseTextAlignment="false" />
+                    </Item12>
+                  </Cells>
+                </Item1>
+              </Rows>
+              <StylePriority Ref="138" UseBorders="false" />
+            </Item1>
+          </Controls>
+        </Item1>
+      </Bands>
+    </Item7>
+  </Bands>
+</XtraReportsLayoutSerializer>

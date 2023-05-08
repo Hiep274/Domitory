@@ -1,0 +1,106 @@
+<div bsModal #createOrEditModal="bs-modal" class="modal fade" tabindex="-1" role="dialog"
+    aria-labelledby="createOrEditModal" aria-hidden="true" [config]="{ backdrop: 'static' }">
+    <div class="modal-dialog tmss-modal-md">
+        <div class="modal-content">
+            <form *ngIf="active" #mstGenProvincesForm="ngForm" novalidate (ngSubmit)="save()" autocomplete="off">
+                <div class="modal-header">
+                    <h4 class="modal-title">
+                        <span *ngIf="contract.id">{{ l("Sửa thông tin hợp đồng") }}</span>
+                        <span *ngIf="!contract.id">{{ l("Thêm mới hợp đồng") }}</span>
+                    </h4>
+                    <button type="button" class="close" (click)="close()" aria-label="Close" [disabled]="saving">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div [class]="containerClass + ' kt-grid__item kt-grid__item--fluid'">
+                        <div class="kt-portlet kt-portlet--mobile">
+                            <div class="kt-portlet__body">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <tmss-text-input [className]="'ipStRequire'"  [isRequired]="true" *ngIf="contract.id" [isDisabled]="contract.id"
+                                            [text]="l('Số hợp đồng')" name="ContractNo" [(ngModel)]="contract.contractNo" [maxlength]="50" ></tmss-text-input>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4" *ngIf="!contract.id">
+                                        <div class="form-group">
+                                            <tmss-multi-column-dropdown
+                                            [placeholder]="choseStudent"
+                                            (ngModelChange)="onChangeSelection($event)"
+                                            [height]="'250px'"
+                                            [list]="listStudent"
+                                            name="student"
+                                            [columnDefs]="contractColdef"
+                                            [defaultColDef]="defaultColDef"
+                                            dataField="id"
+                                            [(ngModel)]="contract.studentId"
+                                            displayField="name"
+                                        ></tmss-multi-column-dropdown>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4" *ngIf="contract.id">
+                                        <div class="form-group">
+                                            <tmss-combobox [className]="'ipStRequire'"  [isRequired]="true" [isDisabled]="contract.id"
+                                            [items]="listStudentEdit" [(ngModel)]="contract.studentId" [text]="l('Tên sinh viên')" name="Student" required></tmss-combobox>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4" *ngIf="!contract.id">
+                                        <div class="form-group">
+
+                                            <tmss-multi-column-dropdown
+                                            [placeholder]="choseRoom"
+                                            [height]="'250px'"
+                                            [list]="listRoomCreate"
+                                            name="room"
+                                            [columnDefs]="roomColdef"
+                                            [defaultColDef]="defaultColDef"
+                                            dataField="id"
+                                            [(ngModel)]="contract.roomId"
+                                            displayField="roomNo"
+                                        ></tmss-multi-column-dropdown>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4"*ngIf="contract.id">
+                                        <div class="form-group">
+                                            <tmss-combobox [className]="'ipStRequire'"  [isRequired]="true" [isDisabled]="contract.id"
+                                            [items]="listRoom" [(ngModel)]="contract.roomId" [text]="l('Tên phòng')" name="RoomId" required></tmss-combobox>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <tmss-datepicker [isDisabled]="true"  [isRequired]="true" [showIcon]="true" [(ngModel)]="contract.contractDate"[text]="l('Ngày lập hđ:')" name="ContractDate" ></tmss-datepicker>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <tmss-datepicker  [isRequired]="true" [showIcon]="true" [(ngModel)]="contract.startDate" [text]="l('Ngày bắt đầu:')" name="StartDate" (change)="onChangeStartDate()"></tmss-datepicker>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <tmss-datepicker  [isDisabled]="true" [isRequired]="true" [showIcon]="true" [(ngModel)]="contract.endDate" [text]="l('Ngày kết thúc:')" name="EndDate"></tmss-datepicker>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button [disabled]="saving" type="button" class="tmss-btn btn-outline-danger" (click)="close()">
+                        {{ l("Cancel") }}
+                    </button>
+                    <button type="submit" class="tmss-btn btn-outline-primary"
+                        [disabled]="!mstGenProvincesForm.form.valid" [buttonBusy]="saving"
+                        [busyText]="l('SavingWithThreeDot')">
+                        <i class="fa fa-save mr-1"></i> <span>{{ l("Save") }}</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

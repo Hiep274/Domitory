@@ -1,0 +1,21 @@
+{
+    "typescript.check.workspaceVersion": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "node_modules": false,
+        "bin": true,
+        "obj": true,
+        "dist": true,
+        "Properties": true,
+        ".vs": true,
+        "*.csproj": true,
+        "*.sln": true,
+        "*.csproj.user": true,
+        "*.suo": true
+    },
+    "angular.enable-strict-mode-prompt": false,
+    "git.ignoreLimitWarning": true
+}

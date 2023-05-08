@@ -1,0 +1,64 @@
+<div bsModal #createOrEditModal="bs-modal" class="modal fade" tabindex="-1" role="dialog"
+    aria-labelledby="createOrEditModal" aria-hidden="true" [config]="{ backdrop: 'static' }">
+    <div class="modal-dialog tmss-modal-md">
+        <div class="modal-content">
+            <form *ngIf="active" #mstGenProvincesForm="ngForm" novalidate (ngSubmit)="save()" autocomplete="off">
+                <div class="modal-header">
+                    <h4 class="modal-title">
+                        <span *ngIf="room.id">{{ l("Sửa thông tin phòng") }}</span>
+                        <span *ngIf="!room.id">{{ l("Thêm mới phòng") }}</span>
+                    </h4>
+                    <button type="button" class="close" (click)="close()" aria-label="Close" [disabled]="saving">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div [class]="containerClass + ' kt-grid__item kt-grid__item--fluid'">
+                        <div class="kt-portlet kt-portlet--mobile">
+                            <div class="kt-portlet__body">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <tmss-text-input  [className]="'ipStRequire'"  [isRequired]="true" [(ngModel)]="room.roomNo"
+                                             [text]="l('Tên phòng :')" name="RoomNo" required ></tmss-text-input>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <tmss-text-input [className]="'ipStRequire'" [isRequired]="true"  [(ngModel)]="room.unitPrice"
+                                            [text]="l('Giá phòng :')" name="UnitPrice" [maxlength]="50" type="number"></tmss-text-input>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <tmss-text-input [className]="'ipStRequire'" [isRequired]="true"  [(ngModel)]="room.maxx"
+                                            [text]="l('Số lượng tối đa :')" name="Maxx" [maxlength]="50" type="number"></tmss-text-input>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <tmss-text-input [className]="'ipStRequire'" [isRequired]="false" [disabled]="true"  [(ngModel)]="room.amount"
+                                            [text]="l('Số lượng hiện tại :')" name="Amount" [maxlength]="50" type="number"></tmss-text-input>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button [disabled]="saving" type="button" class="tmss-btn btn-outline-danger" (click)="close()">
+                        {{ l("Cancel") }}
+                    </button>
+                    <button type="submit" class="tmss-btn btn-outline-primary"
+                        [disabled]="!mstGenProvincesForm.form.valid" [buttonBusy]="saving"
+                        [busyText]="l('SavingWithThreeDot')">
+                        <i class="fa fa-save mr-1"></i> <span>{{ l("Save") }}</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

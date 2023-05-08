@@ -1,0 +1,74 @@
+<!-- BEGIN: Topbar -->
+<div class="kt-header__topbar" style="background-color: #1e1e2d;">
+    <div class="kt-header__topbar-item dropdown d-none d-lg-block subscription-warning"
+        *ngIf="subscriptionStatusBarVisible()">
+        <a href="javascript:;" *ngIf="appSession.tenant.isInTrialPeriod && !subscriptionIsExpiringSoon()"
+            class="kt-nav__link m-dropdown__toggle">
+            <span class="kt-nav__link-text glowing">
+                <i class="fa fa-exclamation-triangle"></i>
+                <span class="kt-menu__link-text ml-1" [innerHTML]="getTrialSubscriptionNotification()"></span>
+            </span>
+        </a>
+        <a *ngIf="subscriptionIsExpiringSoon()" routerLink="/app/admin/subscription-management" class="kt-nav__link">
+            <span *ngIf="subscriptionIsExpiringSoon() && appSession.tenant.isInTrialPeriod"
+                class="kt-nav__link-text glowing">
+                <i class="fa fa-exclamation-triangle"></i>
+                <span class="kt-menu__link-text ml-1">{{getExpireNotification("TrialExpireNotification")}}</span>
+            </span>
+            <span *ngIf="subscriptionIsExpiringSoon() && !appSession.tenant.isInTrialPeriod"
+                class="kt-nav__link-text glowing">
+                <i class="fa fa-exclamation-triangle"></i>
+                <span class="kt-menu__link-text ml-1">{{getExpireNotification("SubscriptionExpireNotification")}}</span>
+            </span>
+        </a>
+    </div>
+    <!-- Make this component ! -->
+    <!-- -->
+    <div headerNotifications class="kt-header__topbar-item dropdown" dropdown id="header_notification_bar"></div>
+    <div class="kt-header__topbar-item kt-header__topbar-item--user ng-star-inserted  dropdown" dropdown
+        placement="bottom-right">
+        <div class="kt-header__topbar-wrapper dropdown-toggle" data-toggle="dropdown"
+            aria-expanded="false" aria-haspopup="true" dropdownToggle>
+            <div class="kt-header__topbar-user">
+                <i *ngIf="isImpersonatedLogin" class="fa fa-reply kt-font-danger mr-2"></i>
+                <span class="kt-header__topbar-username kt-hidden-mobile">
+                    <span *ngIf="isMultiTenancyEnabled" class="tenancy-name">{{tenancyName}}\</span>{{userName}}
+                </span>
+                <img *ngIf="profilePicture" class="header-profile-picture m--img-rounded m--marginless m--img-centered"
+                    alt="Pic" [src]="profilePicture">
+            </div>
+        </div>
+        <div *dropdownMenu
+            class="dropdown-menu dropdown-menu-fit dropdown-menu-right dropdown-menu-anim dropdown-menu-top-unround dropdown-menu-xl"
+            x-placement="bottom-right"
+            style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(1253px, 64px, 0px);">
+            <div class="kt-user-card kt-user-card--skin-dark kt-notification-item-padding-x"
+                [ngStyle]="{ 'background': 'url(' + appRootUrl() + 'assets/metronic/themes/' + currentTheme.baseSettings.theme + '/images/bg/bg-1.jpg)', 'background-size': 'cover'}">
+                <div class="kt-user-card__avatar">
+                    <img class="" alt="Pic" [src]="profilePicture">
+                </div>
+                <div class="kt-user-card__name">
+                    <span *ngIf="isMultiTenancyEnabled" class="tenancy-name">{{tenancyName}}\</span>{{userName}}
+                </div>
+            </div>
+            <div class="kt-notification user-profile-menu">
+                <a href="javascript:;" class="kt-notification__item" (click)="changePassword()">
+                    <div class="kt-notification__item-icon">
+                        <i class="flaticon-more-v6"></i>
+                    </div>
+                    <div class="kt-notification__item-details">
+                        <div class="kt-notification__item-title kt-font-bold">
+                            <span>
+                                {{"ChangePassword" | localize}}
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <div class="kt-notification__custom">
+                    <a (click)="logout()" class="btn btn-label-brand btn-sm btn-bold">{{"Logout" | localize}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END: Topbar -->

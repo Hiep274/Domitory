@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="21.2.6.0" Ref="0" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="TraThangTCTC" Margins="63, 48, 26, 28" PageWidth="850" PageHeight="1100" Version="21.2" Font="Arial, 9.75pt">
+  <Extensions>
+    <Item1 Ref="1" Key="VSReportExtInfo" Value=".vsrepx" />
+  </Extensions>
+  <Bands>
+    <Item1 Ref="2" ControlType="TopMarginBand" Name="TopMargin" HeightF="26" />
+    <Item2 Ref="3" ControlType="BottomMarginBand" Name="BottomMargin" HeightF="28" />
+    <Item3 Ref="4" ControlType="DetailBand" Name="Detail" HeightF="3516.2644">
+      <Controls>
+        <Item1 Ref="5" ControlType="XRRichText" Name="richText10" SerializableRtfString="ewBcAHIAdABmADEAXABkAGUAZgBmADAAewBcAGYAbwBuAHQAdABiAGwAewBcAGYAMAAgAEMAYQBsAGkAYgByAGkAOwB9AHsAXABmADEAIABUAGkAbQBlAHMAIABOAGUAdwAgAFIAbwBtAGEAbgA7AH0AewBcAGYAMgAgAEEAcgBpAGEAbAA7AH0AfQB7AFwAYwBvAGwAbwByAHQAYgBsACAAOwBcAHIAZQBkADAAXABnAHIAZQBlAG4AMABcAGIAbAB1AGUAMAAgADsAXAByAGUAZAAwAFwAZwByAGUAZQBuADAAXABiAGwAdQBlADIANQA1ACAAOwB9AHsAXAAqAFwAZABlAGYAYwBoAHAAIABcAGYAMQBcAGYAcwAyADQAfQB7AFwAcwB0AHkAbABlAHMAaABlAGUAdAAgAHsAXABxAGwAXABmADEAXABmAHMAMgA0ACAATgBvAHIAbQBhAGwAOwB9AHsAXAAqAFwAYwBzADEAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABEAGUAZgBhAHUAbAB0ACAAUABhAHIAYQBnAHIAYQBwAGgAIABGAG8AbgB0ADsAfQB7AFwAKgBcAGMAcwAyAFwAcwBiAGEAcwBlAGQAbwBuADEAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABMAGkAbgBlACAATgB1AG0AYgBlAHIAOwB9AHsAXAAqAFwAYwBzADMAXABmADEAXABmAHMAMgA0AFwAdQBsAFwAYwBmADIAIABIAHkAcABlAHIAbABpAG4AawA7AH0AewBcACoAXAB0AHMANABcAHQAcwByAG8AdwBkAFwAZgAxAFwAZgBzADIANABcAHEAbABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgBsADMAXAB0AHMAYwBlAGwAbABwAGEAZABkAGwAMQAwADgAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAYgAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgB0ADMAXAB0AHMAdgBlAHIAdABhAGwAdABcAGMAbAB0AHgAbAByAHQAYgAgAE4AbwByAG0AYQBsACAAVABhAGIAbABlADsAfQB7AFwAKgBcAHQAcwA1AFwAdABzAHIAbwB3AGQAXABzAGIAYQBzAGUAZABvAG4ANABcAGYAMQBcAGYAcwAyADQAXABxAGwAXAB0AHIAYgByAGQAcgB0AFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGwAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAYgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHIAYgByAGQAcgByAFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGgAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAdgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAbAAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABsADEAMAA4AFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwB2AGUAcgB0AGEAbAB0AFwAYwBsAHQAeABsAHIAdABiACAAVABhAGIAbABlACAAUwBpAG0AcABsAGUAIAAxADsAfQB9AHsAXAAqAFwAbABpAHMAdABvAHYAZQByAHIAaQBkAGUAdABhAGIAbABlAH0AXABuAG8AdQBpAGMAbwBtAHAAYQB0AFwAaAB0AG0AYQB1AHQAcwBwAFwAcwBwAGwAeQB0AHcAbgBpAG4AZQBcAGEAbABuAHQAYgBsAGkAbgBkAFwAZQB4AHAAcwBoAHIAdABuAFwAcwBwAGwAdABwAGcAcABhAHIAXABuAG8AZwByAG8AdwBhAHUAdABvAGYAaQB0AFwAdQB0AGkAbgBsAFwAbgBvAGIAcgBrAHcAcgBwAHQAYgBsAFwAZgB0AG4AbAB5AHQAdwBuAGkAbgBlAFwAbgBvAHQAYwB2AGEAcwBwAFwAZABuAHQAYgBsAG4AcwBiAGQAYgBcAG4AZQB3AHQAYgBsAHMAdAB5AHIAdQBsAHMAXABmAG8AcgBtAHMAaABhAGQAZQBcAHAAYQByAGQAXABwAGwAYQBpAG4AXABxAGoAewBcAGYAMQBcAGYAcwAyADIAXABjAGYAMQAgAEIAXAB1ADIAMwA0AFwAJwBlAGEAbgAgAEEAIAB0AGgAYQBuAGgAIAB0AG8AXAB1ADIAMgA1AFwAJwBlADEAbgAgAGMAaABvACAAQgBcAHUAMgAzADQAXAAnAGUAYQBuACAAQgAgADEAMAAwACUAIABnAGkAXAB1ADIAMgA1AFwAJwBlADEAIAB0AHIAXAB1ADcAOAA4ADMAXAAnADMAZgAgAGMAXAB1ADcAOQAxADEAXAAnADMAZgBhACAAaABcAHUANwA5ADAANwBcACcAMwBmAHAAIABcAHUAMgA3ADMAXAAnADYANABcAHUANwA4ADkAMQBcACcAMwBmAG4AZwAsACAAdABcAHUANAAzADIAXAAnADcANQBcAHUANAAxADcAXAAnADYAZgBuAGcAIABcAHUANwA5ADEAMwBcACcAMwBmAG4AZwAgAHYAXAB1ADcAOAA5ADkAXAAnADMAZgBpACAAcwBcAHUANwA4ADgAOQBcACcAMwBmACAAdABpAFwAdQA3ADgANwAzAFwAJwAzAGYAbgAgAGwAXAB1ADIAMgA0AFwAJwBlADAAIAB9AHsAXABmADEAXABmAHMAMgAyAFwAYgBcAGMAZgAxACAAWwBtAG8AbgBlAHkAUAByAGkAYwBlAF0AfQB7AFwAZgAxAFwAZgBzADIAMgBcAGMAZgAxACAAIABWAE4AXAB1ADIANwAyAFwAJwBkADAAIAAoAH0AewBcAGYAMQBcAGYAcwAyADIAXABiAFwAaQBcAGMAZgAxACAAWwBUAG8AdABhAGwASQBuAFQAZQB4AHQAXQB9AHsAXABmADEAXABmAHMAMgAyAFwAYwBmADEAIAApACAAdAByAFwAdQA0ADMAMgBcACcANwA1AFwAdQA3ADgAOQA5AFwAJwAzAGYAYwAgAG4AZwBcAHUAMgAyADQAXAAnAGUAMAB5ACAAMgA3AC8AMAA2AC8AMgAwADIAMgAuACAATgBcAHUANwA4ADcAMQBcACcAMwBmAHUAIABxAHUAXAB1ADIAMgA1AFwAJwBlADEAIAB0AGgAXAB1ADcAOQAwADEAXAAnADMAZgBpACAAZwBpAGEAbgAgAHQAcgBcAHUAMgAzADQAXAAnAGUAYQBuACAAbQBcAHUAMgAyADQAXAAnAGUAMAAgAEIAXAB1ADIAMwA0AFwAJwBlAGEAbgAgAEIAIABrAGgAXAB1ADIANAA0AFwAJwBmADQAbgBnACAAbgBoAFwAdQA3ADgANQAzAFwAJwAzAGYAbgAgAFwAdQAyADcAMwBcACcANgA0AFwAdQA0ADMAMgBcACcANwA1AFwAdQA3ADkAMAA3AFwAJwAzAGYAYwAgAFwAdQAyADcAMwBcACcANgA0AFwAdQA3ADgANAA3AFwAJwAzAGYAeQAgAFwAdQAyADcAMwBcACcANgA0AFwAdQA3ADkAMQAxAFwAJwAzAGYAIAB0AGkAXAB1ADcAOAA3ADMAXAAnADMAZgBuACAAdABoAGEAbgBoACAAdABvAFwAdQAyADIANQBcACcAZQAxAG4ALAAgAGgAXAB1ADcAOQAwADcAXAAnADMAZgBwACAAXAB1ADIANwAzAFwAJwA2ADQAXAB1ADcAOAA5ADEAXAAnADMAZgBuAGcAIABuAFwAdQAyADIANABcACcAZQAwAHkAIABzAFwAdQA3ADgANgA5AFwAJwAzAGYAIAB0AFwAdQA3ADkAMgAxAFwAJwAzAGYAIABcAHUAMgA3ADMAXAAnADYANABcAHUANwA4ADkANwBcACcAMwBmAG4AZwAgAGgAXAB1ADcAOAA3ADEAXAAnADMAZgB0ACAAaABpAFwAdQA3ADgANwA5AFwAJwAzAGYAdQAgAGwAXAB1ADcAOQAyADEAXAAnADMAZgBjACwAIAB0AHIAXAB1ADcAOQAxADUAXAAnADMAZgAgAGsAaABpACAAaABhAGkAIABiAFwAdQAyADMANABcACcAZQBhAG4AIABjAFwAdQAyADQAMwBcACcAZgAzACAAdABoAFwAdQA3ADgAOAA3AFwAJwAzAGYAYQAgAHQAaAB1AFwAdQA3ADgANQAzAFwAJwAzAGYAbgAgAGsAaABcAHUAMgAyADUAXAAnAGUAMQBjAC4AfQBcAGYAMgBcAGYAcwAyADAAXABjAGYAMQBcAHAAYQByAH0A" SizeF="674.4175,65.8855" LocationFloat="62.5803833,908.9152" Font="Times New Roman, 11.25pt, charSet=0" Padding="2,2,0,0,96">
+          <StylePriority Ref="6" UseFont="false" />
+        </Item1>
+        <Item2 Ref="7" ControlType="XRRichText" Name="richText9" SerializableRtfString="ewBcAHIAdABmADEAXABkAGUAZgBmADAAewBcAGYAbwBuAHQAdABiAGwAewBcAGYAMAAgAEMAYQBsAGkAYgByAGkAOwB9AHsAXABmADEAIABUAGkAbQBlAHMAIABOAGUAdwAgAFIAbwBtAGEAbgA7AH0AfQB7AFwAYwBvAGwAbwByAHQAYgBsACAAOwBcAHIAZQBkADAAXABnAHIAZQBlAG4AMABcAGIAbAB1AGUAMAAgADsAXAByAGUAZAAwAFwAZwByAGUAZQBuADAAXABiAGwAdQBlADIANQA1ACAAOwB9AHsAXAAqAFwAZABlAGYAYwBoAHAAIABcAGYAMQBcAGYAcwAyADQAfQB7AFwAcwB0AHkAbABlAHMAaABlAGUAdAAgAHsAXABxAGwAXABmADEAXABmAHMAMgA0ACAATgBvAHIAbQBhAGwAOwB9AHsAXAAqAFwAYwBzADEAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABEAGUAZgBhAHUAbAB0ACAAUABhAHIAYQBnAHIAYQBwAGgAIABGAG8AbgB0ADsAfQB7AFwAKgBcAGMAcwAyAFwAcwBiAGEAcwBlAGQAbwBuADEAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABMAGkAbgBlACAATgB1AG0AYgBlAHIAOwB9AHsAXAAqAFwAYwBzADMAXABmADEAXABmAHMAMgA0AFwAdQBsAFwAYwBmADIAIABIAHkAcABlAHIAbABpAG4AawA7AH0AewBcACoAXAB0AHMANABcAHQAcwByAG8AdwBkAFwAZgAxAFwAZgBzADIANABcAHEAbABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgBsADMAXAB0AHMAYwBlAGwAbABwAGEAZABkAGwAMQAwADgAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAYgAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgB0ADMAXAB0AHMAdgBlAHIAdABhAGwAdABcAGMAbAB0AHgAbAByAHQAYgAgAE4AbwByAG0AYQBsACAAVABhAGIAbABlADsAfQB7AFwAKgBcAHQAcwA1AFwAdABzAHIAbwB3AGQAXABzAGIAYQBzAGUAZABvAG4ANABcAGYAMQBcAGYAcwAyADQAXABxAGwAXAB0AHIAYgByAGQAcgB0AFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGwAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAYgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHIAYgByAGQAcgByAFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGgAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAdgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAbAAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABsADEAMAA4AFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwB2AGUAcgB0AGEAbAB0AFwAYwBsAHQAeABsAHIAdABiACAAVABhAGIAbABlACAAUwBpAG0AcABsAGUAIAAxADsAfQB9AHsAXAAqAFwAbABpAHMAdABvAHYAZQByAHIAaQBkAGUAdABhAGIAbABlAH0AXABuAG8AdQBpAGMAbwBtAHAAYQB0AFwAaAB0AG0AYQB1AHQAcwBwAFwAcwBwAGwAeQB0AHcAbgBpAG4AZQBcAGEAbABuAHQAYgBsAGkAbgBkAFwAZQB4AHAAcwBoAHIAdABuAFwAcwBwAGwAdABwAGcAcABhAHIAXABuAG8AZwByAG8AdwBhAHUAdABvAGYAaQB0AFwAdQB0AGkAbgBsAFwAbgBvAGIAcgBrAHcAcgBwAHQAYgBsAFwAZgB0AG4AbAB5AHQAdwBuAGkAbgBlAFwAbgBvAHQAYwB2AGEAcwBwAFwAZABuAHQAYgBsAG4AcwBiAGQAYgBcAG4AZQB3AHQAYgBsAHMAdAB5AHIAdQBsAHMAXABmAG8AcgBtAHMAaABhAGQAZQBcAHAAYQByAGQAXABwAGwAYQBpAG4AXABxAGwAewBcAGYAMQBcAGYAcwAyADAAXABpAFwAcwB1AHAAZQByAFwAYwBmADEAIAAoADEAKQB9AHsAXABmADEAXABmAHMAMgAwAFwAbABhAG4AZwAxADAAMwAzAFwAbABhAG4AZwBmAGUAMQAwADMAMwBcAHMAdQBwAGUAcgBcAGMAZgAxACAAIAB9AHsAXABmADEAXABmAHMAMgAyAFwAaQBcAGMAZgAxACAARwBpAFwAdQAyADIANQBcACcAZQAxACAAdAByAFwAdQAyADMANABcACcAZQBhAG4AfQB7AFwAZgAxAFwAZgBzADIAMgBcAGwAYQBuAGcAMQAwADMAMwBcAGwAYQBuAGcAZgBlADEAMAAzADMAXABpAFwAYwBmADEAIAAgAGsAaAB9AHsAXABmADEAXABmAHMAMgAyAFwAbABhAG4AZwAxADAAMwAzAFwAbABhAG4AZwBmAGUAMQAwADMAMwBcAGkAXABjAGYAMQAgAFwAdQAyADQANABcACcAZgA0AG4AZwB9AHsAXABmADEAXABmAHMAMgAyAFwAaQBcAGMAZgAxACAAIABiAGEAbwAgAGcAXAB1ADcAOAA5ADEAXAAnADMAZgBtADoAIAB9AFwAZgAxAFwAZgBzADIAMgBcAGMAZgAxAFwAcABhAHIAfQA=" SizeF="187.009979,18.999939" LocationFloat="30.13742,819.9151" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="8" UseFont="false" />
+        </Item2>
+        <Item3 Ref="9" ControlType="XRRichText" Name="richText8" SerializableRtfString="ewBcAHIAdABmADEAXABkAGUAZgBmADAAewBcAGYAbwBuAHQAdABiAGwAewBcAGYAMAAgAEMAYQBsAGkAYgByAGkAOwB9AHsAXABmADEAIABUAGkAbQBlAHMAIABOAGUAdwAgAFIAbwBtAGEAbgA7AH0AfQB7AFwAYwBvAGwAbwByAHQAYgBsACAAOwBcAHIAZQBkADAAXABnAHIAZQBlAG4AMABcAGIAbAB1AGUAMAAgADsAXAByAGUAZAAwAFwAZwByAGUAZQBuADAAXABiAGwAdQBlADIANQA1ACAAOwB9AHsAXAAqAFwAZABlAGYAYwBoAHAAIABcAGYAMQBcAGYAcwAyADQAfQB7AFwAcwB0AHkAbABlAHMAaABlAGUAdAAgAHsAXABxAGwAXABmADEAXABmAHMAMgA0ACAATgBvAHIAbQBhAGwAOwB9AHsAXAAqAFwAYwBzADEAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABEAGUAZgBhAHUAbAB0ACAAUABhAHIAYQBnAHIAYQBwAGgAIABGAG8AbgB0ADsAfQB7AFwAKgBcAGMAcwAyAFwAcwBiAGEAcwBlAGQAbwBuADEAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABMAGkAbgBlACAATgB1AG0AYgBlAHIAOwB9AHsAXAAqAFwAYwBzADMAXABmADEAXABmAHMAMgA0AFwAdQBsAFwAYwBmADIAIABIAHkAcABlAHIAbABpAG4AawA7AH0AewBcACoAXAB0AHMANABcAHQAcwByAG8AdwBkAFwAZgAxAFwAZgBzADIANABcAHEAbABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgBsADMAXAB0AHMAYwBlAGwAbABwAGEAZABkAGwAMQAwADgAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAYgAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgB0ADMAXAB0AHMAdgBlAHIAdABhAGwAdABcAGMAbAB0AHgAbAByAHQAYgAgAE4AbwByAG0AYQBsACAAVABhAGIAbABlADsAfQB7AFwAKgBcAHQAcwA1AFwAdABzAHIAbwB3AGQAXABzAGIAYQBzAGUAZABvAG4ANABcAGYAMQBcAGYAcwAyADQAXABxAGwAXAB0AHIAYgByAGQAcgB0AFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGwAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAYgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHIAYgByAGQAcgByAFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGgAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAdgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAbAAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABsADEAMAA4AFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwB2AGUAcgB0AGEAbAB0AFwAYwBsAHQAeABsAHIAdABiACAAVABhAGIAbABlACAAUwBpAG0AcABsAGUAIAAxADsAfQB9AHsAXAAqAFwAbABpAHMAdABvAHYAZQByAHIAaQBkAGUAdABhAGIAbABlAH0AXABuAG8AdQBpAGMAbwBtAHAAYQB0AFwAaAB0AG0AYQB1AHQAcwBwAFwAcwBwAGwAeQB0AHcAbgBpAG4AZQBcAGEAbABuAHQAYgBsAGkAbgBkAFwAZQB4AHAAcwBoAHIAdABuAFwAcwBwAGwAdABwAGcAcABhAHIAXABuAG8AZwByAG8AdwBhAHUAdABvAGYAaQB0AFwAdQB0AGkAbgBsAFwAbgBvAGIAcgBrAHcAcgBwAHQAYgBsAFwAZgB0AG4AbAB5AHQAdwBuAGkAbgBlAFwAbgBvAHQAYwB2AGEAcwBwAFwAZABuAHQAYgBsAG4AcwBiAGQAYgBcAG4AZQB3AHQAYgBsAHMAdAB5AHIAdQBsAHMAXABmAG8AcgBtAHMAaABhAGQAZQBcAHAAYQByAGQAXABwAGwAYQBpAG4AXABxAGwAewBcAGYAMQBcAGYAcwAyADAAXABpAFwAcwB1AHAAZQByAFwAYwBmADEAIAAoADEAKQB9AHsAXABmADEAXABmAHMAMgAwAFwAbABhAG4AZwAxADAAMwAzAFwAbABhAG4AZwBmAGUAMQAwADMAMwBcAHMAdQBwAGUAcgBcAGMAZgAxACAAIAB9AHsAXABmADEAXABmAHMAMgAyAFwAaQBcAGMAZgAxACAARwBpAFwAdQAyADIANQBcACcAZQAxACAAdAByAFwAdQAyADMANABcACcAZQBhAG4AIABiAGEAbwAgAGcAXAB1ADcAOAA5ADEAXAAnADMAZgBtADoAIAB9AFwAZgAxAFwAZgBzADIAMgBcAGMAZgAxAFwAcABhAHIAfQA=" SizeF="187.009979,18.999939" LocationFloat="30.13742,705.915161" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="10" UseFont="false" />
+        </Item3>
+        <Item4 Ref="11" ControlType="XRRichText" Name="richText7" SerializableRtfString="ewBcAHIAdABmADEAXABkAGUAZgBmADAAewBcAGYAbwBuAHQAdABiAGwAewBcAGYAMAAgAEMAYQBsAGkAYgByAGkAOwB9AHsAXABmADEAIABUAGkAbQBlAHMAIABOAGUAdwAgAFIAbwBtAGEAbgA7AH0AfQB7AFwAYwBvAGwAbwByAHQAYgBsACAAOwBcAHIAZQBkADAAXABnAHIAZQBlAG4AMABcAGIAbAB1AGUAMAAgADsAXAByAGUAZAAwAFwAZwByAGUAZQBuADAAXABiAGwAdQBlADIANQA1ACAAOwB9AHsAXAAqAFwAZABlAGYAYwBoAHAAIABcAGYAMQBcAGYAcwAyADQAfQB7AFwAcwB0AHkAbABlAHMAaABlAGUAdAAgAHsAXABxAGwAXABmADEAXABmAHMAMgA0ACAATgBvAHIAbQBhAGwAOwB9AHsAXAAqAFwAYwBzADEAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABEAGUAZgBhAHUAbAB0ACAAUABhAHIAYQBnAHIAYQBwAGgAIABGAG8AbgB0ADsAfQB7AFwAKgBcAGMAcwAyAFwAcwBiAGEAcwBlAGQAbwBuADEAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABMAGkAbgBlACAATgB1AG0AYgBlAHIAOwB9AHsAXAAqAFwAYwBzADMAXABmADEAXABmAHMAMgA0AFwAdQBsAFwAYwBmADIAIABIAHkAcABlAHIAbABpAG4AawA7AH0AewBcACoAXAB0AHMANABcAHQAcwByAG8AdwBkAFwAZgAxAFwAZgBzADIANABcAHEAbABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgBsADMAXAB0AHMAYwBlAGwAbABwAGEAZABkAGwAMQAwADgAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAYgAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgB0ADMAXAB0AHMAdgBlAHIAdABhAGwAdABcAGMAbAB0AHgAbAByAHQAYgAgAE4AbwByAG0AYQBsACAAVABhAGIAbABlADsAfQB7AFwAKgBcAHQAcwA1AFwAdABzAHIAbwB3AGQAXABzAGIAYQBzAGUAZABvAG4ANABcAGYAMQBcAGYAcwAyADQAXABxAGwAXAB0AHIAYgByAGQAcgB0AFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGwAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAYgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHIAYgByAGQAcgByAFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGgAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAdgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAbAAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABsADEAMAA4AFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwB2AGUAcgB0AGEAbAB0AFwAYwBsAHQAeABsAHIAdABiACAAVABhAGIAbABlACAAUwBpAG0AcABsAGUAIAAxADsAfQB9AHsAXAAqAFwAbABpAHMAdABvAHYAZQByAHIAaQBkAGUAdABhAGIAbABlAH0AXABuAG8AdQBpAGMAbwBtAHAAYQB0AFwAaAB0AG0AYQB1AHQAcwBwAFwAcwBwAGwAeQB0AHcAbgBpAG4AZQBcAGEAbABuAHQAYgBsAGkAbgBkAFwAZQB4AHAAcwBoAHIAdABuAFwAcwBwAGwAdABwAGcAcABhAHIAXABuAG8AZwByAG8AdwBhAHUAdABvAGYAaQB0AFwAdQB0AGkAbgBsAFwAbgBvAGIAcgBrAHcAcgBwAHQAYgBsAFwAZgB0AG4AbAB5AHQAdwBuAGkAbgBlAFwAbgBvAHQAYwB2AGEAcwBwAFwAZABuAHQAYgBsAG4AcwBiAGQAYgBcAG4AZQB3AHQAYgBsAHMAdAB5AHIAdQBsAHMAXABmAG8AcgBtAHMAaABhAGQAZQBcAHAAYQByAGQAXABwAGwAYQBpAG4AXABxAGoAewBcAGYAMQBcAGYAcwAyADIAXABjAGYAMQAgAFQAcgBcAHUANwA5ADEANQBcACcAMwBmACAAdAByAFwAdQA0ADMAMgBcACcANwA1AFwAdQA3ADkAMAAxAFwAJwAzAGYAbgBnACAAaABcAHUANwA5ADAANwBcACcAMwBmAHAAIABiAFwAdQA3ADgANAA1AFwAJwAzAGYAdAAgAGsAaABcAHUANwA4ADQAMwBcACcAMwBmACAAawBoAFwAdQAyADIANQBcACcAZQAxAG4AZwAsACAAaABhAGkAIABiAFwAdQAyADMANABcACcAZQBhAG4AIABwAGgAXAB1ADcAOAA0ADMAXAAnADMAZgBpACAAdABoAFwAdQA3ADkAMgAxAFwAJwAzAGYAYwAgAGgAaQBcAHUANwA4ADcAOQBcACcAMwBmAG4AIABcAHUAMgA3ADMAXAAnADYANABcAHUANwA4ADQANwBcACcAMwBmAHkAIABcAHUAMgA3ADMAXAAnADYANABcAHUANwA5ADEAMQBcACcAMwBmACAAdgBcAHUAMgAyADQAXAAnAGUAMAAgAFwAdQAyADcAMwBcACcANgA0AFwAdQAyADUAMABcACcAZgBhAG4AZwAgAHQAaABcAHUANwA5ADAAMQBcACcAMwBmAGkAIABoAFwAdQA3ADgANAAxAFwAJwAzAGYAbgAgAGMAXAB1ADIAMgA1AFwAJwBlADEAYwAgAG4AXAB1ADcAOAA5ADcAXAAnADMAZgBpACAAZAB1AG4AZwAgAGMAXAB1ADcAOQAxADEAXAAnADMAZgBhACAAaABcAHUANwA5ADAANwBcACcAMwBmAHAAIABcAHUAMgA3ADMAXAAnADYANABcAHUANwA4ADkAMQBcACcAMwBmAG4AZwAgAG4AXAB1ADIAMgA0AFwAJwBlADAAeQAuACAAVAByAG8AbgBnACAAcQB1AFwAdQAyADIANQBcACcAZQAxACAAdAByAFwAdQAyADMANgBcACcAZQBjAG4AaAAgAHQAaABcAHUANwA5ADIAMQBcACcAMwBmAGMAIABoAGkAXAB1ADcAOAA3ADkAXAAnADMAZgBuACAAaABcAHUANwA5ADAANwBcACcAMwBmAHAAIABcAHUAMgA3ADMAXAAnADYANABcAHUANwA4ADkAMQBcACcAMwBmAG4AZwAsACAAbgBcAHUANwA4ADcAMQBcACcAMwBmAHUAIABjAFwAdQAyADQAMwBcACcAZgAzACAAdgBcAHUANAAzADIAXAAnADcANQBcAHUANwA4ADkAOQBcACcAMwBmAG4AZwAgAG0AXAB1ADcAOAA1ADUAXAAnADMAZgBjACAAdABcAHUANwA5ADEANQBcACcAMwBmACAAYgBcAHUANwA4ADQANQBcACcAMwBmAHQAIABrAFwAdQA3ADkAMgAzAFwAJwAzAGYAIABiAFwAdQAyADMANABcACcAZQBhAG4AIABuAFwAdQAyADIANABcACcAZQAwAG8ALAAgAGgAYQBpACAAYgBcAHUAMgAzADQAXAAnAGUAYQBuACAAcwBcAHUANwA4ADYAOQBcACcAMwBmACAAYwBcAHUAMgA0ADkAXAAnAGYAOQBuAGcAIABuAGgAYQB1ACAAZwBpAFwAdQA3ADgANAAzAFwAJwAzAGYAaQAgAHEAdQB5AFwAdQA3ADgANwAxAFwAJwAzAGYAdAAgAHQAcgBcAHUAMgAzADQAXAAnAGUAYQBuACAAdABpAG4AaAAgAHQAaABcAHUANwA4ADQANwBcACcAMwBmAG4AIABoAFwAdQA3ADkAMAA3AFwAJwAzAGYAcAAgAHQAXAB1ADIAMgA1AFwAJwBlADEAYwAuACAAVAByAFwAdQA0ADMAMgBcACcANwA1AFwAdQA3ADkAMAAxAFwAJwAzAGYAbgBnACAAaABcAHUANwA5ADAANwBcACcAMwBmAHAAIABrAGgAXAB1ADIANAA0AFwAJwBmADQAbgBnACAAdABcAHUANwA5ADIAMQBcACcAMwBmACAAZwBpAFwAdQA3ADgANAAzAFwAJwAzAGYAaQAgAHEAdQB5AFwAdQA3ADgANwAxAFwAJwAzAGYAdAAgAFwAdQAyADcAMwBcACcANgA0AFwAdQA0ADMAMgBcACcANwA1AFwAdQA3ADkAMAA3AFwAJwAzAGYAYwAsACAAaABhAGkAIABiAFwAdQAyADMANABcACcAZQBhAG4AIAB0AGgAXAB1ADcAOAA4ADkAXAAnADMAZgBuAGcAIABuAGgAXAB1ADcAOAA0ADUAXAAnADMAZgB0ACAAcwBcAHUANwA4ADYAOQBcACcAMwBmACAAYwBoAHUAeQBcAHUANwA4ADcANQBcACcAMwBmAG4AIABjAGgAbwAgAH0AewBcAGYAMQBcAGYAcwAyADIAXABiAFwAYwBmADEAIABbAFQAbwBhAEEAbgBdAH0AewBcAGYAMQBcAGYAcwAyADIAXABjAGYAMQAgACAAZwBpAFwAdQA3ADgANAAzAFwAJwAzAGYAaQAgAHEAdQB5AFwAdQA3ADgANwAxAFwAJwAzAGYAdAAuACAAUABoAFwAdQAyADIANQBcACcAZQAxAG4AIABxAHUAeQBcAHUANwA4ADcAMQBcACcAMwBmAHQAIABjAFwAdQA3ADkAMQAxAFwAJwAzAGYAYQAgAFQAXAB1ADIANAAyAFwAJwBmADIAYQAgAFwAdQAyADIANQBcACcAZQAxAG4AIABsAFwAdQAyADIANABcACcAZQAwACAAcQB1AHkAXAB1ADcAOAA3ADEAXAAnADMAZgB0ACAAXAB1ADIANwAzAFwAJwA2ADQAXAB1ADcAOAA4ADMAXAAnADMAZgBuAGgAIABjAHUAXAB1ADcAOAA4ADkAXAAnADMAZgBpACAAYwBcAHUAMgA0ADkAXAAnAGYAOQBuAGcALAAgAGMAXAB1ADIANAAzAFwAJwBmADMAIABnAGkAXAB1ADIAMgA1AFwAJwBlADEAIAB0AHIAXAB1ADcAOAA4ADMAXAAnADMAZgAgAHIAXAB1ADIAMgA0AFwAJwBlADAAbgBnACAAYgB1AFwAdQA3ADgAOQA3AFwAJwAzAGYAYwAgAGMAXAB1ADIAMgA1AFwAJwBlADEAYwAgAGIAXAB1ADIAMwA0AFwAJwBlAGEAbgAuACAAQgBcAHUAMgAzADQAXAAnAGUAYQBuACAAdABoAHUAYQAgAHAAaABcAHUANwA4ADQAMwBcACcAMwBmAGkAIABjAGgAXAB1ADcAOAA4ADMAXAAnADMAZgB1ACAAdABvAFwAdQAyADIANABcACcAZQAwAG4AIABiAFwAdQA3ADgAOQA3AFwAJwAzAGYAIABjAFwAdQAyADIANQBcACcAZQAxAGMAIABjAGgAaQAgAHAAaABcAHUAMgAzADcAXAAnAGUAZAAgAGcAaQBcAHUANwA4ADQAMwBcACcAMwBmAGkAIABxAHUAeQBcAHUANwA4ADcAMQBcACcAMwBmAHQAIAB0AHIAYQBuAGgAIABjAGgAXAB1ADcAOAA0ADUAXAAnADMAZgBwAC4AfQBcAGYAMQBcAGYAcwAyADIAXABjAGYAMQBcAHAAYQByAH0A" SizeF="692.347656,90" LocationFloat="46.65272,2154.83813" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="12" UseFont="false" />
+        </Item4>
+        <Item5 Ref="13" ControlType="XRLabel" Name="label123" Multiline="true" Text="- Thuế tiêu thụ đặc biệt, thuế giá trị gia tăng (10% VAT).&#xD;&#xA;- Phụ tùng kèm theo xe: Theo tiêu chuẩn của Công ty Ô tô Toyota Việt Nam, thảm sàn (Trừ Hiace)&#xD;&#xA;- Quà tặng kèm theo: Áo trùm xe, bao tay lái, dầu thơm, khăn lau xe, quà lưu niệm, sổ da, thẻ VIP, 10 lít nhiên liệu, quà tặng khi xe đến làm dịch vụ lần đầu tiên tại Toyota Cần Thơ/An Giang. &#xD;&#xA;- Gói bảo dưỡng 20.000 Km (2 năm)&#xD;&#xA;" TextAlignment="MiddleJustify" SizeF="676.3574,95" LocationFloat="60.6421623,724.9151" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="14" UseFont="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="15" ControlType="XRLabel" Name="label125" Multiline="true" Text="-Thuế trước bạ, lệ phí đăng ký, lệ phí đăng kiểm, phí bảo hiểm và các chi phí khác." TextAlignment="MiddleJustify" SizeF="675.36,19" LocationFloat="60.6421623,838.915161" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="16" UseFont="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="17" ControlType="XRPageBreak" Name="pageBreak3" LocationFloat="0,974.8007" />
+        <Item8 Ref="18" ControlType="XRPageBreak" Name="pageBreak2" LocationFloat="0,1990.42786" />
+        <Item9 Ref="19" ControlType="XRLabel" Name="label71" Multiline="true" Text="   DANH SÁCH TÀI KHOẢN GIAO DỊCH " TextAlignment="MiddleJustify" SizeF="487.149719,22.9998779" LocationFloat="106.099289,2512.8125" Font="Times New Roman, 17pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="20" UseFont="false" UseTextAlignment="false" />
+        </Item9>
+        <Item10 Ref="21" ControlType="XRLabel" Name="label72" Multiline="true" Text="Công ty TNHH Toyota Cần Thơ xin trân trọng thông báo tài khoản giao dịch tại các Ngân hàng như sau:" TextAlignment="TopJustify" SizeF="720.901733,25.4309082" LocationFloat="16.09905,2546.22925" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="22" UseFont="false" UseTextAlignment="false" />
+        </Item10>
+        <Item11 Ref="23" ControlType="XRLabel" Name="label73" Multiline="true" Text="Tên tài khoản: " TextAlignment="TopJustify" SizeF="109.64753,25.4309082" LocationFloat="10.0001335,2582.27" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="24" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item11>
+        <Item12 Ref="25" ControlType="XRLabel" Name="label75" Multiline="true" Text="Số tài khoản  : " TextAlignment="TopJustify" SizeF="109.64753,25.4309082" LocationFloat="10.0002527,2607.701" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="Left">
+          <StylePriority Ref="26" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item12>
+        <Item13 Ref="27" ControlType="XRLabel" Name="label76" Multiline="true" Text="CÔNG TY TNHH TOYOTA CẦN THƠ" TextAlignment="TopJustify" SizeF="616.3483,25.4309082" LocationFloat="119.647812,2582.271" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="28" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item13>
+        <Item14 Ref="29" ControlType="XRLabel" Name="label77" Multiline="true" Text="011.100.0817186" TextAlignment="TopJustify" SizeF="616.3483,25.4309082" LocationFloat="119.647812,2607.702" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100" Borders="Right">
+          <StylePriority Ref="30" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item14>
+        <Item15 Ref="31" ControlType="XRLabel" Name="label78" Multiline="true" Text="Ngân hàng TMCP Ngoại thương Việt Nam - Chi Nhánh Cần Thơ (VIETCOMBANK)" TextAlignment="TopJustify" SizeF="725.9959,25.4309082" LocationFloat="10.000247,2633.13354" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100" Borders="Left, Right">
+          <StylePriority Ref="32" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item15>
+        <Item16 Ref="33" ControlType="XRLabel" Name="label83" Multiline="true" Text="Ngân hàng TMCP Công Thương Việt Nam - Chi Nhánh Cần Thơ  (VIETINBANK)" TextAlignment="TopJustify" SizeF="725.99585,25.4306641" LocationFloat="9.999872,2736.33545" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+          <StylePriority Ref="34" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item16>
+        <Item17 Ref="35" ControlType="XRLabel" Name="label82" Multiline="true" Text="119000068760" TextAlignment="TopJustify" SizeF="616.34845,25.4306641" LocationFloat="119.647392,2710.90454" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100" Borders="Right">
+          <StylePriority Ref="36" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item17>
+        <Item18 Ref="37" ControlType="XRLabel" Name="label81" Multiline="true" Text="Số tài khoản  : " TextAlignment="TopJustify" SizeF="109.64753,25.4309082" LocationFloat="9.999872,2710.90454" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="Left">
+          <StylePriority Ref="38" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item18>
+        <Item19 Ref="39" ControlType="XRLabel" Name="label80" Multiline="true" Text="CÔNG TY TNHH TOYOTA CẦN THƠ" TextAlignment="TopJustify" SizeF="616.3483,25.4309082" LocationFloat="119.653778,2685.47388" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100" Borders="Right">
+          <StylePriority Ref="40" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item19>
+        <Item20 Ref="41" ControlType="XRLabel" Name="label79" Multiline="true" Text="Tên tài khoản: " TextAlignment="TopJustify" SizeF="109.64753,25.4309082" LocationFloat="9.99992752,2685.47388" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="Left">
+          <StylePriority Ref="42" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item20>
+        <Item21 Ref="43" ControlType="XRLabel" Name="label84" Multiline="true" TextAlignment="TopJustify" SizeF="725.996033,26.9094238" LocationFloat="9.999982,2658.56445" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="Left, Right">
+          <StylePriority Ref="44" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item21>
+        <Item22 Ref="45" ControlType="XRLabel" Name="label88" Multiline="true" Text="Ngân hàng TMCP Quốc Tế Việt Nam - Chi Nhánh Cần Thơ (VIB)" TextAlignment="TopJustify" SizeF="725.9963,25.4306641" LocationFloat="10.0003223,2866.12769" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="46" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item22>
+        <Item23 Ref="47" ControlType="XRLabel" Name="label87" Multiline="true" Text="610.704 060 075 940" TextAlignment="TopJustify" SizeF="616.348755,25.4309082" LocationFloat="119.647812,2840.69629" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="48" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item23>
+        <Item24 Ref="49" ControlType="XRLabel" Name="label86" Multiline="true" Text="CÔNG TY TNHH TOYOTA CẦN THƠ" TextAlignment="TopJustify" SizeF="616.348755,25.4311523" LocationFloat="120.023018,2815.26514" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="50" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item24>
+        <Item25 Ref="51" ControlType="XRLabel" Name="label85" Multiline="true" Text="Số tài khoản  : " TextAlignment="TopJustify" SizeF="109.64753,25.4309082" LocationFloat="10.0003119,2840.69629" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="52" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item25>
+        <Item26 Ref="53" ControlType="XRLabel" Name="label74" Multiline="true" Text="Tên tài khoản: " TextAlignment="TopJustify" SizeF="109.64753,25.4309082" LocationFloat="10.3754635,2815.26538" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="54" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item26>
+        <Item27 Ref="55" ControlType="XRLabel" Name="label93" Multiline="true" Text="Ngân hàng TMCP Phương Đông - Chi Nhánh Cần Thơ (OCB)" TextAlignment="TopJustify" SizeF="725.9962,25.4309082" LocationFloat="10.0001726,2962.93359" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="56" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item27>
+        <Item28 Ref="57" ControlType="XRLabel" Name="label92" Multiline="true" Text="0040100000911008" TextAlignment="TopJustify" SizeF="616.348755,25.4311523" LocationFloat="119.647736,2937.50269" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="58" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item28>
+        <Item29 Ref="59" ControlType="XRLabel" Name="label91" Multiline="true" Text="CÔNG TY TNHH TOYOTA CẦN THƠ" TextAlignment="TopJustify" SizeF="616.348755,25.4309082" LocationFloat="119.647736,2912.07129" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="60" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item29>
+        <Item30 Ref="61" ControlType="XRLabel" Name="label90" Multiline="true" Text="Số tài khoản  : " TextAlignment="TopJustify" SizeF="109.64753,25.4309082" LocationFloat="10.0001726,2937.50244" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="62" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item30>
+        <Item31 Ref="63" ControlType="XRLabel" Name="label89" Multiline="true" Text="Tên tài khoản: " TextAlignment="TopJustify" SizeF="109.64753,25.4309082" LocationFloat="10.0001726,2912.07129" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="64" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item31>
+        <Item32 Ref="65" ControlType="XRLabel" Name="label98" Multiline="true" Text="Ngân hàng TMCP Sài Gòn Thương Tín - PGD Ninh Kiều Cần Thơ (Sacombank)" TextAlignment="TopJustify" SizeF="725.9963,25.4309082" LocationFloat="10.000659,3064.496" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="66" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item32>
+        <Item33 Ref="67" ControlType="XRLabel" Name="label97" Multiline="true" Text="07000834 5269" TextAlignment="TopJustify" SizeF="616.348755,25.4311523" LocationFloat="120.023018,3039.06519" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="68" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item33>
+        <Item34 Ref="69" ControlType="XRLabel" Name="label96" Multiline="true" Text="CÔNG TY TNHH TOYOTA CẦN THƠ" TextAlignment="TopJustify" SizeF="616.348755,25.4306641" LocationFloat="119.647591,3013.63452" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="70" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item34>
+        <Item35 Ref="71" ControlType="XRLabel" Name="label95" Multiline="true" Text="Số tài khoản  : " TextAlignment="TopJustify" SizeF="109.64753,25.4309082" LocationFloat="10.0006695,3039.065" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="72" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item35>
+        <Item36 Ref="73" ControlType="XRLabel" Name="label94" Multiline="true" Text="Tên tài khoản: " TextAlignment="TopJustify" SizeF="109.64753,25.4309082" LocationFloat="10.0001335,3013.63379" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="74" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item36>
+        <Item37 Ref="75" ControlType="XRLabel" Name="label103" Multiline="true" Text="Ngân hàng TMCP Xuất Nhập Khẩu Việt Nam - Chi nhánh Tây Đô (Eximbank)" TextAlignment="TopJustify" SizeF="725.9963,25.4311523" LocationFloat="10.0000982,3166.92676" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="76" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item37>
+        <Item38 Ref="77" ControlType="XRLabel" Name="label102" Multiline="true" Text="150014851005827" TextAlignment="TopJustify" SizeF="616.348755,25.4309082" LocationFloat="119.647591,3141.496" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="78" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item38>
+        <Item39 Ref="79" ControlType="XRLabel" Name="label101" Multiline="true" Text="CÔNG TY TNHH TOYOTA CẦN THƠ" TextAlignment="TopJustify" SizeF="616.348755,25.4309082" LocationFloat="119.647736,3116.065" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="80" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item39>
+        <Item40 Ref="81" ControlType="XRLabel" Name="label100" Multiline="true" Text="Số tài khoản  : " TextAlignment="TopJustify" SizeF="109.64753,25.4309082" LocationFloat="10.0001335,3141.496" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="82" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item40>
+        <Item41 Ref="83" ControlType="XRLabel" Name="label99" Multiline="true" Text="Tên tài khoản: " TextAlignment="TopJustify" SizeF="109.64753,25.4309082" LocationFloat="10.0001726,3116.065" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="84" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item41>
+        <Item42 Ref="85" ControlType="XRLabel" Name="label108" Multiline="true" Text="Ngân hàng TMCP Quân Đội - Chi nhánh Cần Thơ (MB)" TextAlignment="TopJustify" SizeF="725.9963,25.4306641" LocationFloat="10.3754721,3278.038" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="86" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item42>
+        <Item43 Ref="87" ControlType="XRLabel" Name="label107" Multiline="true" Text="4511102868888" TextAlignment="TopJustify" SizeF="616.348755,25.4309082" LocationFloat="119.647591,3252.60718" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="88" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item43>
+        <Item44 Ref="89" ControlType="XRLabel" Name="label106" Multiline="true" Text="CÔNG TY TNHH TOYOTA CẦN THƠ" TextAlignment="TopJustify" SizeF="616.348755,25.4309082" LocationFloat="119.647736,3227.17554" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="90" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item44>
+        <Item45 Ref="91" ControlType="XRLabel" Name="label105" Multiline="true" Text="Số tài khoản  : " TextAlignment="TopJustify" SizeF="109.64753,25.4309082" LocationFloat="10.0000935,3252.60718" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="92" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item45>
+        <Item46 Ref="93" ControlType="XRLabel" Name="label104" Multiline="true" Text="Tên tài khoản: " TextAlignment="TopJustify" SizeF="109.64753,25.4309082" LocationFloat="10.0001726,3227.17554" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="94" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item46>
+        <Item47 Ref="95" ControlType="XRLabel" Name="label113" Multiline="true" Text="Ngân hàng TMCP Quốc Dân – CN. Cần Thơ (NCB)" TextAlignment="TopJustify" SizeF="725.9963,25.4309082" LocationFloat="10.0001354,3381.912" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="96" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item47>
+        <Item48 Ref="97" ControlType="XRLabel" Name="label112" Multiline="true" Text="100002513344" TextAlignment="TopJustify" SizeF="616.348755,25.4309082" LocationFloat="119.647667,3356.481" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="98" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item48>
+        <Item49 Ref="99" ControlType="XRLabel" Name="label111" Multiline="true" Text="CÔNG TY TNHH TOYOTA CẦN THƠ" TextAlignment="TopJustify" SizeF="616.348755,25.4311523" LocationFloat="119.647514,3331.04932" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="100" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item49>
+        <Item50 Ref="101" ControlType="XRLabel" Name="label110" Multiline="true" Text="Số tài khoản  : " TextAlignment="TopJustify" SizeF="109.64753,25.4309082" LocationFloat="10.0001335,3356.481" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="102" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item50>
+        <Item51 Ref="103" ControlType="XRLabel" Name="label109" Multiline="true" Text="Tên tài khoản: " TextAlignment="TopJustify" SizeF="109.64753,25.4309082" LocationFloat="10.0001335,3331.04956" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="104" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item51>
+        <Item52 Ref="105" ControlType="XRLabel" Name="label118" Multiline="true" Text="Ngân hàng TMCP Tiên Phong – CN. Cần Thơ (TPbank)" TextAlignment="TopJustify" SizeF="725.9962,25.4309082" LocationFloat="9.999929,3483.44482" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="106" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item52>
+        <Item53 Ref="107" ControlType="XRLabel" Name="label117" Multiline="true" Text="99919919701" TextAlignment="TopJustify" SizeF="616.348755,25.4309082" LocationFloat="119.647514,3458.01343" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="108" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item53>
+        <Item54 Ref="109" ControlType="XRLabel" Name="label116" Multiline="true" Text="CÔNG TY TNHH TOYOTA CẦN THƠ" TextAlignment="TopJustify" SizeF="616.348755,25.4306641" LocationFloat="119.647514,3432.583" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="110" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item54>
+        <Item55 Ref="111" ControlType="XRLabel" Name="label115" Multiline="true" Text="Số tài khoản  : " TextAlignment="TopJustify" SizeF="109.64753,25.4309082" LocationFloat="9.999994,3458.01343" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="112" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item55>
+        <Item56 Ref="113" ControlType="XRLabel" Name="label114" Multiline="true" Text="Tên tài khoản: " TextAlignment="TopJustify" SizeF="109.64753,25.4309082" LocationFloat="9.999934,3432.58276" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="114" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item56>
+        <Item57 Ref="115" ControlType="XRPageBreak" Name="pageBreak1" LocationFloat="0,2491.6167" />
+        <Item58 Ref="116" ControlType="XRLabel" Name="label34" Multiline="true" Text="ĐIỀU 5. TRÁCH NHIỆM CỦA CÁC BÊN" TextAlignment="MiddleJustify" SizeF="487.149719,22.9998779" LocationFloat="0,1379.59814" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="117" UseFont="false" UseTextAlignment="false" />
+        </Item58>
+        <Item59 Ref="118" ControlType="XRLabel" Name="label35" Multiline="true" Text="5.1 Trách nhiệm của Bên A" TextAlignment="TopJustify" SizeF="201.603149,23.0001221" LocationFloat="30.1376076,1402.598" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="119" UseFont="false" UseTextAlignment="false" />
+        </Item59>
+        <Item60 Ref="120" ControlType="XRLabel" Name="label37" Multiline="true" Text="5.2 Trách nhiệm của Bên B" TextAlignment="TopJustify" SizeF="201.603149,23.0001221" LocationFloat="30.1376057,1648.53638" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="121" UseFont="false" UseTextAlignment="false" />
+        </Item60>
+        <Item61 Ref="122" ControlType="XRLabel" Name="label51" Multiline="true" Text="Bên A chỉ được phép chuyển nhượng xe cho bên thứ ba sau khi xe đã được đăng ký theo tên của Bên A." TextAlignment="TopJustify" SizeF="676.3574,20.4572754" LocationFloat="59.642334,1425.59814" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="123" UseFont="false" UseTextAlignment="false" />
+        </Item61>
+        <Item62 Ref="124" ControlType="XRLabel" Name="label52" Multiline="true" Text="Bên B sẽ xuất hóa đơn GTGT và và bàn giao đầy đủ giấy tờ cho Bên A sau khi nhận đủ thanh toán theo Điều 2 của hợp đồng.&#xD;&#xA;" TextAlignment="TopJustify" SizeF="676.356,36.61963" LocationFloat="60.64373,1671.53662" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="125" UseFont="false" UseTextAlignment="false" />
+        </Item62>
+        <Item63 Ref="126" ControlType="XRLabel" Name="label10" Multiline="true" Text="Bên A có trách nhiệm thanh toán và nhận xe theo đúng thời gian đã quy định. " TextAlignment="TopJustify" SizeF="676.3574,20.4572754" LocationFloat="59.6425247,1446.05542" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="127" UseFont="false" UseTextAlignment="false" />
+        </Item63>
+        <Item64 Ref="128" ControlType="XRLabel" Name="label21" Multiline="true" Text="Bên A chịu mọi chi phí liên quan đến thủ tục đăng ký, lưu hành và bảo hiểm xe." TextAlignment="TopJustify" SizeF="676.36,19" LocationFloat="59.64478,1467.14746" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="129" UseFont="false" UseTextAlignment="false" />
+        </Item64>
+        <Item65 Ref="130" ControlType="XRLabel" Name="label126" Multiline="true" Text="Bên A ký hợp đồng này với từ cách là người tiêu dùng. Do đó, Bên A cam kết mua và sử dụng xe cho mục đích tiêu dùng, không mua xe nhằm môi giới, bán lại trước khi đăng ký xe để thu lợi nhuận. " TextAlignment="TopJustify" SizeF="676.3558,36.0823975" LocationFloat="59.64189,1486.14746" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="131" UseFont="false" UseTextAlignment="false" />
+        </Item65>
+        <Item66 Ref="132" ControlType="XRLabel" Name="label127" Multiline="true" Text="Bên A hiểu rằng, Bên B cần có các thông tin nhằm bảo vệ quyền lợi của người tiêu dùng, trong đó có Bên A. Do đó, Bên A tại đây đồng ý rằng, trong và sau thời gian thực hiện hợp đồng này, Bên B được thu thập, lưu giữ, sử dụng và chuyển giao một số thông tin của Bên A (“thông tin”) cho bên thứ ba (TMV và/hoặc công ty do TMV chỉ định) để thực hiện khảo sát qua điện thoại, nhận các ý kiến phản hồi, cung cấp các dịch vụ hậu mãi,... Thông tin bao gồm tên, địa chỉ, số điện thoại, số CMND, đại diện, mã số thuế (nếu có), mẫu xe,… của Bên A. Bên B cam kết thu thập, sử dụng và chuyển giao thông tin an toàn, chính xác, đầy đủ và đúng với mục đích nêu trên, đồng thời tạo điều kiện cho Bên A thay đổi thông tin đã cung cấp khi cần thiết.&#xD;&#xA;" TextAlignment="TopJustify" SizeF="676.3558,124.941162" LocationFloat="59.64191,1523.59521" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="133" UseFont="false" UseTextAlignment="false" />
+        </Item66>
+        <Item67 Ref="134" ControlType="XRLabel" Name="label128" Multiline="true" Text="Bên B có nghĩa vụ giao xe đúng thời gian, địa điểm, chất lượng và chủng loại theo quy định trong hợp đồng này, trừ trường hợp bất khả kháng. " TextAlignment="TopJustify" SizeF="676.356,36.61963" LocationFloat="60.64191,1708.15625" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="135" UseFont="false" UseTextAlignment="false" />
+        </Item67>
+        <Item68 Ref="136" ControlType="XRLabel" Name="label129" Multiline="true" Text="Bên B có nghĩa vụ cung cấp đầy đủ hóa đơn, chứng từ, tài liệu hợp lệ cho Bên A trước khi thanh lý hợp đồng và chịu trách nhiệm pháp lý về tính hợp lệ của các hóa đơn, chứng từ, tài liệu đã giao, bao gồm: Hóa đơn GTGT của Bên B, Hóa đơn GTGT của TMV, Giấy chứng nhận xuất xưởng/Giấy chứng nhận ATKT&amp;BVMT, Bản cà số khung số máy và Sổ bảo hành." TextAlignment="TopJustify" SizeF="676.356,69.95288" LocationFloat="60.64477,1744.77612" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="137" UseFont="false" UseTextAlignment="false" />
+        </Item68>
+        <Item69 Ref="138" ControlType="XRLabel" Name="label130" Multiline="true" Text="15 ngày sau thời gian giao xe chính thức ở Điều 3 của hợp đồng này, nếu Bên B vẫn chưa thực hiện nghĩa vụ giao xe mà không có lí do chính đáng, Bên A có quyền đơn phương chấm dứt hợp đồng và nhận lại khoản tiền đã thanh toán." TextAlignment="TopJustify" SizeF="676.356,51.76001" LocationFloat="60.64477,1814.729" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="139" UseFont="false" UseTextAlignment="false" />
+        </Item69>
+        <Item70 Ref="140" ControlType="XRLabel" Name="label19" Multiline="true" Text="Bằng chữ: [TotalInText]" TextAlignment="MiddleJustify" SizeF="736.9996,23.000061" LocationFloat="0,682.914734" Font="Times New Roman, 11pt, style=Bold, Italic" Padding="2,2,0,0,100">
+          <StylePriority Ref="141" UseFont="false" UseTextAlignment="false" />
+        </Item70>
+        <Item71 Ref="142" ControlType="XRRichText" Name="richText3" SerializableRtfString="ewBcAHIAdABmADEAXABkAGUAZgBmADAAewBcAGYAbwBuAHQAdABiAGwAewBcAGYAMAAgAEMAYQBsAGkAYgByAGkAOwB9AHsAXABmADEAIABUAGkAbQBlAHMAIABOAGUAdwAgAFIAbwBtAGEAbgA7AH0AewBcAGYAMgAgAFYATgBJAC0AVABpAG0AZQBzADsAfQB7AFwAZgAzACAAVABpAG0AZQBzACAATgBlAHcAIABSAG8AbQBhAG4AIABDAEUAOwB9AH0AewBcAGMAbwBsAG8AcgB0AGIAbAAgADsAXAByAGUAZAAwAFwAZwByAGUAZQBuADAAXABiAGwAdQBlADAAIAA7AFwAcgBlAGQAMABcAGcAcgBlAGUAbgAwAFwAYgBsAHUAZQAyADUANQAgADsAXAByAGUAZAAyADUANQBcAGcAcgBlAGUAbgAyADUANQBcAGIAbAB1AGUAMgA1ADUAIAA7AH0AewBcACoAXABkAGUAZgBjAGgAcAAgAFwAZgAxAFwAZgBzADIANAB9AHsAXABzAHQAeQBsAGUAcwBoAGUAZQB0ACAAewBcAHEAbABcAGYAMQBcAGYAcwAyADQAIABOAG8AcgBtAGEAbAA7AH0AewBcAHMAMQBcAHMAYgBhAHMAZQBkAG8AbgAwAFwAcwBuAGUAeAB0ADEAXABxAGwAXABsAGkANwAwADkAXABsAGkAbgA3ADAAOQBcAHIAaQAtADUANwBcAHIAaQBuAC0ANQA3AFwAZgAyAFwAZgBzADIANABcAGkAIABCAGwAbwBjAGsAIABUAGUAeAB0ADsAfQB7AFwAKgBcAGMAcwAyAFwAZgAxAFwAZgBzADIANABcAGMAZgAxACAARABlAGYAYQB1AGwAdAAgAFAAYQByAGEAZwByAGEAcABoACAARgBvAG4AdAA7AH0AewBcACoAXABjAHMAMwBcAHMAYgBhAHMAZQBkAG8AbgAyAFwAZgAxAFwAZgBzADIANABcAGMAZgAxACAATABpAG4AZQAgAE4AdQBtAGIAZQByADsAfQB7AFwAKgBcAGMAcwA0AFwAZgAxAFwAZgBzADIANABcAHUAbABcAGMAZgAyACAASAB5AHAAZQByAGwAaQBuAGsAOwB9AHsAXAAqAFwAdABzADUAXAB0AHMAcgBvAHcAZABcAGYAMQBcAGYAcwAyADQAXABxAGwAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAbAAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABsADEAMAA4AFwAdABzAGMAZQBsAGwAcABhAGQAZABmAGIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgByADMAXAB0AHMAYwBlAGwAbABwAGEAZABkAHIAMQAwADgAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAdAAzAFwAdABzAHYAZQByAHQAYQBsAHQAXABjAGwAdAB4AGwAcgB0AGIAIABOAG8AcgBtAGEAbAAgAFQAYQBiAGwAZQA7AH0AewBcACoAXAB0AHMANgBcAHQAcwByAG8AdwBkAFwAcwBiAGEAcwBlAGQAbwBuADUAXABmADEAXABmAHMAMgA0AFwAcQBsAFwAdAByAGIAcgBkAHIAdABcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHIAYgByAGQAcgBsAFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGIAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAcgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHIAYgByAGQAcgBoAFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAHYAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdABzAGMAZQBsAGwAcABhAGQAZABmAGwAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAbAAxADAAOABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgByADMAXAB0AHMAYwBlAGwAbABwAGEAZABkAHIAMQAwADgAXAB0AHMAdgBlAHIAdABhAGwAdABcAGMAbAB0AHgAbAByAHQAYgAgAFQAYQBiAGwAZQAgAFMAaQBtAHAAbABlACAAMQA7AH0AfQB7AFwAKgBcAGwAaQBzAHQAbwB2AGUAcgByAGkAZABlAHQAYQBiAGwAZQB9AFwAbgBvAHUAaQBjAG8AbQBwAGEAdABcAGgAdABtAGEAdQB0AHMAcABcAHMAcABsAHkAdAB3AG4AaQBuAGUAXABhAGwAbgB0AGIAbABpAG4AZABcAGUAeABwAHMAaAByAHQAbgBcAHMAcABsAHQAcABnAHAAYQByAFwAbgBvAGcAcgBvAHcAYQB1AHQAbwBmAGkAdABcAHUAdABpAG4AbABcAG4AbwBiAHIAawB3AHIAcAB0AGIAbABcAGYAdABuAGwAeQB0AHcAbgBpAG4AZQBcAG4AbwB0AGMAdgBhAHMAcABcAGQAbgB0AGIAbABuAHMAYgBkAGIAXABuAGUAdwB0AGIAbABzAHQAeQByAHUAbABzAFwAZgBvAHIAbQBzAGgAYQBkAGUAXABwAGEAcgBkAFwAcABsAGEAaQBuAFwAcwAxAFwAcQByAFwAcgBpAC0ANQA4AFwAcgBpAG4ALQA1ADgAXABzAGIANgAwAHsAXABmADEAXABmAHMAMgAyAFwAYgBcAGMAZgAxACAAVABcAHUANwA4ADkAMwBcACcAMwBmAG4AZwAgAGcAaQBcAHUAMgAyADUAXAAnAGUAMQAgAHQAcgBcAHUANwA4ADgAMwBcACcAMwBmACAAaABcAHUANwA5ADAANwBcACcAMwBmAHAAIAB9AHsAXABmADMAXABmAHMAMgAyAFwAYgBcAGMAZgAxACAAXAB1ADIANwAzAFwAJwA2ADQAfQB7AFwAZgAxAFwAZgBzADIAMgBcAGIAXABjAGYAMQAgAFwAdQA3ADgAOQAxAFwAJwAzAGYAbgBnAH0AewBcAGYAMQBcAGYAcwAyADIAXABiAFwAYwBmADMAIAAuAC4AfQBcAGYAMQBcAGYAcwAyADAAXABjAGYAMQBcAHAAYQByAH0A" SizeF="612.000732,25.3809814" LocationFloat="0,657.533752" Font="Times New Roman, 9.75pt, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top, Bottom">
+          <StylePriority Ref="143" UseFont="false" UseBorders="false" />
+        </Item71>
+        <Item72 Ref="144" ControlType="XRRichText" Name="richText1" SerializableRtfString="ewBcAHIAdABmADEAXABkAGUAZgBmADAAewBcAGYAbwBuAHQAdABiAGwAewBcAGYAMAAgAEMAYQBsAGkAYgByAGkAOwB9AHsAXABmADEAIABUAGkAbQBlAHMAIABOAGUAdwAgAFIAbwBtAGEAbgA7AH0AewBcAGYAMgAgAFYATgBJAC0AVABpAG0AZQBzADsAfQB7AFwAZgAzACAAVABpAG0AZQBzACAATgBlAHcAIABSAG8AbQBhAG4AIABDAEUAOwB9AH0AewBcAGMAbwBsAG8AcgB0AGIAbAAgADsAXAByAGUAZAAwAFwAZwByAGUAZQBuADAAXABiAGwAdQBlADAAIAA7AFwAcgBlAGQAMABcAGcAcgBlAGUAbgAwAFwAYgBsAHUAZQAyADUANQAgADsAfQB7AFwAKgBcAGQAZQBmAGMAaABwACAAXABmADEAXABmAHMAMgA0AH0AewBcAHMAdAB5AGwAZQBzAGgAZQBlAHQAIAB7AFwAcQBsAFwAZgAxAFwAZgBzADIANAAgAE4AbwByAG0AYQBsADsAfQB7AFwAcwAxAFwAcwBiAGEAcwBlAGQAbwBuADAAXABzAG4AZQB4AHQAMQBcAHEAbABcAGwAaQA3ADAAOQBcAGwAaQBuADcAMAA5AFwAcgBpAC0ANQA3AFwAcgBpAG4ALQA1ADcAXABmADIAXABmAHMAMgA0AFwAaQAgAEIAbABvAGMAawAgAFQAZQB4AHQAOwB9AHsAXAAqAFwAYwBzADIAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABEAGUAZgBhAHUAbAB0ACAAUABhAHIAYQBnAHIAYQBwAGgAIABGAG8AbgB0ADsAfQB7AFwAKgBcAGMAcwAzAFwAcwBiAGEAcwBlAGQAbwBuADIAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABMAGkAbgBlACAATgB1AG0AYgBlAHIAOwB9AHsAXAAqAFwAYwBzADQAXABmADEAXABmAHMAMgA0AFwAdQBsAFwAYwBmADIAIABIAHkAcABlAHIAbABpAG4AawA7AH0AewBcACoAXAB0AHMANQBcAHQAcwByAG8AdwBkAFwAZgAxAFwAZgBzADIANABcAHEAbABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgBsADMAXAB0AHMAYwBlAGwAbABwAGEAZABkAGwAMQAwADgAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAYgAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgB0ADMAXAB0AHMAdgBlAHIAdABhAGwAdABcAGMAbAB0AHgAbAByAHQAYgAgAE4AbwByAG0AYQBsACAAVABhAGIAbABlADsAfQB7AFwAKgBcAHQAcwA2AFwAdABzAHIAbwB3AGQAXABzAGIAYQBzAGUAZABvAG4ANQBcAGYAMQBcAGYAcwAyADQAXABxAGwAXAB0AHIAYgByAGQAcgB0AFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGwAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAYgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHIAYgByAGQAcgByAFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGgAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAdgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAbAAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABsADEAMAA4AFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwB2AGUAcgB0AGEAbAB0AFwAYwBsAHQAeABsAHIAdABiACAAVABhAGIAbABlACAAUwBpAG0AcABsAGUAIAAxADsAfQB9AHsAXAAqAFwAbABpAHMAdABvAHYAZQByAHIAaQBkAGUAdABhAGIAbABlAH0AXABuAG8AdQBpAGMAbwBtAHAAYQB0AFwAaAB0AG0AYQB1AHQAcwBwAFwAcwBwAGwAeQB0AHcAbgBpAG4AZQBcAGEAbABuAHQAYgBsAGkAbgBkAFwAZQB4AHAAcwBoAHIAdABuAFwAcwBwAGwAdABwAGcAcABhAHIAXABuAG8AZwByAG8AdwBhAHUAdABvAGYAaQB0AFwAdQB0AGkAbgBsAFwAbgBvAGIAcgBrAHcAcgBwAHQAYgBsAFwAZgB0AG4AbAB5AHQAdwBuAGkAbgBlAFwAbgBvAHQAYwB2AGEAcwBwAFwAZABuAHQAYgBsAG4AcwBiAGQAYgBcAG4AZQB3AHQAYgBsAHMAdAB5AHIAdQBsAHMAXABmAG8AcgBtAHMAaABhAGQAZQBcAHAAYQByAGQAXABwAGwAYQBpAG4AXABzADEAXABxAGMAXAByAGkALQA1ADgAXAByAGkAbgAtADUAOABcAHMAYgA2ADAAewBcAGYAMQBcAGYAcwAyADIAXABjAGYAMQAgACAAfQB7AFwAZgAzAFwAZgBzADIAMgBcAGwAYQBuAGcAMQAwADMAMwBcAGwAYQBuAGcAZgBlADEAMAAzADMAXABjAGYAMQAgAFsAbQBvAG4AZQB5AFAAcgBpAGMAZQBdAH0AewBcAGYAMQBcAGYAcwAyADIAXABiAFwAaQBcAHMAdQBwAGUAcgBcAGMAZgAxACAAKAAxACkAfQBcAGYAMQBcAGYAcwAyADAAXABjAGYAMQBcAHAAYQByAH0A" SizeF="125.000061,25.38092" LocationFloat="612.000732,657.5338" Font="Times New Roman, 9.75pt, charSet=0" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="145" UseFont="false" UseBorders="false" />
+        </Item72>
+        <Item73 Ref="146" ControlType="XRLabel" Name="label161" Multiline="true" Text="Thành tiền(VND)" TextAlignment="MiddleCenter" SizeF="125,24.5557251" LocationFloat="611.999939,512.978" Font="Times New Roman, 11pt, style=Bold" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Top, Right">
+          <StylePriority Ref="147" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item73>
+        <Item74 Ref="148" ControlType="XRLabel" Name="label160" Multiline="true" Text="Đơn giá (VND)" TextAlignment="MiddleCenter" SizeF="106.200989,24.5557251" LocationFloat="505.799,512.978" Font="Times New Roman, 11pt, style=Bold" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="149" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item74>
+        <Item75 Ref="150" ControlType="XRLabel" Name="label159" Multiline="true" Text="Số lượng(xe)" TextAlignment="MiddleCenter" SizeF="89.8852844,24.5556641" LocationFloat="415.913757,512.978" Font="Times New Roman, 11pt, style=Bold" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="151" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item75>
+        <Item76 Ref="152" ControlType="XRLabel" Name="label158" Multiline="true" Text="Hàng hóa" TextAlignment="MiddleCenter" SizeF="381.836945,24.5556641" LocationFloat="34.07685,512.978" Font="Times New Roman, 11pt, style=Bold" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="153" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item76>
+        <Item77 Ref="154" ControlType="XRLabel" Name="label157" Multiline="true" Text="TT" TextAlignment="MiddleCenter" SizeF="34.076107,24.5556641" LocationFloat="1.98682155E-05,512.978" Font="Times New Roman, 11pt, style=Bold" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="155" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item77>
+        <Item78 Ref="156" ControlType="XRLabel" Name="label140" Multiline="true" Text="CMND/CCCD" TextAlignment="MiddleLeft" SizeF="100.561241,19.00003" LocationFloat="19.08616,304.847656" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="157" UseFont="false" UseTextAlignment="false" />
+        </Item78>
+        <Item79 Ref="158" ControlType="XRLabel" Name="label139" Multiline="true" Text=": [IdCard], ngày cấp: [CustomerDateInsuance], nơi cấp: [CustomerPlaceInsuance]&#xD;&#xA;" TextAlignment="MiddleLeft" SizeF="619.352966,19.00003" LocationFloat="119.647408,304.8477" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="159" UseFont="false" UseTextAlignment="false" />
+        </Item79>
+        <Item80 Ref="160" ControlType="XRRichText" Name="richText2" SerializableRtfString="ewBcAHIAdABmADEAXABkAGUAZgBmADAAewBcAGYAbwBuAHQAdABiAGwAewBcAGYAMAAgAEMAYQBsAGkAYgByAGkAOwB9AHsAXABmADEAIABUAGkAbQBlAHMAIABOAGUAdwAgAFIAbwBtAGEAbgA7AH0AfQB7AFwAYwBvAGwAbwByAHQAYgBsACAAOwBcAHIAZQBkADAAXABnAHIAZQBlAG4AMABcAGIAbAB1AGUAMAAgADsAXAByAGUAZAAwAFwAZwByAGUAZQBuADAAXABiAGwAdQBlADIANQA1ACAAOwB9AHsAXAAqAFwAZABlAGYAYwBoAHAAIABcAGYAMQBcAGYAcwAyADQAfQB7AFwAcwB0AHkAbABlAHMAaABlAGUAdAAgAHsAXABxAGwAXABmADEAXABmAHMAMgA0ACAATgBvAHIAbQBhAGwAOwB9AHsAXAAqAFwAYwBzADEAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABEAGUAZgBhAHUAbAB0ACAAUABhAHIAYQBnAHIAYQBwAGgAIABGAG8AbgB0ADsAfQB7AFwAKgBcAGMAcwAyAFwAcwBiAGEAcwBlAGQAbwBuADEAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABMAGkAbgBlACAATgB1AG0AYgBlAHIAOwB9AHsAXAAqAFwAYwBzADMAXABmADEAXABmAHMAMgA0AFwAdQBsAFwAYwBmADIAIABIAHkAcABlAHIAbABpAG4AawA7AH0AewBcACoAXAB0AHMANABcAHQAcwByAG8AdwBkAFwAZgAxAFwAZgBzADIANABcAHEAbABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgBsADMAXAB0AHMAYwBlAGwAbABwAGEAZABkAGwAMQAwADgAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAYgAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgB0ADMAXAB0AHMAdgBlAHIAdABhAGwAdABcAGMAbAB0AHgAbAByAHQAYgAgAE4AbwByAG0AYQBsACAAVABhAGIAbABlADsAfQB7AFwAKgBcAHQAcwA1AFwAdABzAHIAbwB3AGQAXABzAGIAYQBzAGUAZABvAG4ANABcAGYAMQBcAGYAcwAyADQAXABxAGwAXAB0AHIAYgByAGQAcgB0AFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGwAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAYgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHIAYgByAGQAcgByAFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGgAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAdgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAbAAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABsADEAMAA4AFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwB2AGUAcgB0AGEAbAB0AFwAYwBsAHQAeABsAHIAdABiACAAVABhAGIAbABlACAAUwBpAG0AcABsAGUAIAAxADsAfQB9AHsAXAAqAFwAbABpAHMAdABvAHYAZQByAHIAaQBkAGUAdABhAGIAbABlAH0AXABuAG8AdQBpAGMAbwBtAHAAYQB0AFwAaAB0AG0AYQB1AHQAcwBwAFwAcwBwAGwAeQB0AHcAbgBpAG4AZQBcAGEAbABuAHQAYgBsAGkAbgBkAFwAZQB4AHAAcwBoAHIAdABuAFwAcwBwAGwAdABwAGcAcABhAHIAXABuAG8AZwByAG8AdwBhAHUAdABvAGYAaQB0AFwAdQB0AGkAbgBsAFwAbgBvAGIAcgBrAHcAcgBwAHQAYgBsAFwAZgB0AG4AbAB5AHQAdwBuAGkAbgBlAFwAbgBvAHQAYwB2AGEAcwBwAFwAZABuAHQAYgBsAG4AcwBiAGQAYgBcAG4AZQB3AHQAYgBsAHMAdAB5AHIAdQBsAHMAXABmAG8AcgBtAHMAaABhAGQAZQBcAHAAYQByAGQAXABwAGwAYQBpAG4AXABxAGwAXAB0AHgAMgAxADYAMAB7AFwAZgAxAFwAZgBzADIAMABcAGwAYQBuAGcAMQAwADMAMwBcAGwAYQBuAGcAZgBlADEAMAAzADMAXABjAGYAMQAgADoAIAB9AHsAXABmADEAXABmAHMAMgAwAFwAbABhAG4AZwAxADAAMwAzAFwAbABhAG4AZwBmAGUAMQAwADMAMwBcAGMAZgAxACAAIAB9AHsAXABmADEAXABmAHMAMgAxAFwAYgBcAGMAZgAxACAAMAAxADEAMQAwADAAMAA4ADEANwAxADgANgAgAC0AIABOAGcAXAB1ADIAMgA2AFwAJwBlADIAbgAgAGgAXAB1ADIAMgA0AFwAJwBlADAAbgBnACAAVgBpAGUAdABjAG8AbQBiAGEAbgBrACAAQwBcAHUANwA4ADQANwBcACcAMwBmAG4AIABUAGgAXAB1ADQAMQA3AFwAJwA2AGYAfQBcAGYAMQBcAGYAcwAyADAAXABjAGYAMQBcAHAAYQByAH0A" SizeF="632.898132,18.99997" LocationFloat="106.102257,404.847626" Font="Times New Roman, 9.75pt" Padding="2,2,0,0,100" />
+        <Item81 Ref="161" ControlType="XRRichText" Name="richText4" SerializableRtfString="ewBcAHIAdABmADEAXABkAGUAZgBmADAAewBcAGYAbwBuAHQAdABiAGwAewBcAGYAMAAgAEMAYQBsAGkAYgByAGkAOwB9AHsAXABmADEAIABUAGkAbQBlAHMAIABOAGUAdwAgAFIAbwBtAGEAbgA7AH0AfQB7AFwAYwBvAGwAbwByAHQAYgBsACAAOwBcAHIAZQBkADAAXABnAHIAZQBlAG4AMABcAGIAbAB1AGUAMAAgADsAXAByAGUAZAAwAFwAZwByAGUAZQBuADAAXABiAGwAdQBlADIANQA1ACAAOwB9AHsAXAAqAFwAZABlAGYAYwBoAHAAIABcAGYAMQBcAGYAcwAyADQAfQB7AFwAcwB0AHkAbABlAHMAaABlAGUAdAAgAHsAXABxAGwAXABmADEAXABmAHMAMgA0ACAATgBvAHIAbQBhAGwAOwB9AHsAXAAqAFwAYwBzADEAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABEAGUAZgBhAHUAbAB0ACAAUABhAHIAYQBnAHIAYQBwAGgAIABGAG8AbgB0ADsAfQB7AFwAKgBcAGMAcwAyAFwAcwBiAGEAcwBlAGQAbwBuADEAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABMAGkAbgBlACAATgB1AG0AYgBlAHIAOwB9AHsAXAAqAFwAYwBzADMAXABmADEAXABmAHMAMgA0AFwAdQBsAFwAYwBmADIAIABIAHkAcABlAHIAbABpAG4AawA7AH0AewBcACoAXAB0AHMANABcAHQAcwByAG8AdwBkAFwAZgAxAFwAZgBzADIANABcAHEAbABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgBsADMAXAB0AHMAYwBlAGwAbABwAGEAZABkAGwAMQAwADgAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAYgAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgB0ADMAXAB0AHMAdgBlAHIAdABhAGwAdABcAGMAbAB0AHgAbAByAHQAYgAgAE4AbwByAG0AYQBsACAAVABhAGIAbABlADsAfQB7AFwAKgBcAHQAcwA1AFwAdABzAHIAbwB3AGQAXABzAGIAYQBzAGUAZABvAG4ANABcAGYAMQBcAGYAcwAyADQAXABxAGwAXAB0AHIAYgByAGQAcgB0AFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGwAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAYgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHIAYgByAGQAcgByAFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGgAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAdgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAbAAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABsADEAMAA4AFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwB2AGUAcgB0AGEAbAB0AFwAYwBsAHQAeABsAHIAdABiACAAVABhAGIAbABlACAAUwBpAG0AcABsAGUAIAAxADsAfQB9AHsAXAAqAFwAbABpAHMAdABvAHYAZQByAHIAaQBkAGUAdABhAGIAbABlAH0AXABuAG8AdQBpAGMAbwBtAHAAYQB0AFwAaAB0AG0AYQB1AHQAcwBwAFwAcwBwAGwAeQB0AHcAbgBpAG4AZQBcAGEAbABuAHQAYgBsAGkAbgBkAFwAZQB4AHAAcwBoAHIAdABuAFwAcwBwAGwAdABwAGcAcABhAHIAXABuAG8AZwByAG8AdwBhAHUAdABvAGYAaQB0AFwAdQB0AGkAbgBsAFwAbgBvAGIAcgBrAHcAcgBwAHQAYgBsAFwAZgB0AG4AbAB5AHQAdwBuAGkAbgBlAFwAbgBvAHQAYwB2AGEAcwBwAFwAZABuAHQAYgBsAG4AcwBiAGQAYgBcAG4AZQB3AHQAYgBsAHMAdAB5AHIAdQBsAHMAXABmAG8AcgBtAHMAaABhAGQAZQBcAHAAYQByAGQAXABwAGwAYQBpAG4AXABxAGwAXAB0AHgAMgAxADYAMAB7AFwAZgAxAFwAZgBzADIAMgBcAGwAYQBuAGcAMQAwADMAMwBcAGwAYQBuAGcAZgBlADEAMAAzADMAXABjAGYAMQAgADoAIAB9AHsAXABmADEAXABmAHMAMgAyAFwAbABhAG4AZwAxADAAMwAzAFwAbABhAG4AZwBmAGUAMQAwADMAMwBcAGIAXABjAGYAMQAgAFsAUgBlAHAAcgBlAHMAZQBuAHQATgBhAG0AZQBdAH0AewBcAGYAMQBcAGYAcwAyADIAXABsAGEAbgBnADEAMAAzADMAXABsAGEAbgBnAGYAZQAxADAAMwAzAFwAYwBmADEAIAAgAH0AXABmADEAXABmAHMAMgAyAFwAYwBmADEAXABwAGEAcgB9AA==" SizeF="237.10144,18.99997" LocationFloat="106.0991,423.8476" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="162" UseFont="false" />
+        </Item81>
+        <Item82 Ref="163" ControlType="XRRichText" Name="richText5" SerializableRtfString="ewBcAHIAdABmADEAXABkAGUAZgBmADAAewBcAGYAbwBuAHQAdABiAGwAewBcAGYAMAAgAEMAYQBsAGkAYgByAGkAOwB9AHsAXABmADEAIABUAGkAbQBlAHMAIABOAGUAdwAgAFIAbwBtAGEAbgA7AH0AfQB7AFwAYwBvAGwAbwByAHQAYgBsACAAOwBcAHIAZQBkADAAXABnAHIAZQBlAG4AMABcAGIAbAB1AGUAMAAgADsAXAByAGUAZAAwAFwAZwByAGUAZQBuADAAXABiAGwAdQBlADIANQA1ACAAOwB9AHsAXAAqAFwAZABlAGYAYwBoAHAAIABcAGYAMQBcAGYAcwAyADQAfQB7AFwAcwB0AHkAbABlAHMAaABlAGUAdAAgAHsAXABxAGwAXABmADEAXABmAHMAMgA0ACAATgBvAHIAbQBhAGwAOwB9AHsAXAAqAFwAYwBzADEAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABEAGUAZgBhAHUAbAB0ACAAUABhAHIAYQBnAHIAYQBwAGgAIABGAG8AbgB0ADsAfQB7AFwAKgBcAGMAcwAyAFwAcwBiAGEAcwBlAGQAbwBuADEAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABMAGkAbgBlACAATgB1AG0AYgBlAHIAOwB9AHsAXAAqAFwAYwBzADMAXABmADEAXABmAHMAMgA0AFwAdQBsAFwAYwBmADIAIABIAHkAcABlAHIAbABpAG4AawA7AH0AewBcACoAXAB0AHMANABcAHQAcwByAG8AdwBkAFwAZgAxAFwAZgBzADIANABcAHEAbABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgBsADMAXAB0AHMAYwBlAGwAbABwAGEAZABkAGwAMQAwADgAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAYgAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgB0ADMAXAB0AHMAdgBlAHIAdABhAGwAdABcAGMAbAB0AHgAbAByAHQAYgAgAE4AbwByAG0AYQBsACAAVABhAGIAbABlADsAfQB7AFwAKgBcAHQAcwA1AFwAdABzAHIAbwB3AGQAXABzAGIAYQBzAGUAZABvAG4ANABcAGYAMQBcAGYAcwAyADQAXABxAGwAXAB0AHIAYgByAGQAcgB0AFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGwAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAYgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHIAYgByAGQAcgByAFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGgAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAdgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAbAAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABsADEAMAA4AFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwB2AGUAcgB0AGEAbAB0AFwAYwBsAHQAeABsAHIAdABiACAAVABhAGIAbABlACAAUwBpAG0AcABsAGUAIAAxADsAfQB9AHsAXAAqAFwAbABpAHMAdABvAHYAZQByAHIAaQBkAGUAdABhAGIAbABlAH0AXABuAG8AdQBpAGMAbwBtAHAAYQB0AFwAaAB0AG0AYQB1AHQAcwBwAFwAcwBwAGwAeQB0AHcAbgBpAG4AZQBcAGEAbABuAHQAYgBsAGkAbgBkAFwAZQB4AHAAcwBoAHIAdABuAFwAcwBwAGwAdABwAGcAcABhAHIAXABuAG8AZwByAG8AdwBhAHUAdABvAGYAaQB0AFwAdQB0AGkAbgBsAFwAbgBvAGIAcgBrAHcAcgBwAHQAYgBsAFwAZgB0AG4AbAB5AHQAdwBuAGkAbgBlAFwAbgBvAHQAYwB2AGEAcwBwAFwAZABuAHQAYgBsAG4AcwBiAGQAYgBcAG4AZQB3AHQAYgBsAHMAdAB5AHIAdQBsAHMAXABmAG8AcgBtAHMAaABhAGQAZQBcAHAAYQByAGQAXABwAGwAYQBpAG4AXABxAGwAXAB0AHgAMgAxADYAMAB7AFwAZgAxAFwAZgBzADIAMgBcAGwAYQBuAGcAMQAwADMAMwBcAGwAYQBuAGcAZgBlADEAMAAzADMAXABiAFwAYwBmADEAIABbAEQAZQBhAGwAZQByAFIAZQBwAHIAZQBzAGUAbgB0AFIAbwBsAGUAXQB9AFwAZgAxAFwAZgBzADIAMgBcAGMAZgAxAFwAcABhAHIAfQA=" SizeF="323.085846,19.00003" LocationFloat="415.91452,423.8476" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="164" UseFont="false" />
+        </Item82>
+        <Item83 Ref="165" ControlType="XRRichText" Name="richText6" SerializableRtfString="ewBcAHIAdABmADEAXABkAGUAZgBmADAAewBcAGYAbwBuAHQAdABiAGwAewBcAGYAMAAgAEMAYQBsAGkAYgByAGkAOwB9AHsAXABmADEAIABUAGkAbQBlAHMAIABOAGUAdwAgAFIAbwBtAGEAbgA7AH0AfQB7AFwAYwBvAGwAbwByAHQAYgBsACAAOwBcAHIAZQBkADAAXABnAHIAZQBlAG4AMABcAGIAbAB1AGUAMAAgADsAXAByAGUAZAAwAFwAZwByAGUAZQBuADAAXABiAGwAdQBlADIANQA1ACAAOwB9AHsAXAAqAFwAZABlAGYAYwBoAHAAIABcAGYAMQBcAGYAcwAyADQAfQB7AFwAcwB0AHkAbABlAHMAaABlAGUAdAAgAHsAXABxAGwAXABmADEAXABmAHMAMgA0ACAATgBvAHIAbQBhAGwAOwB9AHsAXAAqAFwAYwBzADEAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABEAGUAZgBhAHUAbAB0ACAAUABhAHIAYQBnAHIAYQBwAGgAIABGAG8AbgB0ADsAfQB7AFwAKgBcAGMAcwAyAFwAcwBiAGEAcwBlAGQAbwBuADEAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABMAGkAbgBlACAATgB1AG0AYgBlAHIAOwB9AHsAXAAqAFwAYwBzADMAXABmADEAXABmAHMAMgA0AFwAdQBsAFwAYwBmADIAIABIAHkAcABlAHIAbABpAG4AawA7AH0AewBcACoAXAB0AHMANABcAHQAcwByAG8AdwBkAFwAZgAxAFwAZgBzADIANABcAHEAbABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgBsADMAXAB0AHMAYwBlAGwAbABwAGEAZABkAGwAMQAwADgAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAYgAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgB0ADMAXAB0AHMAdgBlAHIAdABhAGwAdABcAGMAbAB0AHgAbAByAHQAYgAgAE4AbwByAG0AYQBsACAAVABhAGIAbABlADsAfQB7AFwAKgBcAHQAcwA1AFwAdABzAHIAbwB3AGQAXABzAGIAYQBzAGUAZABvAG4ANABcAGYAMQBcAGYAcwAyADQAXABxAGwAXAB0AHIAYgByAGQAcgB0AFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGwAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAYgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHIAYgByAGQAcgByAFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGgAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAdgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAbAAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABsADEAMAA4AFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwB2AGUAcgB0AGEAbAB0AFwAYwBsAHQAeABsAHIAdABiACAAVABhAGIAbABlACAAUwBpAG0AcABsAGUAIAAxADsAfQB9AHsAXAAqAFwAbABpAHMAdABvAHYAZQByAHIAaQBkAGUAdABhAGIAbABlAH0AXABuAG8AdQBpAGMAbwBtAHAAYQB0AFwAaAB0AG0AYQB1AHQAcwBwAFwAcwBwAGwAeQB0AHcAbgBpAG4AZQBcAGEAbABuAHQAYgBsAGkAbgBkAFwAZQB4AHAAcwBoAHIAdABuAFwAcwBwAGwAdABwAGcAcABhAHIAXABuAG8AZwByAG8AdwBhAHUAdABvAGYAaQB0AFwAdQB0AGkAbgBsAFwAbgBvAGIAcgBrAHcAcgBwAHQAYgBsAFwAZgB0AG4AbAB5AHQAdwBuAGkAbgBlAFwAbgBvAHQAYwB2AGEAcwBwAFwAZABuAHQAYgBsAG4AcwBiAGQAYgBcAG4AZQB3AHQAYgBsAHMAdAB5AHIAdQBsAHMAXABmAG8AcgBtAHMAaABhAGQAZQBcAHAAYQByAGQAXABwAGwAYQBpAG4AXABxAGwAXAB0AHgAMgAxADYAMAB7AFwAZgAxAFwAZgBzADIAMgBcAGwAYQBuAGcAMQAwADMAMwBcAGwAYQBuAGcAZgBlADEAMAAzADMAXABpAFwAYwBmADEAIABbAEQAZQBhAGwAZQByAFIAZQBwAHIAZQBzAGUAbgB0AEEAdQB0AGgAbwByAF0AfQBcAGYAMQBcAGYAcwAyADIAXABjAGYAMQBcAHAAYQByAH0A" SizeF="626.352966,19" LocationFloat="112.647392,442.847565" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="166" UseFont="false" />
+        </Item83>
+        <Item84 Ref="167" ControlType="XRLabel" Name="label6" Multiline="true" Text="BÊN MUA (BÊN A):  [CustomerName]" TextAlignment="MiddleLeft" SizeF="717.9087,19" LocationFloat="19.0892086,209.84787" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="168" UseFont="false" UseTextAlignment="false" />
+        </Item84>
+        <Item85 Ref="169" ControlType="XRLabel" Name="label20" Multiline="true" Text="Địa chỉ" TextAlignment="MiddleLeft" SizeF="87.01018,18.9999847" LocationFloat="19.092083,228.848083" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="170" UseFont="false" UseTextAlignment="false" />
+        </Item85>
+        <Item86 Ref="171" ControlType="XRLabel" Name="label47" Multiline="true" Text=": [CustomerAddress]" TextAlignment="MiddleLeft" SizeF="632.8981,19.0000153" LocationFloat="106.10228,228.84787" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="172" UseFont="false" UseTextAlignment="false" />
+        </Item86>
+        <Item87 Ref="173" ControlType="XRLabel" Name="label48" Multiline="true" Text="Điện thoại" TextAlignment="MiddleLeft" SizeF="87.0069962,19.0000153" LocationFloat="19.0920849,247.84787" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="174" UseFont="false" UseTextAlignment="false" />
+        </Item87>
+        <Item88 Ref="175" ControlType="XRLabel" Name="label49" Multiline="true" Text=": [CustomerTel]" TextAlignment="MiddleLeft" SizeF="237.098236,19" LocationFloat="106.102264,247.8481" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="176" UseFont="false" UseTextAlignment="false" />
+        </Item88>
+        <Item89 Ref="177" ControlType="XRLabel" Name="label50" Multiline="true" Text="Fax: " TextAlignment="MiddleLeft" SizeF="36.7816467,19" LocationFloat="343.2005,247.848114" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="178" UseFont="false" UseTextAlignment="false" />
+        </Item89>
+        <Item90 Ref="179" ControlType="XRLabel" Name="label120" Multiline="true" TextAlignment="MiddleLeft" SizeF="359.0181,18.99997" LocationFloat="379.982147,247.848114" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="180" UseFont="false" UseTextAlignment="false" />
+        </Item90>
+        <Item91 Ref="181" ControlType="XRLabel" Name="label131" Multiline="true" Text=":" TextAlignment="MiddleLeft" SizeF="632.8981,19" LocationFloat="106.0991,266.847839" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="182" UseFont="false" UseTextAlignment="false" />
+        </Item91>
+        <Item92 Ref="183" ControlType="XRLabel" Name="label122" Multiline="true" Text="Mã số thuế" TextAlignment="MiddleLeft" SizeF="87.01018,18.9999847" LocationFloat="19.0889282,266.848022" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="184" UseFont="false" UseTextAlignment="false" />
+        </Item92>
+        <Item93 Ref="185" ControlType="XRLabel" Name="label133" Multiline="true" Text="Tài khoản" TextAlignment="MiddleLeft" SizeF="87.01018,18.9999847" LocationFloat="19.09209,285.847717" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="186" UseFont="false" UseTextAlignment="false" />
+        </Item93>
+        <Item94 Ref="187" ControlType="XRLabel" Name="label132" Multiline="true" Text=":" TextAlignment="MiddleLeft" SizeF="632.898,19" LocationFloat="106.102257,285.847534" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="188" UseFont="false" UseTextAlignment="false" />
+        </Item94>
+        <Item95 Ref="189" ControlType="XRLabel" Name="label121" Multiline="true" Text="BÊN BÁN (BÊN B):  [SellDealerInfor]" TextAlignment="MiddleLeft" SizeF="719.908264,19" LocationFloat="19.0920925,328.8477" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="190" UseFont="false" UseTextAlignment="false" />
+        </Item95>
+        <Item96 Ref="191" ControlType="XRLabel" Name="label135" Multiline="true" Text=": [SellAddress]" TextAlignment="MiddleLeft" SizeF="632.8981,19" LocationFloat="106.10228,347.8475" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="192" UseFont="false" UseTextAlignment="false" />
+        </Item96>
+        <Item97 Ref="193" ControlType="XRLabel" Name="label134" Multiline="true" Text="Địa chỉ" TextAlignment="MiddleLeft" SizeF="87.01018,18.9999847" LocationFloat="19.0920887,347.847656" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="194" UseFont="false" UseTextAlignment="false" />
+        </Item97>
+        <Item98 Ref="195" ControlType="XRLabel" Name="label141" Multiline="true" Text="[SellFax]" TextAlignment="MiddleLeft" SizeF="359.018219,19" LocationFloat="379.982147,366.847656" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="196" UseFont="false" UseTextAlignment="false" />
+        </Item98>
+        <Item99 Ref="197" ControlType="XRLabel" Name="label138" Multiline="true" Text="Fax:" TextAlignment="MiddleLeft" SizeF="36.7784424,19" LocationFloat="343.2037,366.847656" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="198" UseFont="false" UseTextAlignment="false" />
+        </Item99>
+        <Item100 Ref="199" ControlType="XRLabel" Name="label137" Multiline="true" Text=": [SellPhoneNum]" TextAlignment="MiddleLeft" SizeF="237.098236,19" LocationFloat="106.105461,366.847656" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="200" UseFont="false" UseTextAlignment="false" />
+        </Item100>
+        <Item101 Ref="201" ControlType="XRLabel" Name="label136" Multiline="true" Text="Điện thoại" TextAlignment="MiddleLeft" SizeF="87.0069962,19.0000153" LocationFloat="19.0952759,366.8474" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="202" UseFont="false" UseTextAlignment="false" />
+        </Item101>
+        <Item102 Ref="203" ControlType="XRLabel" Name="label142" Multiline="true" Text="Mã số thuế" TextAlignment="MiddleLeft" SizeF="87.0069962,19.0000153" LocationFloat="19.086071,385.8476" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="204" UseFont="false" UseTextAlignment="false" />
+        </Item102>
+        <Item103 Ref="205" ControlType="XRLabel" Name="label143" Multiline="true" Text="Tài khoản" TextAlignment="MiddleLeft" SizeF="87.0069962,19.0000153" LocationFloat="19.0952778,404.8476" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="206" UseFont="false" UseTextAlignment="false" />
+        </Item103>
+        <Item104 Ref="207" ControlType="XRLabel" Name="label144" Multiline="true" Text="Đại diện" TextAlignment="MiddleLeft" SizeF="86.99779,19.00003" LocationFloat="19.0952721,423.847534" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="208" UseFont="false" UseTextAlignment="false" />
+        </Item104>
+        <Item105 Ref="209" ControlType="XRLabel" Name="label145" Multiline="true" Text=": [SellTax]" TextAlignment="MiddleLeft" SizeF="632.8917,18.99997" LocationFloat="106.105476,385.847656" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="210" UseFont="false" UseTextAlignment="false" />
+        </Item105>
+        <Item106 Ref="211" ControlType="XRLabel" Name="label146" Multiline="true" Text="Đại diện:" TextAlignment="MiddleLeft" SizeF="72.71329,19.00003" LocationFloat="343.2005,423.847534" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="212" UseFont="false" UseTextAlignment="false" />
+        </Item106>
+        <Item107 Ref="213" ControlType="XRLabel" Name="label119" Multiline="true" Text="   A-card code: [CustomerNo]&#xD;&#xA;   TVBH: [SalePerson]&#xD;&#xA;   ĐT: [SalesPersonTel]" TextAlignment="MiddleLeft" SizeF="210.605164,45.9369" LocationFloat="526.3956,0" Font="Times New Roman, 8pt" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="214" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item107>
+        <Item108 Ref="215" ControlType="XRLabel" Name="label26" Multiline="true" Text="ĐIỀU 4. BẢO HÀNH" TextAlignment="MiddleJustify" SizeF="487.149719,22.9998779" LocationFloat="0,1256.59814" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="216" UseFont="false" UseTextAlignment="false" />
+        </Item108>
+        <Item109 Ref="217" ControlType="XRLabel" Name="label27" Multiline="true" Text="4.1" TextAlignment="TopJustify" SizeF="23.8281269,23" LocationFloat="28.7797375,1279.59839" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="218" UseFont="false" UseTextAlignment="false" />
+        </Item109>
+        <Item110 Ref="219" ControlType="XRLabel" Name="label32" Multiline="true" Text="Vào thời điểm giao xe, Bên B có nghĩa vụ cung cấp cho Bên A một (01) quyển Sổ bảo hành cho mỗi xe, trong đó quy định chi tiết các nội dung bảo hành theo chính sách bảo hành Toyota.Qua đây, hai bên thừa nhận rằng chế độ bảo hành này được áp dụng với các phụ tùng ban đầu của xe được quy định trong Sổ bảo hành trên." TextAlignment="TopJustify" SizeF="678.36,57" LocationFloat="60.64038,1279.598" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="220" UseFont="false" UseTextAlignment="false" />
+        </Item110>
+        <Item111 Ref="221" ControlType="XRLabel" Name="label33" Multiline="true" Text="4.2" TextAlignment="TopJustify" SizeF="23.83,19" LocationFloat="28.77976,1336.59814" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="222" UseFont="false" UseTextAlignment="false" />
+        </Item111>
+        <Item112 Ref="223" ControlType="XRLabel" Name="label38" Multiline="true" Text="Thời hạn, điều kiện, quy trình bảo hành: tuân theo quy định về bảo hành của TMV và Bên B." TextAlignment="TopJustify" SizeF="678.36,19" LocationFloat="60.64038,1336.59814" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="224" UseFont="false" UseTextAlignment="false" />
+        </Item112>
+        <Item113 Ref="225" ControlType="XRLabel" Name="label39" Multiline="true" Text="Địa điểm bảo hành: tại cơ sở bảo hành của Bên B hoặc Đại lý/Trạm dịch vụ ủy quyền của TMV" TextAlignment="TopJustify" SizeF="678.36,19" LocationFloat="60.64038,1355.59814" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="226" UseFont="false" UseTextAlignment="false" />
+        </Item113>
+        <Item114 Ref="227" ControlType="XRLabel" Name="label46" Multiline="true" Text="4.3" TextAlignment="TopJustify" SizeF="23.83,19" LocationFloat="28.7797565,1355.59814" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="228" UseFont="false" UseTextAlignment="false" />
+        </Item114>
+        <Item115 Ref="229" ControlType="XRLabel" Name="label70" Multiline="true" Text="  ĐẠI DIỆN BÊN B" TextAlignment="MiddleJustify" SizeF="140.84137,23" LocationFloat="471.15863,2435.313" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="230" UseFont="false" UseTextAlignment="false" />
+        </Item115>
+        <Item116 Ref="231" ControlType="XRLabel" Name="label69" Multiline="true" Text="  ĐẠI DIỆN BÊN A" TextAlignment="MiddleJustify" SizeF="140.84137,23" LocationFloat="126.633911,2435.313" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="232" UseFont="false" UseTextAlignment="false" />
+        </Item116>
+        <Item117 Ref="233" ControlType="XRLabel" Name="label67" Multiline="true" Text="7.4" TextAlignment="TopJustify" SizeF="23.8281269,23" LocationFloat="20.0869026,2387.4314" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="234" UseFont="false" UseTextAlignment="false" />
+        </Item117>
+        <Item118 Ref="235" ControlType="XRLabel" Name="label68" Multiline="true" Text="Hợp đồng này có hiệu lực kể từ ngày ký đến hết ngày [ContractDurationDateText] và được coi là đã thanh lý khi Bên B đã nhận đủ tiền và Bên A đã nhận xe (trừ điều khoản bảo hành)" TextAlignment="TopJustify" SizeF="692.35,38" LocationFloat="46.65039,2273.4314" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="236" UseFont="false" UseTextAlignment="false" />
+        </Item118>
+        <Item119 Ref="237" ControlType="XRLabel" Name="label65" Multiline="true" Text="7.3" TextAlignment="TopJustify" SizeF="23.83,19" LocationFloat="20.0869026,2368.4314" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="238" UseFont="false" UseTextAlignment="false" />
+        </Item119>
+        <Item120 Ref="239" ControlType="XRLabel" Name="label66" Multiline="true" Text="Hợp đồng này được lập thành 04 (bốn) bản. Mỗi bên giữ 02 (hai) bản, có giá trị pháp lý như nhau. " TextAlignment="TopJustify" SizeF="692.35,19" LocationFloat="46.65039,2368.4314" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="240" UseFont="false" UseTextAlignment="false" />
+        </Item120>
+        <Item121 Ref="241" ControlType="XRLabel" Name="label63" Multiline="true" Text="7.2" TextAlignment="TopJustify" SizeF="23.8281269,23" LocationFloat="20.0869026,2311.4314" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="242" UseFont="false" UseTextAlignment="false" />
+        </Item121>
+        <Item122 Ref="243" ControlType="XRLabel" Name="label64" Multiline="true" Text="Trừ các trường hợp được quy định ở trên, Hợp đồng này không thể bị hủy bỏ nếu không có thỏa thuận bằng văn bản của các bên. Trong trường hợp hủy hợp đồng, trách nhiệm liên quan tới phạt vi phạm và bồi thường thiệt hại được bảo lưu." TextAlignment="TopJustify" SizeF="692.35,57" LocationFloat="46.65039,2311.4314" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="244" UseFont="false" UseTextAlignment="false" />
+        </Item122>
+        <Item123 Ref="245" ControlType="XRLabel" Name="label61" Multiline="true" Text="7.1" TextAlignment="TopJustify" SizeF="23.8281269,23" LocationFloat="20.0869026,2273.4314" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="246" UseFont="false" UseTextAlignment="false" />
+        </Item123>
+        <Item124 Ref="247" ControlType="XRLabel" Name="label62" Multiline="true" Text="Hợp đồng này có giá trị thay thế mọi giao dịch, thỏa thuận trước đây của hai bên. Mọi sự bổ sung, sửa đổi hợp đồng này đều phải có sự đồng ý bằng văn bản của hai bên." TextAlignment="TopJustify" SizeF="692.347351,37.7077637" LocationFloat="46.65272,2387.4314" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="248" UseFont="false" UseTextAlignment="false" />
+        </Item124>
+        <Item125 Ref="249" ControlType="XRLabel" Name="label60" Multiline="true" Text="   ĐIỀU 7. ĐIỀU KHOẢN CHUNG" TextAlignment="MiddleJustify" SizeF="487.149719,22.9998779" LocationFloat="1.9993031,2250.4314" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="250" UseFont="false" UseTextAlignment="false" />
+        </Item125>
+        <Item126 Ref="251" ControlType="XRLabel" Name="label58" Multiline="true" Text="6.3" TextAlignment="TopJustify" SizeF="23.8281269,23" LocationFloat="20.0869026,2154.83716" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="252" UseFont="false" UseTextAlignment="false" />
+        </Item126>
+        <Item127 Ref="253" ControlType="XRLabel" Name="label56" Multiline="true" Text="6.2" TextAlignment="TopJustify" SizeF="23.8281269,23" LocationFloat="20.0869026,2112.91431" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="254" UseFont="false" UseTextAlignment="false" />
+        </Item127>
+        <Item128 Ref="255" ControlType="XRLabel" Name="label57" Multiline="true" Text="Khi xảy ra sự kiện bất khả kháng, bên gặp phải bất khả kháng phải thông báo cho bên kia tình trạng thực tế, đề xuất phương án xử lý và nỗ lực giảm thiểu tổn thất, thiệt hại đến mức thấp nhất có thể. " TextAlignment="TopJustify" SizeF="692.347534,41.92383" LocationFloat="46.6523132,2112.91431" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="256" UseFont="false" UseTextAlignment="false" />
+        </Item128>
+        <Item129 Ref="257" ControlType="XRLabel" Name="label54" Multiline="true" Text="6.1" TextAlignment="TopJustify" SizeF="23.8281269,23" LocationFloat="20.0869026,2019.42786" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="258" UseFont="false" UseTextAlignment="false" />
+        </Item129>
+        <Item130 Ref="259" ControlType="XRLabel" Name="label55" Multiline="true" Text="Bất khả kháng có nghĩa là các sự kiện xảy ra một cách khách quan, không thể lường trước được và không thể khắc phục được mặc dù đã áp dụng mọi biện pháp cần thiết trong khả năng cho phép, một trong các Bên vẫn không có khả năng thực hiện được nghĩa vụ của mình theo Hợp đồng này, bao gồm nhưng không giới hạn ở: thiên tai, hỏa hoạn, lũ lụt, chiến tranh, can thiệp của chính quyền bằng vũ trang, cản trở giao thông vận tải và các sư kiện khác tương tự." TextAlignment="TopJustify" SizeF="692.347534,93.48633" LocationFloat="46.6524429,2019.42773" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="260" UseFont="false" UseTextAlignment="false" />
+        </Item130>
+        <Item131 Ref="261" ControlType="XRLabel" Name="label53" Multiline="true" Text="   ĐIỀU 6. BẤT KHẢ KHÁNG VÀ GIẢI QUYẾT TRANH CHẤP" TextAlignment="MiddleJustify" SizeF="487.149719,22.9998779" LocationFloat="0,1996.42786" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="262" UseFont="false" UseTextAlignment="false" />
+        </Item131>
+        <Item132 Ref="263" ControlType="XRLabel" Name="label29" Multiline="true" Text="Với bất kỳ khoản thu nào bằng tiền mặt, Bên B phải xuất phiếu thu tiền mặt trong đó ghi rõ số tiền Bên A thanh toán kèm dấu mộc của Bên B. Bên B sẽ không chịu trách nhiệm trong mọi trường hợp liên quan đến việc giao dịch thanh toán tiền mặt của Bên A với người đại diện bán hàng của Bên B mà không đúng theo quy định trên.p&#xD;&#xA;" TextAlignment="TopJustify" SizeF="676.42,72" LocationFloat="62.5803833,1001.80072" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="264" UseFont="false" UseTextAlignment="false" />
+        </Item132>
+        <Item133 Ref="265" ControlType="XRLabel" Name="label28" Multiline="true" Text="2.2 Hình thức thanh toán" TextAlignment="TopJustify" SizeF="178.318848,23" LocationFloat="34.0768929,978.8007" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="266" UseFont="false" UseTextAlignment="false" />
+        </Item133>
+        <Item134 Ref="267" ControlType="XRLabel" Name="label44" Multiline="true" Text="Quyền sở hữu và rủi ro đối với hàng hóa được coi là đã chuyển từ Bên B sang Bên A kể từ thời điểm xe được giao cho Bên A hoặc người được Bên A ủy quyền." TextAlignment="TopJustify" SizeF="678.3575,35.7974854" LocationFloat="60.642704,1215.80066" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="268" UseFont="false" UseTextAlignment="false" />
+        </Item134>
+        <Item135 Ref="269" ControlType="XRLabel" Name="label45" Multiline="true" Text="3.4" TextAlignment="TopJustify" SizeF="23.8281269,23" LocationFloat="28.78022,1215.80066" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="270" UseFont="false" UseTextAlignment="false" />
+        </Item135>
+        <Item136 Ref="271" ControlType="XRLabel" Name="label42" Multiline="true" Text="3.3" TextAlignment="TopJustify" SizeF="23.8281269,23" LocationFloat="28.7799587,1177.80066" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="272" UseFont="false" UseTextAlignment="false" />
+        </Item136>
+        <Item137 Ref="273" ControlType="XRLabel" Name="label43" Multiline="true" Text="Bên B sẽ giao xe trực tiếp cho Bên A hoặc người được Bên A ủy quyền. Người được Bên A ủy quyền phải xuất trình giấy ủy quyền hợp lệ và CMND hoặc giấy tờ tương đương khi nhận xe." TextAlignment="TopJustify" SizeF="678.36,38" LocationFloat="60.64038,1177.80066" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="274" UseFont="false" UseTextAlignment="false" />
+        </Item137>
+        <Item138 Ref="275" ControlType="XRLabel" Name="label40" Multiline="true" Text="Địa điểm giao nhận xe:  K2-0 Đường Võ Nguyên Giáp, Khu Vực Thạnh Thuận, Phường Phú Thứ, Quận Cái Răng, TP. Cần Thơ" TextAlignment="TopJustify" SizeF="678.36,38" LocationFloat="60.64038,1139.80066" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="276" UseFont="false" UseTextAlignment="false" />
+        </Item138>
+        <Item139 Ref="277" ControlType="XRLabel" Name="label41" Multiline="true" Text="3.2" TextAlignment="TopJustify" SizeF="23.8281269,23" LocationFloat="28.7799587,1139.80115" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="278" UseFont="false" UseTextAlignment="false" />
+        </Item139>
+        <Item140 Ref="279" ControlType="XRLabel" Name="label36" Multiline="true" Text="Bên B sẽ thực hiện việc giao xe cho Bên A trước [DeliveryDate], sau khi Bên B nhận đủ 100% giá trị hợp đồng (hoặc báo có từ ngân hàng trong trường hợp chuyển khoản) cùng các chi phí liên quan (nếu có)." TextAlignment="TopJustify" SizeF="678.36,38" LocationFloat="60.64038,1101.80066" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="280" UseFont="false" UseTextAlignment="false" />
+        </Item140>
+        <Item141 Ref="281" ControlType="XRLabel" Name="label31" Multiline="true" Text="3.1" TextAlignment="TopJustify" SizeF="23.8281269,23" LocationFloat="28.7799511,1101.80078" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="282" UseFont="false" UseTextAlignment="false" />
+        </Item141>
+        <Item142 Ref="283" ControlType="XRLabel" Name="label30" Multiline="true" Text="ĐIỀU 3. THỜI GIAN, ĐỊA ĐIỂM VÀ PHƯƠNG THỨC GIAO HÀNG" TextAlignment="MiddleJustify" SizeF="487.149719,22.9998779" LocationFloat="0.000133849026,1078.80078" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="284" UseFont="false" UseTextAlignment="false" />
+        </Item142>
+        <Item143 Ref="285" ControlType="XRLabel" Name="label7" Multiline="true" Text="Trên cơ sở thỏa thuận, hai bên thống nhất ký kết hợp đồng mua bán xe ô tô Toyota với các điều khoản sau đây:" TextAlignment="BottomJustify" SizeF="690.999756,23" LocationFloat="0,466.978058" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="286" UseFont="false" UseTextAlignment="false" />
+        </Item143>
+        <Item144 Ref="287" ControlType="XRLabel" Name="label24" Multiline="true" Text="2.1 Thời gian thanh toán" TextAlignment="TopJustify" SizeF="189.767883,23.000061" LocationFloat="32.13595,885.915161" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="288" UseFont="false" UseTextAlignment="false" />
+        </Item144>
+        <Item145 Ref="289" ControlType="XRLabel" Name="label23" Multiline="true" Text="ĐIỀU 2. THANH TOÁN" TextAlignment="MiddleJustify" SizeF="187.009781,23" LocationFloat="1.999303,862.915161" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="290" UseFont="false" UseTextAlignment="false" />
+        </Item145>
+        <Item146 Ref="291" ControlType="XRLabel" Name="label8" Multiline="true" Text="ĐIỀU 1. TÊN HÀNG - SỐ LƯỢNG - CHẤT LƯỢNG - GIÁ TRỊ HỢP ĐỒNG" TextAlignment="MiddleLeft" SizeF="526.395447,23" LocationFloat="0.00020662944,489.978058" Font="Times New Roman, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="292" UseFont="false" UseTextAlignment="false" />
+        </Item146>
+        <Item147 Ref="293" ControlType="XRLabel" Name="label1" Multiline="true" Text="CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM&#xD;&#xA;Độc lập – Tự do – Hạnh phúc&#xD;&#xA;----o0o----&#xD;&#xA;" TextAlignment="BottomCenter" SizeF="352.083282,71.24997" LocationFloat="174.3123,0" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="294" UseFont="false" UseTextAlignment="false" />
+        </Item147>
+        <Item148 Ref="295" ControlType="XRLabel" Name="label5" Multiline="true" Text="Hôm nay, [Today], tại Công Ty TNHH Toyota Cần Thơ chúng tôi gồm có:" TextAlignment="TopLeft" SizeF="690.999939,23" LocationFloat="0,186.84787" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="296" UseFont="false" UseTextAlignment="false" />
+        </Item148>
+        <Item149 Ref="297" ControlType="XRLabel" Name="label4" Multiline="true" Text="- Căn cứ Bộ luật Dân sự số 91/2015/QH13 ngày 24/11/2015 và các văn bản pháp luật liên quan;&#xD;&#xA;- Căn cứ Luật Thương mại số 36/2005/QH11 ngày 14/06/2005 và các văn bản pháp luật liên quan;&#xD;&#xA;- Căn cứ vào nhu cầu và khả năng của các bên.&#xD;&#xA;" TextAlignment="TopLeft" SizeF="691,62.7321167" LocationFloat="0,124.115753" Font="Times New Roman, 11pt, style=Italic" Padding="2,2,0,0,100">
+          <StylePriority Ref="298" UseFont="false" UseTextAlignment="false" />
+        </Item149>
+        <Item150 Ref="299" ControlType="XRLabel" Name="label3" Multiline="true" Text="Số: [ContractNo]" TextAlignment="TopCenter" SizeF="352.083282,23" LocationFloat="174.3123,101.115753" Font="Times New Roman, 11pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="300" UseFont="false" UseTextAlignment="false" />
+        </Item150>
+        <Item151 Ref="301" ControlType="XRLabel" Name="label2" Multiline="true" Text="HỢP ĐỒNG MUA BÁN XE Ô TÔ" TextAlignment="MiddleCenter" SizeF="352.083374,29.8657532" LocationFloat="174.31221,71.2499847" Font="Times New Roman, 16pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="302" UseFont="false" UseTextAlignment="false" />
+        </Item151>
+        <Item152 Ref="303" ControlType="XRTable" Name="table1" SizeF="736.9996,120" LocationFloat="0,537.533752">
+          <Rows>
+            <Item1 Ref="304" ControlType="XRTableRow" Name="tableRow1" Weight="0.23711340206185566">
+              <Cells>
+                <Item1 Ref="305" ControlType="XRTableCell" Name="tableCell1" Weight="34.076835632324219" Multiline="true" Text="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;1" TextAlignment="MiddleCenter" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="Left, Top">
+                  <StylePriority Ref="306" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="307" ControlType="XRTableCell" Name="tableCell2" Weight="381.83765411376953" Multiline="true" Text="  • Xe Toyota [VehicleName] [FullModel]&#xD;&#xA;  • [Transmission] – [NumSeat] chỗ&#xD;&#xA;  • Động cơ [EngineType] – [Fuel]&#xD;&#xA;  • Chất lượng xe – mới 100%&#xD;&#xA;  • Nhập khẩu - 2022&#xD;&#xA;  • Màu: [Color]" TextAlignment="MiddleLeft" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="Left, Top">
+                  <StylePriority Ref="308" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                </Item2>
+                <Item3 Ref="309" ControlType="XRTableCell" Name="tableCell3" Weight="89.88531494140625" Multiline="true" Text="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;1" TextAlignment="MiddleCenter" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="Left, Top">
+                  <StylePriority Ref="310" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                </Item3>
+                <Item4 Ref="311" ControlType="XRTableCell" Name="tableCell4" Weight="106.20086669921875" Multiline="true" Text="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;[moneyPrice]" TextAlignment="MiddleCenter" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="Left, Top">
+                  <StylePriority Ref="312" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                </Item4>
+                <Item5 Ref="313" ControlType="XRTableCell" Name="tableCell5" Weight="124.9989013671875" Multiline="true" Text="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;[moneyPrice]" TextAlignment="MiddleCenter" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="Left, Top, Right">
+                  <StylePriority Ref="314" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                </Item5>
+              </Cells>
+            </Item1>
+          </Rows>
+        </Item152>
+      </Controls>
+    </Item3>
+  </Bands>
+</XtraReportsLayoutSerializer>

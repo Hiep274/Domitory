@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="20.2.5.0" Ref="0" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="PpmPaymentReport" Margins="5, 4, 19, 33" PaperKind="A4" PageWidth="827" PageHeight="1169" Version="20.2">
+  <Extensions>
+    <Item1 Ref="1" Key="VSReportExtInfo" Value=".vsrepx" />
+  </Extensions>
+  <Bands>
+    <Item1 Ref="2" ControlType="TopMarginBand" Name="topMarginBand1" HeightF="19" />
+    <Item2 Ref="3" ControlType="DetailBand" Name="detailBand1" HeightF="309.249756">
+      <Controls>
+        <Item1 Ref="4" ControlType="XRLabel" Name="label7" Multiline="true" Text="PHIẾU CHỨNG NHẬN MUA GÓI " TextAlignment="MiddleCenter" SizeF="806.9997,33.416687" LocationFloat="2.00004578,69.00001" Font="Arial, 14.25pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="5" UseFont="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="6" ControlType="XRLabel" Name="label3" Multiline="true" Text="II&gt; THÔNG TIN CỦA XE" TextAlignment="MiddleLeft" SizeF="388.083038,28.2082977" LocationFloat="418.916656,147.458176" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Top, Bottom">
+          <StylePriority Ref="7" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="8" ControlType="XRLabel" Name="label2" Multiline="true" Text="I&gt; THÔNG TIN KHÁCH HÀNG" TextAlignment="MiddleLeft" SizeF="418.916718,28.2083282" LocationFloat="0,147.458176" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Top, Bottom">
+          <StylePriority Ref="9" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="10" ControlType="XRLabel" Name="label1" Multiline="true" Text="PHỤ TÙNG BẢO DƯỠNG ĐỊNH KỲ TRẢ TRƯỚC" TextAlignment="MiddleCenter" SizeF="806.9997,33.416687" LocationFloat="0,103.708176" Font="Arial, 14.25pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="11" UseFont="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="12" ControlType="XRPictureBox" Name="pictureBox1" ImageSource="img,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" Sizing="ZoomImage" SizeF="172.6667,69.00001" LocationFloat="0,0" />
+        <Item6 Ref="13" ControlType="XRLabel" Name="label29" Multiline="true" TextAlignment="MiddleLeft" SizeF="256.833,30" LocationFloat="550.1667,187.124863" Font="Arial, 9.75pt, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="14" EventName="BeforePrint" PropertyName="Text" Expression="[VinNo]" />
+          </ExpressionBindings>
+          <StylePriority Ref="15" UseFont="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="16" ControlType="XRLabel" Name="label30" Multiline="true" TextAlignment="MiddleLeft" SizeF="256.833,30" LocationFloat="550.1667,217.124786" Font="Arial, 9.75pt, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="17" EventName="BeforePrint" PropertyName="Text" Expression="[FullModel]" />
+          </ExpressionBindings>
+          <StylePriority Ref="18" UseFont="false" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="19" ControlType="XRLabel" Name="label18" Multiline="true" TextAlignment="MiddleLeft" SizeF="321.4166,30" LocationFloat="97.49998,187.124863" Font="Arial, 9.75pt, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="20" EventName="BeforePrint" PropertyName="Text" Expression="[CustomerName]" />
+          </ExpressionBindings>
+          <StylePriority Ref="21" UseFont="false" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="22" ControlType="XRLabel" Name="label20" Multiline="true" TextAlignment="MiddleLeft" SizeF="321.4166,29.9999847" LocationFloat="97.49998,217.124878" Font="Arial, 9.75pt, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="23" EventName="BeforePrint" PropertyName="Text" Expression="[Tel]" />
+          </ExpressionBindings>
+          <StylePriority Ref="24" UseFont="false" UseTextAlignment="false" />
+        </Item9>
+        <Item10 Ref="25" ControlType="XRLabel" Name="label12" Multiline="true" Text="2. Mã kiểu xe:" TextAlignment="MiddleLeft" SizeF="131.25,30" LocationFloat="418.916534,217.124847" Font="Arial, 9.75pt, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="26" UseFont="false" UseTextAlignment="false" />
+        </Item10>
+        <Item11 Ref="27" ControlType="XRLabel" Name="label13" Multiline="true" Text="1. Số Vin/Khung:" TextAlignment="MiddleLeft" SizeF="131.25,30" LocationFloat="418.916534,187.124924" Font="Arial, 9.75pt, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="28" UseFont="false" UseTextAlignment="false" />
+        </Item11>
+        <Item12 Ref="29" ControlType="XRLabel" Name="label6" Multiline="true" Text="2. Điện thoại:" TextAlignment="MiddleLeft" SizeF="87.50001,29.9999847" LocationFloat="9.99999,217.124863" Font="Arial, 9.75pt, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="30" UseFont="false" UseTextAlignment="false" />
+        </Item12>
+        <Item13 Ref="31" ControlType="XRLabel" Name="label4" Multiline="true" Text="1. Tên KH:" TextAlignment="MiddleLeft" SizeF="87.50001,30" LocationFloat="9.99999,187.124863" Font="Arial, 9.75pt, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="32" UseFont="false" UseTextAlignment="false" />
+        </Item13>
+        <Item14 Ref="33" ControlType="XRLabel" Name="label32" Multiline="true" Text="III&gt; THÔNG TIN GÓI BẢO DƯỠNG ĐỊNH KỲ TRẢ TRƯỚC" TextAlignment="MiddleLeft" SizeF="785.9998,28.208313" LocationFloat="2.00004578,277.124756" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Top, Bottom">
+          <StylePriority Ref="34" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item14>
+      </Controls>
+    </Item2>
+    <Item3 Ref="35" ControlType="BottomMarginBand" Name="bottomMarginBand1" HeightF="33" />
+    <Item4 Ref="36" ControlType="DetailReportBand" Name="DetailReport" Level="0" DataMember="MaintainDetail">
+      <Bands>
+        <Item1 Ref="37" ControlType="DetailBand" Name="Detail" HeightF="28.125">
+          <Controls>
+            <Item1 Ref="38" ControlType="XRTable" Name="table2" TextAlignment="MiddleLeft" SizeF="817,28.125" LocationFloat="0,0" Font="Arial, 9.75pt, charSet=0" Padding="2,2,0,0,96" Borders="All">
+              <Rows>
+                <Item1 Ref="39" ControlType="XRTableRow" Name="tableRow8" Weight="1">
+                  <Cells>
+                    <Item1 Ref="40" ControlType="XRTableCell" Name="tableCell29" Weight="0.38357067993749133" Multiline="true" TextAlignment="MiddleCenter" Padding="2,2,0,0,100">
+                      <Summary Ref="41" Running="Report" />
+                      <ExpressionBindings>
+                        <Item1 Ref="42" EventName="BeforePrint" PropertyName="Text" Expression="sumRecordNumber()" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="43" UsePadding="false" UseTextAlignment="false" />
+                    </Item1>
+                    <Item2 Ref="44" ControlType="XRTableCell" Name="tableCell43" Weight="1.5393531640602531" Multiline="true" Padding="2,2,0,0,100">
+                      <ExpressionBindings>
+                        <Item1 Ref="45" EventName="BeforePrint" PropertyName="Text" Expression="[MaintainDetail].[PartName]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="46" UsePadding="false" />
+                    </Item2>
+                    <Item3 Ref="47" ControlType="XRTableCell" Name="tableCell30" Weight="0.62939614438228431" Multiline="true" TextAlignment="MiddleCenter">
+                      <ExpressionBindings>
+                        <Item1 Ref="48" EventName="BeforePrint" PropertyName="Text" Expression="[MaintainDetail].[UnitName]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="49" UseTextAlignment="false" />
+                    </Item3>
+                    <Item4 Ref="50" ControlType="XRTableCell" Name="tableCell48" Weight="0.59224099263936159" Multiline="true" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="51" EventName="BeforePrint" PropertyName="Text" Expression="[MaintainDetail].[SumQty]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="52" UseTextAlignment="false" />
+                    </Item4>
+                    <Item5 Ref="53" ControlType="XRTableCell" Name="tableCell53" Weight="0.92464428130804588" TextFormatString="{0:#,#}" Multiline="true" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="54" EventName="BeforePrint" PropertyName="Text" Expression="[MaintainDetail].[Price]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="55" UseTextAlignment="false" />
+                    </Item5>
+                    <Item6 Ref="56" ControlType="XRTableCell" Name="tableCell57" Weight="1.3216152271091726" TextFormatString="{0:#,#}" Multiline="true" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="57" EventName="BeforePrint" PropertyName="Text" Expression="[MaintainDetail].[SumQty] * [MaintainDetail].[Price]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="58" UseTextAlignment="false" />
+                    </Item6>
+                    <Item7 Ref="59" ControlType="XRTableCell" Name="tableCell23" Weight="1.2328652532046613" TextFormatString="{0:#,#}" Multiline="true" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="60" EventName="BeforePrint" PropertyName="Text" Expression="([MaintainDetail].[SumQty] * [MaintainDetail].[Price]) * [DiscountPercent] /100&#xA;" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="61" UseTextAlignment="false" />
+                    </Item7>
+                    <Item8 Ref="62" ControlType="XRTableCell" Name="tableCell26" Weight="1.42086784287353" TextFormatString="{0:#,#}" Multiline="true" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="63" EventName="BeforePrint" PropertyName="Text" Expression="[MaintainDetail].[SumQty] * [MaintainDetail].[Price] - ([MaintainDetail].[SumQty] * [MaintainDetail].[Price]) * [DiscountPercent] /100&#xA;" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="64" UseTextAlignment="false" />
+                    </Item8>
+                    <Item9 Ref="65" ControlType="XRTableCell" Name="tableCell62" Weight="0.47154829364380091" Multiline="true" TextAlignment="MiddleCenter">
+                      <ExpressionBindings>
+                        <Item1 Ref="66" EventName="BeforePrint" PropertyName="Text" Expression="[MaintainDetail].[TaxRate]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="67" UseTextAlignment="false" />
+                    </Item9>
+                    <Item10 Ref="68" ControlType="XRTableCell" Name="tableCell28" Weight="1.1450947942102829" TextFormatString="{0:#,#}" Multiline="true" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="69" EventName="BeforePrint" PropertyName="Text" Expression="([MaintainDetail].[SumQty] * [MaintainDetail].[Price] - ([MaintainDetail].[SumQty] * [MaintainDetail].[Price]) * [DiscountPercent] /100)* [TaxRate] /100&#xA;" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="70" UseTextAlignment="false" />
+                    </Item10>
+                  </Cells>
+                </Item1>
+              </Rows>
+              <StylePriority Ref="71" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+            </Item1>
+          </Controls>
+        </Item1>
+        <Item2 Ref="72" ControlType="GroupHeaderBand" Name="GroupHeader1" HeightF="215.625">
+          <Controls>
+            <Item1 Ref="73" ControlType="XRTable" Name="table3" TextAlignment="MiddleLeft" SizeF="817,56.25" LocationFloat="0,159.375" Padding="2,2,0,0,96">
+              <Rows>
+                <Item1 Ref="74" ControlType="XRTableRow" Name="tableRow9" Weight="1">
+                  <Cells>
+                    <Item1 Ref="75" ControlType="XRTableCell" Name="tableCell33" Weight="0.37726678672533859" Multiline="true" Text="STT" TextAlignment="BottomCenter" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top, Right">
+                      <StylePriority Ref="76" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+                    </Item1>
+                    <Item2 Ref="77" ControlType="XRTableCell" Name="tableCell34" Weight="1.5140541345002432" Multiline="true" Text="Tên phụ tùng" TextAlignment="BottomCenter" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top, Right">
+                      <StylePriority Ref="78" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+                    </Item2>
+                    <Item3 Ref="79" ControlType="XRTableCell" Name="tableCell35" Weight="0.62676564702958415" Multiline="true" Text="Đơn vị" TextAlignment="BottomCenter" Font="Arial, 9.75pt, style=Bold, charSet=0" Borders="Left, Top, Right">
+                      <StylePriority Ref="80" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                    </Item3>
+                    <Item4 Ref="81" ControlType="XRTableCell" Name="tableCell37" Weight="0.58429793661275986" Multiline="true" Text="Tổng SL" TextAlignment="BottomCenter" Font="Arial, 9.75pt, style=Bold, charSet=0" Borders="Left, Top, Right">
+                      <StylePriority Ref="82" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                    </Item4>
+                    <Item5 Ref="83" ControlType="XRTableCell" Name="tableCell38" Weight="0.91224398888050162" Multiline="true" Text="Đơn giá" TextAlignment="BottomCenter" Font="Arial, 9.75pt, style=Bold, charSet=0" Borders="Left, Top, Right">
+                      <StylePriority Ref="84" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                    </Item5>
+                    <Item6 Ref="85" ControlType="XRTableCell" Name="tableCell39" Weight="1.3038864002499284" Multiline="true" Text="Thành tiền" TextAlignment="BottomCenter" Font="Arial, 9.75pt, style=Bold, charSet=0" Borders="Left, Top, Right">
+                      <StylePriority Ref="86" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                    </Item6>
+                    <Item7 Ref="87" ControlType="XRTableCell" Name="tableCell21" Weight="1.2163337757692525" Multiline="true" Text="Giảm giá" TextAlignment="BottomCenter" Font="Arial, 9.75pt, style=Bold, charSet=0" Borders="Left, Top, Right">
+                      <StylePriority Ref="88" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                    </Item7>
+                    <Item8 Ref="89" ControlType="XRTableCell" Name="tableCell24" Weight="1.4018117974295297" Multiline="true" Text="Tiền sau " TextAlignment="BottomCenter" Font="Arial, 9.75pt, style=Bold, charSet=0" Borders="Left, Top, Right">
+                      <StylePriority Ref="90" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                    </Item8>
+                    <Item9 Ref="91" ControlType="XRTableCell" Name="tableCell40" Weight="1.5949599044400631" Multiline="true" Text="Thuế " TextAlignment="MiddleCenter" Font="Arial, 9.75pt, style=Bold, charSet=0" Borders="All">
+                      <StylePriority Ref="92" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                    </Item9>
+                  </Cells>
+                </Item1>
+                <Item2 Ref="93" ControlType="XRTableRow" Name="tableRow10" Weight="1">
+                  <Cells>
+                    <Item1 Ref="94" ControlType="XRTableCell" Name="tableCell44" Weight="0.37726671372476656" Multiline="true" TextAlignment="MiddleCenter" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+                      <StylePriority Ref="95" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+                    </Item1>
+                    <Item2 Ref="96" ControlType="XRTableCell" Name="tableCell45" Weight="1.5140541348041181" Multiline="true" TextAlignment="MiddleCenter" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+                      <StylePriority Ref="97" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+                    </Item2>
+                    <Item3 Ref="98" ControlType="XRTableCell" Name="tableCell49" Weight="0.6267655687032998" Multiline="true" TextAlignment="MiddleCenter" Font="Arial, 9.75pt, style=Bold, charSet=0" Borders="Left, Right, Bottom">
+                      <StylePriority Ref="99" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                    </Item3>
+                    <Item4 Ref="100" ControlType="XRTableCell" Name="tableCell55" Weight="0.58429793909480687" Multiline="true" TextAlignment="MiddleCenter" Font="Arial, 9.75pt, style=Bold, charSet=0" Borders="Left, Right, Bottom">
+                      <StylePriority Ref="101" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                    </Item4>
+                    <Item5 Ref="102" ControlType="XRTableCell" Name="tableCell58" Weight="0.91224548746217926" Multiline="true" TextAlignment="MiddleCenter" Font="Arial, 9.75pt, style=Bold, charSet=0" Borders="Left, Right, Bottom">
+                      <StylePriority Ref="103" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                    </Item5>
+                    <Item6 Ref="104" ControlType="XRTableCell" Name="tableCell59" Weight="1.3038862917457688" Multiline="true" TextAlignment="MiddleCenter" Font="Arial, 9.75pt, style=Bold, charSet=0" Borders="Left, Right, Bottom">
+                      <StylePriority Ref="105" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                    </Item6>
+                    <Item7 Ref="106" ControlType="XRTableCell" Name="tableCell22" Weight="1.2163318979972768" TextFormatString="{0:(#)}" Multiline="true" TextAlignment="TopCenter" Font="Arial, 9.75pt, style=Bold, charSet=0" Borders="Left, Right, Bottom">
+                      <ExpressionBindings>
+                        <Item1 Ref="107" EventName="BeforePrint" PropertyName="Text" Expression="'(' + ToStr([DiscountPercent]) + '%)'&#xA;" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="108" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                    </Item7>
+                    <Item8 Ref="109" ControlType="XRTableCell" Name="tableCell25" Weight="1.4018138129366282" Multiline="true" Text="giảm giá" TextAlignment="TopCenter" Font="Arial, 9.75pt, style=Bold, charSet=0" Borders="Left, Right, Bottom">
+                      <StylePriority Ref="110" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                    </Item8>
+                    <Item9 Ref="111" ControlType="XRTableCell" Name="tableCell63" Weight="0.46522167315246227" Multiline="true" Text="(%)" TextAlignment="MiddleCenter" Font="Arial, 9.75pt, style=Bold, charSet=0" Borders="Left, Right, Bottom">
+                      <StylePriority Ref="112" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                    </Item9>
+                    <Item10 Ref="113" ControlType="XRTableCell" Name="tableCell27" Weight="1.1297356636884173" Multiline="true" Text="Số tiền" TextAlignment="MiddleCenter" Font="Arial, 9.75pt, style=Bold, charSet=0" Borders="Left, Right, Bottom">
+                      <StylePriority Ref="114" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                    </Item10>
+                  </Cells>
+                </Item2>
+              </Rows>
+              <StylePriority Ref="115" UseTextAlignment="false" />
+            </Item1>
+            <Item2 Ref="116" ControlType="XRTable" Name="table1" TextAlignment="MiddleLeft" SizeF="777.9999,140.625" LocationFloat="9.999974,0" Font="Arial, 9.75pt, charSet=0" Padding="2,2,0,0,96" Borders="All">
+              <Rows>
+                <Item1 Ref="117" ControlType="XRTableRow" Name="tableRow1" Weight="1">
+                  <Cells>
+                    <Item1 Ref="118" ControlType="XRTableCell" Name="tableCell1" Weight="0.68263396106129426" Multiline="true" Text=" Đại lý bán" Padding="2,2,0,0,100">
+                      <StylePriority Ref="119" UsePadding="false" />
+                    </Item1>
+                    <Item2 Ref="120" ControlType="XRTableCell" Name="tableCell2" Weight="1.1676654942361029" Multiline="true">
+                      <ExpressionBindings>
+                        <Item1 Ref="121" EventName="BeforePrint" PropertyName="Text" Expression="[TenancyName]" />
+                      </ExpressionBindings>
+                    </Item2>
+                    <Item3 Ref="122" ControlType="XRTableCell" Name="tableCell3" Weight="0.78443104370646544" Multiline="true" Text=" Số phiếu mua hàng" />
+                    <Item4 Ref="123" ControlType="XRTableCell" Name="tableCell4" Weight="1.3652695009961378" Multiline="true">
+                      <ExpressionBindings>
+                        <Item1 Ref="124" EventName="BeforePrint" PropertyName="Text" Expression="[Evoucher]" />
+                      </ExpressionBindings>
+                    </Item4>
+                  </Cells>
+                </Item1>
+                <Item2 Ref="125" ControlType="XRTableRow" Name="tableRow4" Weight="1">
+                  <Cells>
+                    <Item1 Ref="126" ControlType="XRTableCell" Name="tableCell13" Weight="0.68263396106129426" Multiline="true" Text="Tổng tiền gói BD" Padding="2,2,0,0,100">
+                      <StylePriority Ref="127" UsePadding="false" />
+                    </Item1>
+                    <Item2 Ref="128" ControlType="XRTableCell" Name="tableCell14" Weight="1.1676654942361029" TextFormatString="{0:#,#}" Multiline="true" TextAlignment="MiddleRight" Font="Arial, 9.75pt, style=Bold, charSet=0">
+                      <Summary Ref="129" Running="Report" />
+                      <ExpressionBindings>
+                        <Item1 Ref="130" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([MaintainDetail].[SumQty] * [MaintainDetail].[Price] - ([MaintainDetail].[SumQty] * [MaintainDetail].[Price]) * [DiscountPercent] /100&#xA;)&#xA; + sumSum(([MaintainDetail].[SumQty] * [MaintainDetail].[Price] - ([MaintainDetail].[SumQty] * [MaintainDetail].[Price]) * [DiscountPercent] /100)* [TaxRate] /100&#xA;)&#xA;" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="131" UseFont="false" UseTextAlignment="false" />
+                    </Item2>
+                    <Item3 Ref="132" ControlType="XRTableCell" Name="tableCell15" Weight="0.78443104370646544" Multiline="true" Text=" Gói bảo dưỡng" />
+                    <Item4 Ref="133" ControlType="XRTableCell" Name="tableCell16" Weight="1.3652695009961378" Multiline="true">
+                      <ExpressionBindings>
+                        <Item1 Ref="134" EventName="BeforePrint" PropertyName="Text" Expression="[Name]" />
+                      </ExpressionBindings>
+                    </Item4>
+                  </Cells>
+                </Item2>
+                <Item3 Ref="135" ControlType="XRTableRow" Name="tableRow2" Weight="1">
+                  <Cells>
+                    <Item1 Ref="136" ControlType="XRTableCell" Name="tableCell5" Weight="0.68263396106129426" Multiline="true" Text=" Hiệu lực từ ngày" Padding="2,2,0,0,100">
+                      <StylePriority Ref="137" UsePadding="false" />
+                    </Item1>
+                    <Item2 Ref="138" ControlType="XRTableCell" Name="tableCell6" Weight="1.1676654942361029" TextFormatString="{0:dd/MM/yyyy}" Multiline="true">
+                      <ExpressionBindings>
+                        <Item1 Ref="139" EventName="BeforePrint" PropertyName="Text" Expression="[EffectiveDate]" />
+                      </ExpressionBindings>
+                    </Item2>
+                    <Item3 Ref="140" ControlType="XRTableCell" Name="tableCell7" Weight="0.78443104370646544" Multiline="true" Text=" Hiệu lực đến ngày" />
+                    <Item4 Ref="141" ControlType="XRTableCell" Name="tableCell8" Weight="1.3652695009961378" TextFormatString="{0:dd/MM/yyyy}" Multiline="true">
+                      <ExpressionBindings>
+                        <Item1 Ref="142" EventName="BeforePrint" PropertyName="Text" Expression="[ExpiredDate]" />
+                      </ExpressionBindings>
+                    </Item4>
+                  </Cells>
+                </Item3>
+                <Item4 Ref="143" ControlType="XRTableRow" Name="tableRow3" Weight="1">
+                  <Cells>
+                    <Item1 Ref="144" ControlType="XRTableCell" Name="tableCell9" Weight="0.68263396106129426" Multiline="true" Text=" Số Km thực tế" Padding="2,2,0,0,100">
+                      <StylePriority Ref="145" UsePadding="false" />
+                    </Item1>
+                    <Item2 Ref="146" ControlType="XRTableCell" Name="tableCell10" Weight="1.1676654942361029" TextFormatString="{0:#,#}" Multiline="true" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="147" EventName="BeforePrint" PropertyName="Text" Expression="[Km]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="148" UseTextAlignment="false" />
+                    </Item2>
+                    <Item3 Ref="149" ControlType="XRTableCell" Name="tableCell11" Weight="0.78443104370646544" Multiline="true" Text=" Số Km hiệu lực đến" />
+                    <Item4 Ref="150" ControlType="XRTableCell" Name="tableCell12" Weight="1.3652695009961378" TextFormatString="{0:#,#}" Multiline="true" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="151" EventName="BeforePrint" PropertyName="Text" Expression="[Km]+[KmPPM]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="152" UseTextAlignment="false" />
+                    </Item4>
+                  </Cells>
+                </Item4>
+                <Item5 Ref="153" ControlType="XRTableRow" Name="tableRow5" Weight="1">
+                  <Cells>
+                    <Item1 Ref="154" ControlType="XRTableCell" Name="tableCell17" Weight="0.68263396106129426" Multiline="true" Text=" Số gói BD nhỏ" Padding="2,2,0,0,100">
+                      <StylePriority Ref="155" UsePadding="false" />
+                    </Item1>
+                    <Item2 Ref="156" ControlType="XRTableCell" Name="tableCell18" Weight="1.1676654942361029" Multiline="true" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="157" EventName="BeforePrint" PropertyName="Text" Expression="[Small]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="158" UseTextAlignment="false" />
+                    </Item2>
+                    <Item3 Ref="159" ControlType="XRTableCell" Name="tableCell19" Weight="0.78443104370646544" Multiline="true" Text=" Số gói BD lớn" />
+                    <Item4 Ref="160" ControlType="XRTableCell" Name="tableCell20" Weight="1.3652695009961378" Multiline="true" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="161" EventName="BeforePrint" PropertyName="Text" Expression="[Medium]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="162" UseTextAlignment="false" />
+                    </Item4>
+                  </Cells>
+                </Item5>
+              </Rows>
+              <StylePriority Ref="163" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+            </Item2>
+          </Controls>
+        </Item2>
+        <Item3 Ref="164" ControlType="GroupFooterBand" Name="GroupFooter1" HeightF="302.7504">
+          <Controls>
+            <Item1 Ref="165" ControlType="XRLabel" Name="label49" Multiline="true" Text="Ghi chú:&#xD;&#xA;1. Gói Phụ tùng BDTT chỉ bao gồm 3 loại phụ tùng: Dầu, Lọc dầu &amp; Gioăng xả dầu động cơ, không bao gồm các loại phụ tùng khác và chi phí nhân công bảo dưỡng.&#xD;&#xA;2. Gói Phụ tùng BDTT có giá trị sử dụng trong thời hạn và số kilomet xác định kể từ ngày mua." TextAlignment="MiddleLeft" SizeF="796.9996,71.45831" LocationFloat="10.000102,161.291626" Font="Arial, 9pt, style=Italic, charSet=0">
+              <StylePriority Ref="166" UseFont="false" UseTextAlignment="false" />
+            </Item1>
+            <Item2 Ref="167" ControlType="XRLabel" Name="label5" Text="(Ký, đóng dấu và ghi rõ họ tên, chức danh)" TextAlignment="MiddleCenter" SizeF="270.833221,22.916687" LocationFloat="399.917084,279.8337" Font="Arial, 9.75pt, style=Italic, charSet=0">
+              <StylePriority Ref="168" UseFont="false" UseTextAlignment="false" />
+            </Item2>
+            <Item3 Ref="169" ControlType="XRLabel" Name="label44" TextFormatString="{0:#,#}" Multiline="true" TextAlignment="MiddleRight" SizeF="196.314514,24.7917175" LocationFloat="591.685242,0" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+              <Summary Ref="170" Running="Report" />
+              <ExpressionBindings>
+                <Item1 Ref="171" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([MaintainDetail].[SumQty] * [MaintainDetail].[Price])" />
+              </ExpressionBindings>
+              <StylePriority Ref="172" UseFont="false" UseTextAlignment="false" />
+            </Item3>
+            <Item4 Ref="173" ControlType="XRLabel" Name="label43" Multiline="true" Text="Tổng thành tiền:" TextAlignment="MiddleLeft" SizeF="130.290863,24.7917175" LocationFloat="461.3945,0" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+              <StylePriority Ref="174" UseFont="false" UseTextAlignment="false" />
+            </Item4>
+            <Item5 Ref="175" ControlType="XRLabel" Name="label34" Multiline="true" Text="VAT:" TextAlignment="MiddleLeft" SizeF="130.290863,24.79172" LocationFloat="461.3945,49.5834351" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+              <StylePriority Ref="176" UseFont="false" UseTextAlignment="false" />
+            </Item5>
+            <Item6 Ref="177" ControlType="XRLabel" Name="label31" TextFormatString="{0:#,#}" Multiline="true" TextAlignment="MiddleRight" SizeF="196.314514,24.7917137" LocationFloat="591.685242,49.5835" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+              <Summary Ref="178" Running="Report" />
+              <ExpressionBindings>
+                <Item1 Ref="179" EventName="BeforePrint" PropertyName="Text" Expression="sumSum(([MaintainDetail].[SumQty] * [MaintainDetail].[Price] - ([MaintainDetail].[SumQty] * [MaintainDetail].[Price]) * [DiscountPercent] /100)* [TaxRate] /100&#xA;)" />
+              </ExpressionBindings>
+              <StylePriority Ref="180" UseFont="false" UseTextAlignment="false" />
+            </Item6>
+            <Item7 Ref="181" ControlType="XRLabel" Name="label48" TextFormatString="{0:#,#}" Multiline="true" TextAlignment="MiddleRight" SizeF="196.314514,24.7917175" LocationFloat="591.685242,74.37521" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+              <Summary Ref="182" Running="Report" />
+              <ExpressionBindings>
+                <Item1 Ref="183" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([MaintainDetail].[SumQty] * [MaintainDetail].[Price] - ([MaintainDetail].[SumQty] * [MaintainDetail].[Price]) * [DiscountPercent] /100&#xA;)&#xA; + sumSum(([MaintainDetail].[SumQty] * [MaintainDetail].[Price] - ([MaintainDetail].[SumQty] * [MaintainDetail].[Price]) * [DiscountPercent] /100)* [TaxRate] /100&#xA;)&#xA;" />
+              </ExpressionBindings>
+              <StylePriority Ref="184" UseFont="false" UseTextAlignment="false" />
+            </Item7>
+            <Item8 Ref="185" ControlType="XRLabel" Name="label47" Multiline="true" Text="Tổng tiền phải trả:" TextAlignment="MiddleLeft" SizeF="130.290863,24.7917175" LocationFloat="461.3945,74.37521" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+              <StylePriority Ref="186" UseFont="false" UseTextAlignment="false" />
+            </Item8>
+            <Item9 Ref="187" ControlType="XRLabel" Name="label46" TextFormatString="{0:Giảm giá (#%)}" Multiline="true" Text="Giảm giá" TextAlignment="MiddleLeft" SizeF="130.290863,24.7917137" LocationFloat="461.3945,24.7917175" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+              <ExpressionBindings>
+                <Item1 Ref="188" EventName="BeforePrint" PropertyName="Text" Expression="'Giảm giá (' + ToStr([DiscountPercent]) + '%):'&#xA;" />
+              </ExpressionBindings>
+              <StylePriority Ref="189" UseFont="false" UseTextAlignment="false" />
+            </Item9>
+            <Item10 Ref="190" ControlType="XRLabel" Name="label45" TextFormatString="{0:#,#}" Multiline="true" TextAlignment="MiddleRight" SizeF="196.314514,24.7917137" LocationFloat="591.685242,24.7917175" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+              <Summary Ref="191" Running="Report" />
+              <ExpressionBindings>
+                <Item1 Ref="192" EventName="BeforePrint" PropertyName="Text" Expression="sumSum(([MaintainDetail].[SumQty] * [MaintainDetail].[Price]) * [DiscountPercent] /100&#xA;)" />
+              </ExpressionBindings>
+              <StylePriority Ref="193" UseFont="false" UseTextAlignment="false" />
+            </Item10>
+            <Item11 Ref="194" ControlType="XRLabel" Name="label41" TextAlignment="MiddleCenter" SizeF="469.915253,22.999939" LocationFloat="308.084747,256.83374" Font="Arial, 9.75pt, style=Bold, charSet=0" ForeColor="Red">
+              <ExpressionBindings>
+                <Item1 Ref="195" EventName="BeforePrint" PropertyName="Text" Expression="[TenantName]" />
+              </ExpressionBindings>
+              <StylePriority Ref="196" UseFont="false" UseForeColor="false" UseTextAlignment="false" />
+            </Item11>
+            <Item12 Ref="197" ControlType="XRLabel" Name="label40" Text="…......, ngày ..... tháng ....... năm ....... " TextAlignment="MiddleCenter" SizeF="270.8333,22.999939" LocationFloat="399.916962,233.8338" Font="Arial, 9.75pt, charSet=0">
+              <StylePriority Ref="198" UseFont="false" UseTextAlignment="false" />
+            </Item12>
+            <Item13 Ref="199" ControlType="XRLabel" Name="label39" Multiline="true" Text="(Ký và ghi rõ họ tên)" TextAlignment="MiddleCenter" SizeF="146.875015,23" LocationFloat="44.12511,256.833679" Padding="2,2,0,0,100">
+              <StylePriority Ref="200" UseTextAlignment="false" />
+            </Item13>
+            <Item14 Ref="201" ControlType="XRLabel" Name="label38" Multiline="true" Text="Khách hàng" TextAlignment="MiddleCenter" SizeF="100,23" LocationFloat="66.41668,233.8336" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+              <StylePriority Ref="202" UseFont="false" UseTextAlignment="false" />
+            </Item14>
+            <Item15 Ref="203" ControlType="XRLabel" Name="label37" Multiline="true" Text="Công ty ô tô Toyota Việt Nam chứng nhận quý khách hàng có thông tin cá nhân và thông tin xe như trên đây đã tham gia gói bảo dưỡng định kỳ trả trước chính hãng Toyota. &#xD;&#xA;Chương trình Gói bảo dưỡng định kỳ trả trước được áp dụng tại tất cả các đại lý ủy quyền của Toyota trên toàn quốc. &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;" SizeF="796.9997,51.7079468" LocationFloat="9.999974,109.583664" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+              <StylePriority Ref="204" UseFont="false" />
+            </Item15>
+          </Controls>
+        </Item3>
+      </Bands>
+    </Item4>
+  </Bands>
+</XtraReportsLayoutSerializer>

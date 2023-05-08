@@ -1,0 +1,7 @@
+<div [ngClass]="{'subscription-bar-visible': subscriptionStatusBarVisible()}">
+    <default-layout ></default-layout>
+</div>
+
+
+<theme-selection-panel #themeSelectionPanelComponent *ngIf="!installationMode && isQuickThemeSelectEnabled"></theme-selection-panel>
+<session-timeout #sessionTimeout *ngIf="IsSessionTimeOutEnabled"></session-timeout>

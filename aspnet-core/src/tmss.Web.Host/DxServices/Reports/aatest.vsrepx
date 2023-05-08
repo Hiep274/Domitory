@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="20.2.5.0" Ref="0" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="ContractCheckCouponFree" Landscape="true" Margins="10, 565, 9, 0" PageWidth="1100" PageHeight="850" Version="20.2" RightToLeftLayout="Yes" Font="Arial, 9.75pt" BorderWidth="2">
+  <Extensions>
+    <Item1 Ref="1" Key="VSReportExtInfo" Value=".vsrepx" />
+  </Extensions>
+  <Bands>
+    <Item1 Ref="2" ControlType="TopMarginBand" Name="TopMargin" HeightF="9" />
+    <Item2 Ref="3" ControlType="BottomMarginBand" Name="BottomMargin" HeightF="0" />
+    <Item3 Ref="4" ControlType="DetailBand" Name="Detail" HeightF="410.791656">
+      <Controls>
+        <Item1 Ref="5" ControlType="XRTable" Name="table11" SizeF="523.958435,400.4167" LocationFloat="0,9.999911" Padding="2,2,0,0,96">
+          <Rows>
+            <Item1 Ref="6" ControlType="XRTableRow" Name="tableRow11" Weight="1">
+              <Cells>
+                <Item1 Ref="7" ControlType="XRTableCell" Name="tableCell37" Weight="1" Multiline="true" Borders="All">
+                  <Controls>
+                    <Item1 Ref="8" ControlType="XRPictureBox" Name="pictureBox2" ImageSource="img,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" SizeF="95.4165039,42.0801" LocationFloat="418.541962,10.0000067" BorderWidth="0">
+                      <StylePriority Ref="9" UseBorderWidth="false" />
+                    </Item1>
+                    <Item2 Ref="10" ControlType="XRTable" Name="table12" SizeF="503.9584,26.0415955" LocationFloat="10.000102,363.958435" Padding="2,2,0,0,96">
+                      <Rows>
+                        <Item1 Ref="11" ControlType="XRTableRow" Name="tableRow12" Weight="1">
+                          <Cells>
+                            <Item1 Ref="12" ControlType="XRTableCell" Name="tableCell38" Weight="1" Multiline="true" Text="Lưu ý: Phiếu này không có giá trị quy đổi thành tiền mặt hoặc bất kỳ hiện vật nào khác có giá trị tương đương" Font="Arial, 8pt, style=Italic" BorderWidth="0">
+                              <StylePriority Ref="13" UseFont="false" UseBorderWidth="false" />
+                            </Item1>
+                          </Cells>
+                        </Item1>
+                      </Rows>
+                    </Item2>
+                    <Item3 Ref="14" ControlType="XRTable" Name="table13" SizeF="486.250061,25" LocationFloat="27.7084351,280.410126" Padding="2,2,0,0,96" BorderWidth="0">
+                      <Rows>
+                        <Item1 Ref="15" ControlType="XRTableRow" Name="tableRow13" Weight="1">
+                          <Cells>
+                            <Item1 Ref="16" ControlType="XRTableCell" Name="tableCell39" Weight="0.98681773040254228" Multiline="true" Text="Khách hàng (Ký, ghi rõ họ tên)" Font="Arial, 8pt">
+                              <StylePriority Ref="17" UseFont="false" />
+                            </Item1>
+                            <Item2 Ref="18" ControlType="XRTableCell" Name="tableCell40" Weight="0.7713745806850284" Multiline="true" Text="Đại lý làm dịch vụ (Đóng dấu)" Font="Arial, 8pt">
+                              <StylePriority Ref="19" UseFont="false" />
+                            </Item2>
+                          </Cells>
+                        </Item1>
+                      </Rows>
+                      <StylePriority Ref="20" UseBorderWidth="false" />
+                    </Item3>
+                    <Item4 Ref="21" ControlType="XRTable" Name="table14" SizeF="503.9584,25" LocationFloat="10.000102,230.410126" Padding="2,2,0,0,96" BorderWidth="0">
+                      <Rows>
+                        <Item1 Ref="22" ControlType="XRTableRow" Name="tableRow14" Weight="1">
+                          <Cells>
+                            <Item1 Ref="23" ControlType="XRTableCell" Name="tableCell41" Weight="1.1922086169994812" Multiline="true" Text="4. Đại lý làm dịch vụ:" Font="Arial, 8pt, style=Bold">
+                              <StylePriority Ref="24" UseFont="false" />
+                            </Item1>
+                            <Item2 Ref="25" ControlType="XRTableCell" Name="tableCell42" Weight="3.8473756725311987" Multiline="true" Text="........................................................................................................................" Font="Arial, 8pt">
+                              <StylePriority Ref="26" UseFont="false" />
+                            </Item2>
+                          </Cells>
+                        </Item1>
+                      </Rows>
+                      <StylePriority Ref="27" UseBorderWidth="false" />
+                    </Item4>
+                    <Item5 Ref="28" ControlType="XRTable" Name="table15" SizeF="503.9585,25" LocationFloat="9.999847,255.410126" Padding="2,2,0,0,96" BorderWidth="0">
+                      <Rows>
+                        <Item1 Ref="29" ControlType="XRTableRow" Name="tableRow15" Weight="1">
+                          <Cells>
+                            <Item1 Ref="30" ControlType="XRTableCell" Name="tableCell43" Weight="1.0833332824707032" Multiline="true" Text="5. Ngày làm dịch vụ" Font="Arial, 8pt, style=Bold">
+                              <StylePriority Ref="31" UseFont="false" />
+                            </Item1>
+                            <Item2 Ref="32" ControlType="XRTableCell" Name="tableCell44" Weight="1.5833328923534835" Multiline="true" Text="(Ngày/ Tháng/ Năm):" Font="Arial, 8pt">
+                              <StylePriority Ref="33" UseFont="false" />
+                            </Item2>
+                            <Item3 Ref="34" ControlType="XRTableCell" Name="tableCell45" Weight="2.3729186223555061" Multiline="true" Text=".........../.........../..........." Font="Arial, 8pt">
+                              <StylePriority Ref="35" UseFont="false" />
+                            </Item3>
+                          </Cells>
+                        </Item1>
+                      </Rows>
+                      <StylePriority Ref="36" UseBorderWidth="false" />
+                    </Item5>
+                    <Item6 Ref="37" ControlType="XRTable" Name="table16" SizeF="503.958252,23.9583282" LocationFloat="10.000102,206.4518" Padding="2,2,0,0,96" BorderWidth="0">
+                      <Rows>
+                        <Item1 Ref="38" ControlType="XRTableRow" Name="tableRow16" Weight="1">
+                          <Cells>
+                            <Item1 Ref="39" ControlType="XRTableCell" Name="tableCell46" Weight="1.3229153442382813" Multiline="true" Text="3. Thời gian hiệu lực" Font="Arial, 8pt, style=Bold">
+                              <StylePriority Ref="40" UseFont="false" />
+                            </Item1>
+                            <Item2 Ref="41" ControlType="XRTableCell" Name="tableCell47" Weight="0.4526264953613281" Multiline="true" Text="Từ:" Font="Arial, 8pt">
+                              <StylePriority Ref="42" UseFont="false" />
+                            </Item2>
+                            <Item3 Ref="43" ControlType="XRTableCell" Name="tableCell48" Weight="0.89112319946289054" Multiline="true" Text="[DeliveryDate]" Font="Arial, 8pt">
+                              <StylePriority Ref="44" UseFont="false" />
+                            </Item3>
+                            <Item4 Ref="45" ControlType="XRTableCell" Name="tableCell49" Weight="0.4583334350585937" Multiline="true" Text="Đến:" Font="Arial, 8pt">
+                              <StylePriority Ref="46" UseFont="false" />
+                            </Item4>
+                            <Item5 Ref="47" ControlType="XRTableCell" Name="tableCell50" Weight="1.9145840454101561" Multiline="true" Text="[DeliveryDate1]" Font="Arial, 8pt">
+                              <StylePriority Ref="48" UseFont="false" />
+                            </Item5>
+                          </Cells>
+                        </Item1>
+                      </Rows>
+                      <StylePriority Ref="49" UseBorderWidth="false" />
+                    </Item6>
+                    <Item7 Ref="50" ControlType="XRTable" Name="table17" SizeF="503.958344,21.875" LocationFloat="9.999974,184.5768" Padding="2,2,0,0,96" BorderWidth="0">
+                      <Rows>
+                        <Item1 Ref="51" ControlType="XRTableRow" Name="tableRow17" Weight="1">
+                          <Cells>
+                            <Item1 Ref="52" ControlType="XRTableCell" Name="tableCell51" Weight="0.70833334463613862" Multiline="true" Text="Tên chủ xe:" Font="Arial, 8pt">
+                              <StylePriority Ref="53" UseFont="false" />
+                            </Item1>
+                            <Item2 Ref="54" ControlType="XRTableCell" Name="tableCell52" Weight="1.3734601334930932" Multiline="true" Text="[CustomerName]" Font="Arial, 8pt">
+                              <StylePriority Ref="55" UseFont="false" />
+                            </Item2>
+                            <Item3 Ref="56" ControlType="XRTableCell" Name="tableCell53" Weight="0.58487273370035386" Multiline="true" Text="Địa chỉ:" Font="Arial, 8pt">
+                              <StylePriority Ref="57" UseFont="false" />
+                            </Item3>
+                            <Item4 Ref="58" ControlType="XRTableCell" Name="tableCell54" Weight="2.3729174673495019" Multiline="true" Text="[CustomerAddress]" Font="Arial, 8pt">
+                              <StylePriority Ref="59" UseFont="false" />
+                            </Item4>
+                          </Cells>
+                        </Item1>
+                      </Rows>
+                      <StylePriority Ref="60" UseBorderWidth="false" />
+                    </Item7>
+                    <Item8 Ref="61" ControlType="XRLabel" Name="label5" Multiline="true" Text="2. Thông tin khách hàng" TextAlignment="MiddleLeft" SizeF="177.5542,23.3316956" LocationFloat="10.000102,161.245087" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" BorderWidth="0">
+                      <StylePriority Ref="62" UseFont="false" UseBorderWidth="false" UseTextAlignment="false" />
+                    </Item8>
+                    <Item9 Ref="63" ControlType="XRTable" Name="table18" SizeF="503.9584,18.75" LocationFloat="9.999974,142.495087" Padding="2,2,0,0,96" BorderWidth="0">
+                      <Rows>
+                        <Item1 Ref="64" ControlType="XRTableRow" Name="tableRow18" Weight="1">
+                          <Cells>
+                            <Item1 Ref="65" ControlType="XRTableCell" Name="tableCell55" Weight="0.53124999999999989" Multiline="true" Text="Số VIN:" Font="Arial, 8pt">
+                              <StylePriority Ref="66" UseFont="false" />
+                            </Item1>
+                            <Item2 Ref="67" ControlType="XRTableCell" Name="tableCell56" Weight="1.3854166412353517" Multiline="true" Text="[vinno]" Font="Arial, 8pt">
+                              <StylePriority Ref="68" UseFont="false" />
+                            </Item2>
+                            <Item3 Ref="69" ControlType="XRTableCell" Name="tableCell57" Weight="0.48387649536132815" Multiline="true" Text="Loại xe:" Font="Arial, 8pt">
+                              <StylePriority Ref="70" UseFont="false" />
+                            </Item3>
+                            <Item4 Ref="71" ControlType="XRTableCell" Name="tableCell58" Weight="0.870291442871094" Multiline="true" Text="[Model]" Font="Arial, 8pt">
+                              <StylePriority Ref="72" UseFont="false" />
+                            </Item4>
+                            <Item5 Ref="73" ControlType="XRTableCell" Name="tableCell59" Weight="0.70000190734863277" Multiline="true" Text="Mã kiểu xe:" Font="Arial, 8pt">
+                              <StylePriority Ref="74" UseFont="false" />
+                            </Item5>
+                            <Item6 Ref="75" ControlType="XRTableCell" Name="tableCell60" Weight="1.0687475585937498" Multiline="true" Text="[Grade]" Font="Arial, 8pt">
+                              <StylePriority Ref="76" UseFont="false" />
+                            </Item6>
+                          </Cells>
+                        </Item1>
+                      </Rows>
+                      <StylePriority Ref="77" UseBorderWidth="false" />
+                    </Item9>
+                    <Item10 Ref="78" ControlType="XRLabel" Name="label6" Multiline="true" Text="1. Thông tin xe" TextAlignment="MiddleLeft" SizeF="119.220863,21.8749924" LocationFloat="10.000102,120.620094" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" BorderWidth="0">
+                      <StylePriority Ref="79" UseFont="false" UseBorderWidth="false" UseTextAlignment="false" />
+                    </Item10>
+                    <Item11 Ref="80" ControlType="XRLabel" Name="label7" Multiline="true" Text="PHIẾU THAY DẦU MÁY &amp; KIỂM TRA XE MIỄN PHÍ" TextAlignment="MiddleLeft" SizeF="349.27533,22.29004" LocationFloat="80.8333054,98.3300552" Font="Times New Roman, 10pt, style=Bold, Underline" Padding="2,2,0,0,100" BorderWidth="0">
+                      <StylePriority Ref="81" UseFont="false" UseBorderWidth="false" UseTextAlignment="false" />
+                    </Item11>
+                    <Item12 Ref="82" ControlType="XRTable" Name="table19" SizeF="503.958221,18.75" LocationFloat="10.000102,79.5800552" Padding="2,2,0,0,96" BorderWidth="0">
+                      <Rows>
+                        <Item1 Ref="83" ControlType="XRTableRow" Name="tableRow19" Weight="1">
+                          <Cells>
+                            <Item1 Ref="84" ControlType="XRTableCell" Name="tableCell61" Weight="0.708332061767578" Multiline="true" Text="MST:" Font="Arial, 8pt">
+                              <StylePriority Ref="85" UseFont="false" />
+                            </Item1>
+                            <Item2 Ref="86" ControlType="XRTableCell" Name="tableCell62" Weight="1.577084884643555" Multiline="true" Text="[SellTax]" Font="Arial, 8pt">
+                              <StylePriority Ref="87" UseFont="false" />
+                            </Item2>
+                            <Item3 Ref="88" ControlType="XRTableCell" Name="tableCell63" Weight="0.62083297729492193" Multiline="true" />
+                            <Item4 Ref="89" ControlType="XRTableCell" Name="tableCell64" Weight="0.36041633605957046" Multiline="true" />
+                            <Item5 Ref="90" ControlType="XRTableCell" Name="tableCell65" Weight="0.704169006347656" Multiline="true" Text="Ngày cấp:" Font="Arial, 8pt">
+                              <StylePriority Ref="91" UseFont="false" />
+                            </Item5>
+                            <Item6 Ref="92" ControlType="XRTableCell" Name="tableCell66" Weight="1.0687469482421876" Multiline="true" Text="[DeliveryDate]" Font="Arial, 8pt">
+                              <StylePriority Ref="93" UseFont="false" />
+                            </Item6>
+                          </Cells>
+                        </Item1>
+                      </Rows>
+                      <StylePriority Ref="94" UseBorderWidth="false" />
+                    </Item12>
+                    <Item13 Ref="95" ControlType="XRTable" Name="table20" SizeF="503.9585,18.75" LocationFloat="9.999974,60.83005" Padding="2,2,0,0,96" BorderWidth="0">
+                      <Rows>
+                        <Item1 Ref="96" ControlType="XRTableRow" Name="tableRow20" Weight="1">
+                          <Cells>
+                            <Item1 Ref="97" ControlType="XRTableCell" Name="tableCell67" Weight="0.708333282470703" Multiline="true" Text="Điện thoại:" Font="Arial, 8pt">
+                              <StylePriority Ref="98" UseFont="false" />
+                            </Item1>
+                            <Item2 Ref="99" ControlType="XRTableCell" Name="tableCell68" Weight="1.0672097778320313" Multiline="true" Text="[SellPhoneNum]" Font="Arial, 8pt">
+                              <StylePriority Ref="100" UseFont="false" />
+                            </Item2>
+                            <Item3 Ref="101" ControlType="XRTableCell" Name="tableCell69" Weight="0.40625022888183615" Multiline="true" Text="Fax:" Font="Arial, 8pt">
+                              <StylePriority Ref="102" UseFont="false" />
+                            </Item3>
+                            <Item4 Ref="103" ControlType="XRTableCell" Name="tableCell70" Weight="1.089041442871094" Multiline="true" Text="[SellFax]" Font="Arial, 8pt">
+                              <StylePriority Ref="104" UseFont="false" />
+                            </Item4>
+                            <Item5 Ref="105" ControlType="XRTableCell" Name="tableCell71" Weight="0.700001754760742" Multiline="true" Text="Số seri:" Font="Arial, 8pt">
+                              <StylePriority Ref="106" UseFont="false" />
+                            </Item5>
+                            <Item6 Ref="107" ControlType="XRTableCell" Name="tableCell72" Weight="1.068748474121094" Multiline="true" Text="[Seri]" Font="Arial, 8pt">
+                              <StylePriority Ref="108" UseFont="false" />
+                            </Item6>
+                          </Cells>
+                        </Item1>
+                      </Rows>
+                      <StylePriority Ref="109" UseBorderWidth="false" />
+                    </Item13>
+                    <Item14 Ref="110" ControlType="XRLabel" Name="label9" Multiline="true" Text="[SellAddress]" TextAlignment="MiddleLeft" SizeF="392.137543,16.040041" LocationFloat="10.000102,26.0400448" Font="Times New Roman, 8pt" Padding="2,2,0,0,100" BorderWidth="0">
+                      <StylePriority Ref="111" UseFont="false" UseBorderWidth="false" UseTextAlignment="false" />
+                    </Item14>
+                    <Item15 Ref="112" ControlType="XRLabel" Name="label10" Multiline="true" Text="[SellDealerInfor]" TextAlignment="MiddleLeft" SizeF="392.137543,16.04004" LocationFloat="10.000102,10.0000067" Font="Times New Roman, 8pt, style=Bold" Padding="2,2,0,0,100" BorderWidth="0">
+                      <StylePriority Ref="113" UseFont="false" UseBorderWidth="false" UseTextAlignment="false" />
+                    </Item15>
+                  </Controls>
+                  <StylePriority Ref="114" UseBorders="false" />
+                </Item1>
+              </Cells>
+            </Item1>
+          </Rows>
+        </Item1>
+      </Controls>
+    </Item3>
+  </Bands>
+</XtraReportsLayoutSerializer>

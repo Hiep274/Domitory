@@ -1,0 +1,626 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+	<Import Project="..\..\common.props"></Import>
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+		<PreserveCompilationContext>true</PreserveCompilationContext>
+		<AssemblyName>tmss.Web.Host</AssemblyName>
+		<OutputType>Exe</OutputType>
+		<PackageId>tmss.Web.Host</PackageId>
+		<UserSecretsId>MyCompanyName-tmss-894FDFC1-6482-4A56-926A-3C46C9FE0329</UserSecretsId>
+		<RootNamespace>tmss.Web</RootNamespace>
+		<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+		<GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+		<DockerfileContext>..\..</DockerfileContext>
+	</PropertyGroup>
+	<ItemGroup>
+		<Compile Remove="App_Data\**" />
+		<Compile Remove="wwwroot\Recruitment\**" />
+		<Content Remove="App_Data\**" />
+		<Content Remove="wwwroot\Recruitment\**" />
+		<EmbeddedResource Remove="App_Data\**" />
+		<EmbeddedResource Remove="wwwroot\Recruitment\**" />
+		<None Remove="App_Data\**" />
+		<None Remove="wwwroot\Recruitment\**" />
+	</ItemGroup>
+	<ItemGroup>
+		<Content Remove="wwwroot\swagger\ui\index.html" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Remove="DxServices\Reports\aatest.vsrepx" />
+		<None Remove="DxServices\Reports\AccessoriesProposal.vsrepx" />
+		<None Remove="DxServices\Reports\BienBanThoaThuanTCTC.vsrepx" />
+		<None Remove="DxServices\Reports\ContractAppendix.vsrepx" />
+		<None Remove="DxServices\Reports\ContractCheckCouponFree.vsrepx" />
+		<None Remove="DxServices\Reports\ContractCouponDiscountRequest.vsrepx" />
+		<None Remove="DxServices\Reports\ContractDeliveryVehicleExportReport.vsrepx" />
+		<None Remove="DxServices\Reports\ContractExportToGateWayReport.vsrepx" />
+		<None Remove="DxServices\Reports\ContractFlowerRequest.vsrepx" />
+		<None Remove="DxServices\Reports\ContractHandOverCarReport.vsrepx" />
+		<None Remove="DxServices\Reports\ContractInvoiceRequest.vsrepx" />
+		<None Remove="DxServices\Reports\ContractNewVehicleCleaningReport.vsrepx" />
+		<None Remove="DxServices\Reports\ContractOderVehicleExportReport.vsrepx" />
+		<None Remove="DxServices\Reports\ContractPaymentConfirmationReport.vsrepx" />
+		<None Remove="DxServices\Reports\ContractPromotionalGiftRequestReport.vsrepx" />
+		<None Remove="DxServices\Reports\ContractReceipt.vsrepx" />
+		<None Remove="DxServices\Reports\ContractReport.vsrepx" />
+		<None Remove="DxServices\Reports\ContractSummary.vsrepx" />
+		<None Remove="DxServices\Reports\ContractTemporaryExportReport.vsrepx" />
+		<None Remove="DxServices\Reports\ContractVehicleDeliveryProgressReport.vsrepx" />
+		<None Remove="DxServices\Reports\ContractWarehouseExportReport.vsrepx" />
+		<None Remove="DxServices\Reports\ContractWarrantyRequestReport.vsrepx" />
+		<None Remove="DxServices\Reports\CostVehicleProposalReport.vsrepx" />
+		<None Remove="DxServices\Reports\DashBoard1.vsrepx" />
+		<None Remove="DxServices\Reports\DealerOrderColorCbuReport.vsrepx" />
+		<None Remove="DxServices\Reports\DealerOrderReport.vsrepx" />
+		<None Remove="DxServices\Reports\DemoAuditReport.repx" />
+		<None Remove="DxServices\Reports\EmployeeCertificateReport.vsrepx" />
+		<None Remove="DxServices\Reports\EmployeeNotCertificateReport.vsrepx" />
+		<None Remove="DxServices\Reports\EmployeeSummaryRpt.vsrepx" />
+		<None Remove="DxServices\Reports\FSOOrderColorReport.vsrepx" />
+		<None Remove="DxServices\Reports\GeneralContactHWCExportReport.vsrepx" />
+		<None Remove="DxServices\Reports\MuaBanTraThangDepositeNoContractDurationTCTC.vsrepx" />
+		<None Remove="DxServices\Reports\MuaBanTraThangDepositeTCTC.vsrepx" />
+		<None Remove="DxServices\Reports\ORMDataModel.xpo" />
+		<None Remove="DxServices\Reports\ORMDataModel.xpo.diagram" />
+		<None Remove="DxServices\Reports\PaymentTimeForBankLoanReport.vsrepx" />
+		<None Remove="DxServices\Reports\PaymentTimeForPayDirectlyReport.vsrepx" />
+		<None Remove="DxServices\Reports\PpmPaymentReport.vsrepx" />
+		<None Remove="DxServices\Reports\PriceReport.vsrepx" />
+		<None Remove="DxServices\Reports\PromotionRotationHistoryRpt.vsrepx" />
+		<None Remove="DxServices\Reports\ProposalReport.vsrepx" />
+		<None Remove="DxServices\Reports\SalesContractDetailReport.vsrepx" />
+		<None Remove="DxServices\Reports\SalesContractManagementExportReport.vsrepx" />
+		<None Remove="DxServices\Reports\SalesContractProposalReport.vsrepx" />
+		<None Remove="DxServices\Reports\SalesContractProposalReportSecondForm.vsrepx" />
+		<None Remove="DxServices\Reports\SalesCustomerContractAdminRpt.vsrepx" />
+		<None Remove="DxServices\Reports\SalesCustomerContractApprovalReport.vsrepx" />
+		<None Remove="DxServices\Reports\SalesCustomerContractForTMVReport.vsrepx" />
+		<None Remove="DxServices\Reports\SalesCustomerContractReport.vsrepx" />
+		<None Remove="DxServices\Reports\SalesCustomerContractTmssReport.vsrepx" />
+		<None Remove="DxServices\Reports\SalesCustomerInquiryKPIReportTest.vsrepx" />
+		<None Remove="DxServices\Reports\SalesCustomerProposalReport.vsrepx" />
+		<None Remove="DxServices\Reports\SalesCustomerReport.vsrepx" />
+		<None Remove="DxServices\Reports\SalesFleetApproved.vsrepx" />
+		<None Remove="DxServices\Reports\SalesFleetInquiries.vsrepx" />
+		<None Remove="DxServices\Reports\SalesFleetReportExcel.vsrepx" />
+		<None Remove="DxServices\Reports\SalesFleetSalePlan.vsrepx" />
+		<None Remove="DxServices\Reports\SalesFleetTMVApproveReport.vsrepx" />
+		<None Remove="DxServices\Reports\SuggestAccessories.vsrepx" />
+		<None Remove="DxServices\Reports\SummaryByJobReport.vsrepx" />
+		<None Remove="DxServices\Reports\TestReport.vsrepx" />
+		<None Remove="DxServices\Reports\TraGopTCTC.vsrepx" />
+		<None Remove="DxServices\Reports\TraThangTCTC.vsrepx" />
+		<None Remove="DxServices\Reports\WarrantyConfirmReport.vsrepx" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\.editorconfig" Link=".editorconfig" />
+		<None Include="app.config" />
+		<None Include="wwwroot\Plugins\.gitkeep" />
+		<None Update="Dockerfile">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="log4net.config">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+		</None>
+		<None Update="wwwroot\**\*">
+			<CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\tmss.Web.Core\tmss.Web.Core.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Abp.Castle.Log4Net" Version="5.6.0" />
+		<PackageReference Include="AspNetCore.HealthChecks.UI" Version="3.0.11" />
+		<PackageReference Include="ExcelDataReader" Version="3.6.0" />
+		<PackageReference Include="FirebaseAdmin" Version="2.0.0" />
+		<PackageReference Include="Hangfire.SqlServer" Version="1.7.9" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.3">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.10" />
+		<PackageReference Include="NBuilder" Version="6.1.0" />
+		<PackageReference Include="NPOI" Version="2.5.3" />
+		<PackageReference Include="System.Drawing.Common" Version="5.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Include="DxServices\Reports\aatest.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\AccessoriesProposal.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\BienBanThoaThuanTCTC.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\CostVehicleProposalReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\GeneralContactHWCExportReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\MuaBanTraThangDepositeNoContractDurationTCTC.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\MuaBanTraThangDepositeTCTC.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\PpmPaymentReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\PriceReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\ProposalReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\SalesContractDetailReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\SalesContractManagementExportReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\SalesContractProposalReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\SalesContractProposalReportSecondForm.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\SalesCustomerContractAdminRpt.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\SalesCustomerContractApprovalReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\SalesCustomerContractForTMVReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\SalesCustomerProposalReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\SalesCustomerContractReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\ContractAppendix.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\ContractCheckCouponFree.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\ContractCouponDiscountRequest.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\ContractOderVehicleExportReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\ContractWarehouseExportReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\ContractDeliveryVehicleExportReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\ContractExportToGateWayReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\ContractFlowerRequest.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\ContractHandOverCarReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\ContractInvoiceRequest.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\ContractNewVehicleCleaningReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\ContractPaymentConfirmationReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\ContractPromotionalGiftRequestReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\ContractReceipt.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\ContractReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\ContractSummary.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\ContractTemporaryExportReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\ContractVehicleDeliveryProgressReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\ContractWarrantyRequestReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\DashBoard1.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\DealerOrderColorCbuReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\DealerOrderReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\EmployeeCertificateReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\EmployeeNotCertificateReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\EmployeeSummaryRpt.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\FSOOrderColorReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\PaymentTimeForBankLoanReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\PaymentTimeForPayDirectlyReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\PromotionRotationHistoryRpt.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\SalesCustomerContractTmssReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\SalesCustomerInquiryKPIReportTest.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\SalesCustomerReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\SalesFleetApproved.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\SalesFleetInquiries.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\SalesFleetReportExcel.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\SalesFleetSalePlan.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\SalesFleetTMVApproveReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\SuggestAccessories.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\SummaryByJobReport.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\TraGopTCTC.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\TraThangTCTC.vsrepx" />
+		<EmbeddedResource Include="DxServices\Reports\WarrantyConfirmReport.vsrepx" />
+		<EmbeddedResource Include="wwwroot\swagger\ui\index.html" />
+		<EmbeddedResource Include="DxServices\Reports\AuditLogRpt.repx" />
+		<EmbeddedResource Include="DxServices\Reports\DemoAuditReport.repx" />
+		<EmbeddedResource Include="DxServices\Reports\DemoChartReport.repx" />
+	</ItemGroup>
+	<ItemGroup>
+		<Folder Include="wwwroot\Common\Images\Signature_Img\" />
+		<Folder Include="wwwroot\InvalidImportFile\" />
+		<Folder Include="wwwroot\ContractTmssManagement\" />
+		<Folder Include="wwwroot\Localization\Files\" />
+		<Folder Include="wwwroot\TmvImportTemplate\" />
+		<Folder Include="wwwroot\TmvImportTemplate\" />
+		<Folder Include="wwwroot\Resources\Images\" />
+		<Folder Include="wwwroot\Plugins\" />
+		<Folder Include="wwwroot\Resources\ContractTmssManagement\" />
+	</ItemGroup>
+	<ItemGroup>
+		<Reference Include="GemBox.Document">
+		  <HintPath>..\..\..\..\..\..\Downloads\GemBox.Document v33.0.1108\netcoreapp3.1\GemBox.Document.dll</HintPath>
+		</Reference>
+		<Reference Include="GemBox.Spreadsheet">
+			<HintPath>..\..\libs\GemBox.Spreadsheet.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Update="DxServices\Reports\aatest.cs">
+			<DependentUpon>aatest.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\aatest.Designer.cs">
+			<DependentUpon>aatest.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\AccessoriesProposal.cs">
+		  <DependentUpon>AccessoriesProposal.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\AccessoriesProposal.Designer.cs">
+		  <DependentUpon>AccessoriesProposal.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\BienBanThoaThuanTCTC.cs">
+		  <DependentUpon>BienBanThoaThuanTCTC.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\BienBanThoaThuanTCTC.Designer.cs">
+		  <DependentUpon>BienBanThoaThuanTCTC.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\CostVehicleProposalReport.cs">
+		  <DependentUpon>CostVehicleProposalReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\CostVehicleProposalReport.Designer.cs">
+		  <DependentUpon>CostVehicleProposalReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\GeneralContactHWCExportReport.cs">
+			<DependentUpon>GeneralContactHWCExportReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\GeneralContactHWCExportReport.Designer.cs">
+			<DependentUpon>GeneralContactHWCExportReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\MuaBanTraThangDepositeNoContractDurationTCTC.cs">
+		  <DependentUpon>MuaBanTraThangDepositeNoContractDurationTCTC.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\MuaBanTraThangDepositeNoContractDurationTCTC.Designer.cs">
+		  <DependentUpon>MuaBanTraThangDepositeNoContractDurationTCTC.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\MuaBanTraThangDepositeTCTC.cs">
+		  <DependentUpon>MuaBanTraThangDepositeTCTC.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\MuaBanTraThangDepositeTCTC.Designer.cs">
+		  <DependentUpon>MuaBanTraThangDepositeTCTC.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\PpmPaymentReport.cs">
+		  <DependentUpon>PpmPaymentReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\PpmPaymentReport.Designer.cs">
+		  <DependentUpon>PpmPaymentReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\PriceReport.cs">
+			<DependentUpon>PriceReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\PriceReport.Designer.cs">
+			<DependentUpon>PriceReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ProposalReport.cs">
+		  <DependentUpon>ProposalReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ProposalReport.Designer.cs">
+		  <DependentUpon>ProposalReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesContractDetailReport.cs">
+			<DependentUpon>SalesContractDetailReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesContractDetailReport.Designer.cs">
+			<DependentUpon>SalesContractDetailReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesContractManagementExportReport.cs">
+			<DependentUpon>SalesContractManagementExportReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesContractManagementExportReport.Designer.cs">
+			<DependentUpon>SalesContractManagementExportReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesContractProposalReport.cs">
+		  <DependentUpon>SalesContractProposalReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesContractProposalReport.Designer.cs">
+		  <DependentUpon>SalesContractProposalReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesContractProposalReportSecondForm.cs">
+		  <DependentUpon>SalesContractProposalReportSecondForm.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesContractProposalReportSecondForm.Designer.cs">
+		  <DependentUpon>SalesContractProposalReportSecondForm.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesCustomerContractAdminRpt.cs">
+			<DependentUpon>SalesCustomerContractAdminRpt.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesCustomerContractAdminRpt.Designer.cs">
+			<DependentUpon>SalesCustomerContractAdminRpt.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesCustomerContractApprovalReport.cs">
+			<DependentUpon>SalesCustomerContractApprovalReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesCustomerContractApprovalReport.Designer.cs">
+			<DependentUpon>SalesCustomerContractApprovalReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesCustomerContractForTMVReport.cs">
+			<DependentUpon>SalesCustomerContractForTMVReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesCustomerContractForTMVReport.Designer.cs">
+			<DependentUpon>SalesCustomerContractForTMVReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesCustomerContractReport.cs">
+			<DependentUpon>SalesCustomerContractReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesCustomerContractReport.Designer.cs">
+			<DependentUpon>SalesCustomerContractReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\AuditLogRpt.cs">
+			<DependentUpon>AuditLogRpt.repx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\AuditLogRpt.Designer.cs">
+			<DependentUpon>AuditLogRpt.repx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractAppendix.cs">
+			<DependentUpon>ContractAppendix.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractAppendix.Designer.cs">
+			<DependentUpon>ContractAppendix.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractCheckCouponFree.cs">
+			<DependentUpon>ContractCheckCouponFree.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractCheckCouponFree.Designer.cs">
+			<DependentUpon>ContractCheckCouponFree.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractCouponDiscountRequest.cs">
+			<DependentUpon>ContractCouponDiscountRequest.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractCouponDiscountRequest.Designer.cs">
+			<DependentUpon>ContractCouponDiscountRequest.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractOderVehicleExportReport.cs">
+			<DependentUpon>ContractOderVehicleExportReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractOderVehicleExportReport.Designer.cs">
+			<DependentUpon>ContractOderVehicleExportReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractWarehouseExportReport.cs">
+			<DependentUpon>ContractWarehouseExportReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractWarehouseExportReport.Designer.cs">
+			<DependentUpon>ContractWarehouseExportReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractDeliveryVehicleExportReport.cs">
+			<DependentUpon>ContractDeliveryVehicleExportReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractDeliveryVehicleExportReport.Designer.cs">
+			<DependentUpon>ContractDeliveryVehicleExportReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractExportToGateWayReport.cs">
+			<DependentUpon>ContractExportToGateWayReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractExportToGateWayReport.Designer.cs">
+			<DependentUpon>ContractExportToGateWayReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractFlowerRequest.cs">
+			<DependentUpon>ContractFlowerRequest.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractFlowerRequest.Designer.cs">
+			<DependentUpon>ContractFlowerRequest.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractHandOverCarReport.cs">
+			<DependentUpon>ContractHandOverCarReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractHandOverCarReport.Designer.cs">
+			<DependentUpon>ContractHandOverCarReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractInvoiceRequest.cs">
+			<DependentUpon>ContractInvoiceRequest.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractInvoiceRequest.Designer.cs">
+			<DependentUpon>ContractInvoiceRequest.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractNewVehicleCleaningReport.cs">
+			<DependentUpon>ContractNewVehicleCleaningReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractNewVehicleCleaningReport.Designer.cs">
+			<DependentUpon>ContractNewVehicleCleaningReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractPaymentConfirmationReport.cs">
+			<DependentUpon>ContractPaymentConfirmationReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractPaymentConfirmationReport.Designer.cs">
+			<DependentUpon>ContractPaymentConfirmationReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractPromotionalGiftRequestReport.cs">
+			<DependentUpon>ContractPromotionalGiftRequestReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractPromotionalGiftRequestReport.Designer.cs">
+			<DependentUpon>ContractPromotionalGiftRequestReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractReceipt.cs">
+			<DependentUpon>ContractReceipt.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractReceipt.Designer.cs">
+			<DependentUpon>ContractReceipt.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractReport.cs">
+			<DependentUpon>ContractReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractReport.Designer.cs">
+			<DependentUpon>ContractReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractSummary.cs">
+			<DependentUpon>ContractSummary.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractSummary.Designer.cs">
+			<DependentUpon>ContractSummary.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractTemporaryExportReport.cs">
+			<DependentUpon>ContractTemporaryExportReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractTemporaryExportReport.Designer.cs">
+			<DependentUpon>ContractTemporaryExportReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractVehicleDeliveryProgressReport.cs">
+			<DependentUpon>ContractVehicleDeliveryProgressReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractVehicleDeliveryProgressReport.Designer.cs">
+			<DependentUpon>ContractVehicleDeliveryProgressReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractWarrantyRequestReport.cs">
+			<DependentUpon>ContractWarrantyRequestReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\ContractWarrantyRequestReport.Designer.cs">
+			<DependentUpon>ContractWarrantyRequestReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\DashBoard1.cs">
+			<DependentUpon>DashBoard1.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\DashBoard1.Designer.cs">
+			<DependentUpon>DashBoard1.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\DealerOrderColorCbuReport.cs">
+			<DependentUpon>DealerOrderColorCbuReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\DealerOrderColorCbuReport.Designer.cs">
+			<DependentUpon>DealerOrderColorCbuReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\DealerOrderReport.cs">
+			<DependentUpon>DealerOrderReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\DealerOrderReport.Designer.cs">
+			<DependentUpon>DealerOrderReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\DemoAuditReport.cs">
+			<DependentUpon>DemoAuditReport.repx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\DemoAuditReport.Designer.cs">
+			<DependentUpon>DemoAuditReport.repx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\DemoChartReport.cs">
+			<DependentUpon>DemoChartReport.repx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\DemoChartReport.Designer.cs">
+			<DependentUpon>DemoChartReport.repx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\EmployeeCertificateReport.cs">
+			<DependentUpon>EmployeeCertificateReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\EmployeeCertificateReport.Designer.cs">
+			<DependentUpon>EmployeeCertificateReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\EmployeeNotCertificateReport.cs">
+			<DependentUpon>EmployeeNotCertificateReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\EmployeeNotCertificateReport.Designer.cs">
+			<DependentUpon>EmployeeNotCertificateReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\EmployeeSummaryRpt.cs">
+			<DependentUpon>EmployeeSummaryRpt.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\EmployeeSummaryRpt.Designer.cs">
+			<DependentUpon>EmployeeSummaryRpt.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\FSOOrderColorReport.cs">
+			<DependentUpon>FSOOrderColorReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\FSOOrderColorReport.Designer.cs">
+			<DependentUpon>FSOOrderColorReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\PaymentTimeForBankLoanReport.cs">
+			<DependentUpon>PaymentTimeForBankLoanReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\PaymentTimeForBankLoanReport.Designer.cs">
+			<DependentUpon>PaymentTimeForBankLoanReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\PaymentTimeForPayDirectlyReport.cs">
+			<DependentUpon>PaymentTimeForPayDirectlyReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\PaymentTimeForPayDirectlyReport.Designer.cs">
+			<DependentUpon>PaymentTimeForPayDirectlyReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\PromotionRotationHistoryRpt.cs">
+			<DependentUpon>PromotionRotationHistoryRpt.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\PromotionRotationHistoryRpt.Designer.cs">
+			<DependentUpon>PromotionRotationHistoryRpt.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesCustomerContractTmssReport.cs">
+			<DependentUpon>SalesCustomerContractTmssReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesCustomerContractTmssReport.Designer.cs">
+			<DependentUpon>SalesCustomerContractTmssReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesCustomerInquiryKPIReportTest.cs">
+			<DependentUpon>SalesCustomerInquiryKPIReportTest.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesCustomerInquiryKPIReportTest.Designer.cs">
+			<DependentUpon>SalesCustomerInquiryKPIReportTest.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesCustomerProposalReport.cs">
+		  <DependentUpon>SalesCustomerProposalReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesCustomerProposalReport.Designer.cs">
+		  <DependentUpon>SalesCustomerProposalReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesCustomerReport.cs">
+			<DependentUpon>SalesCustomerReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesCustomerReport.Designer.cs">
+			<DependentUpon>SalesCustomerReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesFleetApproved.cs">
+			<DependentUpon>SalesFleetApproved.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesFleetApproved.Designer.cs">
+			<DependentUpon>SalesFleetApproved.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesFleetInquiries - Copy.cs">
+			<SubType>Component</SubType>
+			<DependentUpon>SalesFleetInquiries.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesFleetInquiries - Copy.Designer.cs">
+			<DependentUpon>SalesFleetInquiries.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesFleetInquiries.cs">
+			<DependentUpon>SalesFleetInquiries.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesFleetInquiries.Designer.cs">
+			<DependentUpon>SalesFleetInquiries.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesFleetReportExcel.cs">
+			<DependentUpon>SalesFleetReportExcel.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesFleetReportExcel.Designer.cs">
+			<DependentUpon>SalesFleetReportExcel.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesFleetSalePlan.cs">
+			<DependentUpon>SalesFleetSalePlan.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesFleetSalePlan.Designer.cs">
+			<DependentUpon>SalesFleetSalePlan.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesFleetTMVApproveReport.cs">
+		  <DependentUpon>SalesFleetTMVApproveReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SalesFleetTMVApproveReport.Designer.cs">
+		  <DependentUpon>SalesFleetTMVApproveReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SuggestAccessories.cs">
+			<DependentUpon>SuggestAccessories.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SuggestAccessories.Designer.cs">
+			<DependentUpon>SuggestAccessories.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SummaryByJobReport.cs">
+			<DependentUpon>SummaryByJobReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\SummaryByJobReport.Designer.cs">
+			<DependentUpon>SummaryByJobReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\TestReport.cs">
+			<DependentUpon>TestReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\TestReport.Designer.cs">
+			<DependentUpon>TestReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\TraGopTCTC.cs">
+		  <DependentUpon>TraGopTCTC.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\TraGopTCTC.Designer.cs">
+		  <DependentUpon>TraGopTCTC.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\TraThangTCTC.cs">
+		  <DependentUpon>TraThangTCTC.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\TraThangTCTC.Designer.cs">
+		  <DependentUpon>TraThangTCTC.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\WarrantyConfirmReport.cs">
+		  <DependentUpon>WarrantyConfirmReport.vsrepx</DependentUpon>
+		</Compile>
+		<Compile Update="DxServices\Reports\WarrantyConfirmReport.Designer.cs">
+		  <DependentUpon>WarrantyConfirmReport.vsrepx</DependentUpon>
+		</Compile>
+	</ItemGroup>
+	<ItemGroup>
+		<Reference Include="DevExpress.XtraReports.v20.2">
+			<HintPath>..\..\libs\DevExpress.XtraReports.v20.2.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+	<ProjectExtensions>
+		<VisualStudio>
+			<UserProperties />
+		</VisualStudio>
+	</ProjectExtensions>
+</Project>

@@ -1,0 +1,23 @@
+<div class="form_container" [@routerTransition]>
+
+    <form #loginForm="ngForm"  method="post" novalidate (ngSubmit)="login()">
+        <header>DORMITORY APP - PHẦN MỀM QUẢN LÝ KÝ TÚC XÁ 4.0</header>
+
+            <label>Tài khoản <span class="custom-star">*</span></label>
+           <input #userNameOrEmailAddressInput="ngModel" [(ngModel)]="loginService.authenticateModel.userNameOrEmailAddress" autoFocus class="form-control m-input" type="text" autocomplete="new-password" placeholder="{{'UserNameOrEmail' | localize}} *" name="userNameOrEmailAddress" required />
+            <validation-messages [formCtrl]="userNameOrEmailAddressInput" *ngIf="!userNameOrEmailAddressInput.touched"></validation-messages>
+            <div class="help">Tài khoản bắt đầu bằng tên viết tắt Đại lý. Ví dụ: tmv_hieuvt</div>
+            <label>Mật khẩu <span class="custom-star">*</span></label>
+            <input #passwordInput="ngModel" [(ngModel)]="loginService.authenticateModel.password" class="form-control m-input" type="password" autocomplete="new-password" placeholder="{{'Password' | localize}} *" name="password" required maxlength="32" />
+            <validation-messages [formCtrl]="passwordInput" *ngIf="!passwordInput.touched"></validation-messages>
+            <div class="help">Mật khẩu phân biệt hoa thường. Ví dụ: @htHi89(0M</div>
+            <div>
+            <input [(ngModel)]="loginService.rememberMe" text='aaa' type="checkbox" name="rememberMe" value="true" />
+            <span class="labelText">{{"RememberMe" | localize}} </span>
+            </div>
+            <div>
+            <button type="submit"  [disabled]="!loginForm.form.valid">{{"LogIn" | localize}}</button>
+            <a routerLink="/account/forgot-password" id="forget-password">{{"ForgotPassword" | localize}}</a>
+            </div>
+    </form>
+

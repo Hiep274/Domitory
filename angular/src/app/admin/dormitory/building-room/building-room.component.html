@@ -1,0 +1,99 @@
+<div class="kt-content kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor">
+    <div class="kt-subheader kt-grid__item redline-header">
+        <div [class]="containerClass">
+            <div class="kt-subheader__main">
+                <h3 class="kt-subheader__title">
+                    <span>{{ l("Quản lý ký túc xá") }}</span>
+                </h3>
+                <span class="kt-subheader__separator kt-subheader__separator--v"></span>
+                <span class="kt-subheader__desc">
+                    {{ l("Thông tin tòa nhà / phòng") }}
+                </span>
+            </div>
+        </div>
+    </div>
+    <div [class]="containerClass + ' kt-grid__item kt-grid__item--fluid'">
+        <div class="kt-portlet kt-portlet--mobile">
+            <div class="kt-portlet__body" style="background-color: #6b6b6e;">
+                <div class="row" >
+                    <!--Building Table-->
+                    <div class="col-xl-5">
+                            <div style="background-color: white;border:1px solid #6b6b6e; border-radius: 10px; width: 220px;">
+                                <div style="margin-top: 5px; margin-bottom: 5px;margin-left: 5px;">
+                                    <div >
+                                        <button type="button" class="tmss-btn btn-outline-primary" (click)="createBuilding()">
+                                        <i class="tmss-fa fas fa-plus mr-1"></i>{{ l("Add") }}
+                                        </button>
+                                        <button type="button" class="tmss-btn btn-outline-primary" (click)="editBuilding()"
+                                        [disabled]="!selectBuildingId" >
+                                        <i class="tmss-fa fas fa-edit mr-1"></i>{{ l("Edit") }}
+                                        </button>
+                                        <button type="button" class="tmss-btn btn-outline-danger" (click)="deleteBuilding()"
+                                        [disabled]="!selectBuildingId" >
+                                        <i class="tmss-fa fas fa-trash-alt mr-1"></i>{{ l("Delete") }}
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        <br>
+                        <div>
+                            <div class="tbContent">{{ l("Danh sách tòa nhà") }}</div>
+                            <grid-table [columnDefs]="buildingTable" [defaultColDef]="defaultColDef"
+                                (callBackEvent)="callBackProvinceGrid($event)"
+                                (onChangeSelection)="onChangeBuildingSelection($event)"
+                                [rowData]="buildingData" [height]="'495px'"
+                            ></grid-table>
+                        </div>
+                    </div>
+                    <!--Room Table-->
+                    <div class="col-xl-7">
+                        <div  style="background-color: white;border:1px solid #1e1e2d; border-radius: 10px;width: 480px; ">
+                            <div style="margin-top: 5px; margin-bottom: 5px;margin-right: 5px;">
+                                <div >
+                                    <button type="button" class="tmss-btn btn-outline-primary" (click)="createRoom()"
+                                    [disabled]="!selectBuildingId"  >
+                                    <i class="tmss-fa fas fa-plus mr-1"></i>{{ l("Add") }}
+                                    </button>
+                                    <button type="button" class="tmss-btn btn-outline-primary" (click)="editRoom()"
+                                    [disabled]="!selectedRoomId"  >
+                                    <i class="tmss-fa fas fa-edit mr-1"></i>{{ l("Edit") }}
+                                    </button>
+                                    <button type="button" class="tmss-btn btn-outline-danger" (click)="deleteRoom()"
+                                    [disabled]="!selectedRoomId"  >
+                                    <i class="tmss-fa fas fa-trash-alt mr-1"></i>{{ l("Delete") }}
+                                    </button>
+                                    <button type="button" [disabled]="!selectedRoomId"  class="tmss-btn btn-outline-primary" (click)="listStudent()">
+                                    <i class="tmss-fa fas fa-edit mr-1"></i>{{ l("Xem danh sách sinh viên thuộc phòng này") }}
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div>
+                            <div class="tbContent">{{ l("Danh sách phòng") }}</div>
+                            <grid-table [columnDefs]="roomTable" [defaultColDef]="defaultColDef"
+                                (onChangeSelection)="onChangeDistrictSelection($event)"
+                                [rowData]="roomData" [height]="'495px'"
+                                [frameworkComponents]="frameworkComponents"
+                            ></grid-table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<app-view-list-student
+    #viewListStudent
+    (modalSave)="onGridReady()">
+</app-view-list-student>
+<app-create-or-edit-building
+    #createOrEditBuilding
+    (modalSave)="onGridReady()">
+</app-create-or-edit-building>
+<app-create-or-edit-room
+    #createOrEditRoom
+    (modalSave)="onGridReady()">
+</app-create-or-edit-room>
+
+

@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="21.2.6.0" Ref="0" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="SalesContractProposalReport" Margins="100, 100, 0, 1" PageWidth="850" PageHeight="1100" Version="21.2" Font="Arial, 9.75pt">
+  <Extensions>
+    <Item1 Ref="1" Key="VSReportExtInfo" Value=".vsrepx" />
+  </Extensions>
+  <Bands>
+    <Item1 Ref="2" ControlType="TopMarginBand" Name="TopMargin" HeightF="0" />
+    <Item2 Ref="3" ControlType="BottomMarginBand" Name="BottomMargin" HeightF="1" />
+    <Item3 Ref="4" ControlType="DetailBand" Name="Detail" HeightF="1425.0625">
+      <Controls>
+        <Item1 Ref="5" ControlType="XRCheckBox" Name="checkBox7" TextAlignment="MiddleCenter" Text="Non TFS" SizeF="73.95819,32.3695679" LocationFloat="293.751526,890.74115" Padding="2,2,0,0,100" Borders="Top">
+          <StylePriority Ref="6" UseBorders="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="7" ControlType="XRCheckBox" Name="checkBox6" TextAlignment="MiddleCenter" Text="TFS" SizeF="50,32.3748779" LocationFloat="243.750122,890.74115" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="8" UseBorders="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="9" ControlType="XRLabel" Name="label108" Multiline="true" Text="label108" TextAlignment="MiddleCenter" SizeF="119.791473,32.3748169" LocationFloat="418.750519,683.0218" Padding="2,2,0,0,100" Borders="Top">
+          <ExpressionBindings>
+            <Item1 Ref="10" EventName="BeforePrint" PropertyName="Text" Expression="[ListVehicle].[ReceiverPhone]" />
+          </ExpressionBindings>
+          <StylePriority Ref="11" UseBorders="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="12" ControlType="XRLabel" Name="label107" Multiline="true" SizeF="211.458481,22.9999847" LocationFloat="139.583328,213.708313" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="13" EventName="BeforePrint" PropertyName="Text" Expression="[CustomerName]" />
+          </ExpressionBindings>
+        </Item4>
+        <Item5 Ref="14" ControlType="XRLabel" Name="label106" Multiline="true" Text="Khách hàng:" SizeF="139.583328,23" LocationFloat="0,213.708282" Padding="2,2,0,0,100" />
+        <Item6 Ref="15" ControlType="XRCheckBox" Name="checkBox5" Text=" Không," SizeF="308.3313,32.375" LocationFloat="230.208847,780.1472" Padding="2,2,0,0,100" Borders="Left, Top">
+          <ExpressionBindings>
+            <Item1 Ref="16" EventName="BeforePrint" PropertyName="CheckBoxState" Expression="Iif(([ListAccessoriesPurchase].[CheckBoxPurchase] == true),'Unchecked','Checked')" />
+          </ExpressionBindings>
+          <StylePriority Ref="17" UseBorders="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="18" ControlType="XRCheckBox" Name="checkBox4" TextAlignment="MiddleCenter" Text=" Mua;" SizeF="62.4984741,32.37506" LocationFloat="167.709854,780.147156" Padding="2,2,0,0,100" Borders="Left, Top">
+          <ExpressionBindings>
+            <Item1 Ref="19" EventName="BeforePrint" PropertyName="CheckBoxState" Expression="[ListAccessoriesPurchase].[CheckBoxPurchase]" />
+          </ExpressionBindings>
+          <StylePriority Ref="20" UseBorders="false" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="21" ControlType="XRCheckBox" Name="checkBox3" Text=" Không Vì:" SizeF="244.790649,32.3751221" LocationFloat="293.751526,747.7721" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="22" UseBorders="false" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="23" ControlType="XRCheckBox" Name="checkBox2" TextAlignment="MiddleCenter" Text=" Tặng;" SizeF="63.54167,32.37506" LocationFloat="230.209854,747.7721" Padding="2,2,0,0,100" Borders="Left, Top">
+          <ExpressionBindings>
+            <Item1 Ref="24" EventName="BeforePrint" PropertyName="CheckBoxState" Expression="Iif(IsNull([ListInsuranceFree].[InsuranceStatus]),'Unchecked' ,'Checked')&#xA;" />
+          </ExpressionBindings>
+          <StylePriority Ref="25" UseBorders="false" UseTextAlignment="false" />
+        </Item9>
+        <Item10 Ref="26" ControlType="XRCheckBox" Name="checkBox1" TextAlignment="MiddleCenter" Text=" Mua;" SizeF="62.4984741,32.3751221" LocationFloat="167.709854,747.772034" Padding="2,2,0,0,100" Borders="Left, Top">
+          <ExpressionBindings>
+            <Item1 Ref="27" EventName="BeforePrint" PropertyName="CheckBoxState" Expression="Iif(IsNull([ListInsurancePurchase].[InsuranceStatus]),'Unchecked' ,'Checked')" />
+          </ExpressionBindings>
+          <StylePriority Ref="28" UseBorders="false" UseTextAlignment="false" />
+        </Item10>
+        <Item11 Ref="29" ControlType="XRLabel" Name="label3" Multiline="true" Text="(Phiếu có giá trị trong ngày)" TextAlignment="MiddleCenter" SizeF="452.0833,23" LocationFloat="99.99955,134.156281" Font="Arial, 15.75pt, style=Italic, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="30" UseFont="false" UseTextAlignment="false" />
+        </Item11>
+        <Item12 Ref="31" ControlType="XRLabel" Name="label2" Multiline="true" Text="PHIẾU ĐỀ XUẤT HỢP ĐỒNG" TextAlignment="MiddleCenter" SizeF="452.0833,43.833313" LocationFloat="99.99955,90.32293" Font="Arial, 20.25pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="32" UseFont="false" UseTextAlignment="false" />
+        </Item12>
+        <Item13 Ref="33" ControlType="XRLabel" Name="label1" Multiline="true" TextAlignment="MiddleCenter" SizeF="650,46.29167" LocationFloat="0,22.6145878" Font="Arial, 15.75pt, charSet=0" ForeColor="Black" BackColor="Yellow" Padding="2,2,0,0,100" Borders="All" BorderWidth="2">
+          <ExpressionBindings>
+            <Item1 Ref="34" EventName="BeforePrint" PropertyName="Text" Expression="[DealerName]" />
+          </ExpressionBindings>
+          <StylePriority Ref="35" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+        </Item13>
+        <Item14 Ref="36" ControlType="XRLabel" Name="label105" Multiline="true" Text="Tư vấn bán hàng" TextAlignment="MiddleCenter" SizeF="216.666534,25" LocationFloat="433.33316,1178.81238" Font="Arial, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="Left, Top, Right">
+          <StylePriority Ref="37" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item14>
+        <Item15 Ref="38" ControlType="XRLabel" Name="label104" Multiline="true" Text="Cấp quản lý bộ phận" TextAlignment="MiddleCenter" SizeF="216.666275,25" LocationFloat="216.6668,1178.81226" Font="Arial, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="39" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item15>
+        <Item16 Ref="40" ControlType="XRLabel" Name="label103" Multiline="true" Text="Tổng Giám đốc" TextAlignment="MiddleCenter" SizeF="216.6668,25" LocationFloat="0,1178.81226" Font="Arial, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="41" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item16>
+        <Item17 Ref="42" ControlType="XRLabel" Name="label42" Multiline="true" SizeF="216.666656,106.666687" LocationFloat="433.332947,1203.81238" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="43" UseBorders="false" />
+        </Item17>
+        <Item18 Ref="44" ControlType="XRLabel" Name="label41" Multiline="true" SizeF="216.666672,106.666687" LocationFloat="216.666412,1203.81226" Padding="2,2,0,0,100" Borders="Left, Top, Bottom">
+          <StylePriority Ref="45" UseBorders="false" />
+        </Item18>
+        <Item19 Ref="46" ControlType="XRLabel" Name="label40" Multiline="true" SizeF="216.666672,106.666687" LocationFloat="0,1203.81238" Padding="2,2,0,0,100" Borders="Left, Top, Bottom">
+          <StylePriority Ref="47" UseBorders="false" />
+        </Item19>
+        <Item20 Ref="48" ControlType="XRLabel" Name="label76" Multiline="true" Text="Nội dung liên hệ KH" TextAlignment="MiddleCenter" SizeF="167.708328,85.5" LocationFloat="0,987.8662" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top, Bottom">
+          <StylePriority Ref="49" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item20>
+        <Item21 Ref="50" ControlType="XRLabel" Name="label88" Multiline="true" TextAlignment="MiddleCenter" SizeF="482.2917,85.5" LocationFloat="167.708847,987.8662" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="51" UseBorders="false" UseTextAlignment="false" />
+        </Item21>
+        <Item22 Ref="52" ControlType="XRLabel" Name="label101" Multiline="true" TextAlignment="MiddleCenter" SizeF="111.460083,32.37506" LocationFloat="538.5404,780.1472" Padding="2,2,0,0,100" Borders="Left, Top, Right">
+          <StylePriority Ref="53" UseBorders="false" UseTextAlignment="false" />
+        </Item22>
+        <Item23 Ref="54" ControlType="XRLabel" Name="label100" Multiline="true" TextAlignment="MiddleCenter" SizeF="111.458313,32.37506" LocationFloat="538.5422,747.772156" Padding="2,2,0,0,100" Borders="Left, Top, Right">
+          <ExpressionBindings>
+            <Item1 Ref="55" EventName="BeforePrint" PropertyName="Text" Expression="[ListInsurancePurchase].[InsuranceAmount]" />
+          </ExpressionBindings>
+          <StylePriority Ref="56" UseBorders="false" UseTextAlignment="false" />
+        </Item23>
+        <Item24 Ref="57" ControlType="XRLabel" Name="label96" Multiline="true" TextAlignment="MiddleCenter" SizeF="111.458313,32.37506" LocationFloat="538.5422,858.360657" Padding="2,2,0,0,100" Borders="Left, Top, Right">
+          <StylePriority Ref="58" UseBorders="false" UseTextAlignment="false" />
+        </Item24>
+        <Item25 Ref="59" ControlType="XRLabel" Name="label95" Multiline="true" TextAlignment="MiddleCenter" SizeF="111.456909,32.375" LocationFloat="538.543335,890.74115" Padding="2,2,0,0,100" Borders="Left, Top, Right">
+          <StylePriority Ref="60" UseBorders="false" UseTextAlignment="false" />
+        </Item25>
+        <Item26 Ref="61" ControlType="XRLabel" Name="label94" Multiline="true" Text="Ngân hàng khác:" TextAlignment="MiddleLeft" SizeF="170.833618,32.37494" LocationFloat="367.709717,890.74115" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="62" UseBorders="false" UseTextAlignment="false" />
+        </Item26>
+        <Item27 Ref="63" ControlType="XRLabel" Name="label92" Multiline="true" TextAlignment="MiddleCenter" SizeF="294.7917,32.37506" LocationFloat="243.750122,858.3607" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="64" UseBorders="false" UseTextAlignment="false" />
+        </Item27>
+        <Item28 Ref="65" ControlType="XRLabel" Name="label91" Multiline="true" Text="Lý do không sử dụng TFS:" TextAlignment="MiddleLeft" SizeF="482.2917,32.37506" LocationFloat="167.708328,923.11615" Padding="2,2,0,0,100" Borders="Left, Top, Right">
+          <StylePriority Ref="66" UseBorders="false" UseTextAlignment="false" />
+        </Item28>
+        <Item29 Ref="67" ControlType="XRLabel" Name="label90" Multiline="true" Text="Trả góp" TextAlignment="MiddleCenter" SizeF="76.04167,32.37494" LocationFloat="167.7082,890.7358" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="68" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item29>
+        <Item30 Ref="69" ControlType="XRLabel" Name="label89" Multiline="true" Text="Trả thẳng" TextAlignment="MiddleCenter" SizeF="76.04167,32.37506" LocationFloat="167.7082,858.360657" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="70" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item30>
+        <Item31 Ref="71" ControlType="XRLabel" Name="label87" Multiline="true" Text="label87" TextAlignment="MiddleLeft" SizeF="482.2917,32.375" LocationFloat="167.708328,955.4912" Padding="2,2,0,0,100" Borders="Left, Top, Right">
+          <ExpressionBindings>
+            <Item1 Ref="72" EventName="BeforePrint" PropertyName="Text" Expression="[CreationTime]" />
+          </ExpressionBindings>
+          <StylePriority Ref="73" UseBorders="false" UseTextAlignment="false" />
+        </Item31>
+        <Item32 Ref="74" ControlType="XRLabel" Name="label85" Multiline="true" TextAlignment="MiddleCenter" SizeF="86.45834,32.37506" LocationFloat="81.25,780.1472" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="75" UseBorders="false" UseTextAlignment="false" />
+        </Item32>
+        <Item33 Ref="76" ControlType="XRLabel" Name="label84" Multiline="true" TextAlignment="MiddleCenter" SizeF="86.45834,32.37506" LocationFloat="81.25038,747.7719" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="77" UseBorders="false" UseTextAlignment="false" />
+        </Item33>
+        <Item34 Ref="78" ControlType="XRLabel" Name="label83" Multiline="true" Text="label83" TextAlignment="MiddleCenter" SizeF="370.833435,32.37503" LocationFloat="167.70871,715.3968" Padding="2,2,0,0,100" Borders="Left, Top">
+          <ExpressionBindings>
+            <Item1 Ref="79" EventName="BeforePrint" PropertyName="Text" Expression="[ListVehicle].[ReceiverAddress]" />
+          </ExpressionBindings>
+          <StylePriority Ref="80" UseBorders="false" UseTextAlignment="false" />
+        </Item34>
+        <Item35 Ref="81" ControlType="XRLabel" Name="label82" Multiline="true" TextAlignment="MiddleCenter" SizeF="111.458313,32.37503" LocationFloat="538.5422,715.3968" Padding="2,2,0,0,100" Borders="Left, Top, Right">
+          <StylePriority Ref="82" UseBorders="false" UseTextAlignment="false" />
+        </Item35>
+        <Item36 Ref="83" ControlType="XRLabel" Name="label81" Multiline="true" TextAlignment="MiddleCenter" SizeF="86.45834,32.37503" LocationFloat="81.25,715.3968" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="84" UseBorders="false" UseTextAlignment="false" />
+        </Item36>
+        <Item37 Ref="85" ControlType="XRLabel" Name="label80" Multiline="true" Text="label80" TextAlignment="MiddleCenter" SizeF="111.458313,32.375" LocationFloat="538.5422,683.0218" Padding="2,2,0,0,100" Borders="Left, Top, Right">
+          <ExpressionBindings>
+            <Item1 Ref="86" EventName="BeforePrint" PropertyName="Text" Expression="[ListVehicle].[CommissionAmount]" />
+          </ExpressionBindings>
+          <StylePriority Ref="87" UseBorders="false" UseTextAlignment="false" />
+        </Item37>
+        <Item38 Ref="88" ControlType="XRLabel" Name="label79" Multiline="true" Text="SĐT:" TextAlignment="MiddleCenter" SizeF="36.45819,32.375" LocationFloat="382.291931,683.0216" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="89" UseBorders="false" UseTextAlignment="false" />
+        </Item38>
+        <Item39 Ref="90" ControlType="XRLabel" Name="label78" Multiline="true" Text="label78" TextAlignment="MiddleCenter" SizeF="214.583359,32.375" LocationFloat="167.708588,683.0218" Padding="2,2,0,0,100" Borders="Left, Top">
+          <ExpressionBindings>
+            <Item1 Ref="91" EventName="BeforePrint" PropertyName="Text" Expression="[ListVehicle].[ReceiverName]" />
+          </ExpressionBindings>
+          <StylePriority Ref="92" UseBorders="false" UseTextAlignment="false" />
+        </Item39>
+        <Item40 Ref="93" ControlType="XRLabel" Name="label77" Multiline="true" TextAlignment="MiddleCenter" SizeF="86.45834,32.375" LocationFloat="81.25025,683.0218" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="94" UseBorders="false" UseTextAlignment="false" />
+        </Item40>
+        <Item41 Ref="95" ControlType="XRLabel" Name="label75" Multiline="true" Text="Ngày phát sinh" TextAlignment="MiddleCenter" SizeF="167.708328,32.375" LocationFloat="0,955.4912" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="96" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item41>
+        <Item42 Ref="97" ControlType="XRLabel" Name="label74" Multiline="true" Text="Hình thức thanh toán" TextAlignment="MiddleCenter" SizeF="167.708328,97.125" LocationFloat="0,858.360657" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="98" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item42>
+        <Item43 Ref="99" ControlType="XRLabel" Name="label73" Multiline="true" Text="PHỤ KIỆN" TextAlignment="MiddleCenter" SizeF="81.25,78.20807" LocationFloat="0,780.1356" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="100" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item43>
+        <Item44 Ref="101" ControlType="XRLabel" Name="label72" Multiline="true" Text="Bảo HIỂM" TextAlignment="MiddleCenter" SizeF="81.25,32.37506" LocationFloat="0,747.7605" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="102" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item44>
+        <Item45 Ref="103" ControlType="XRLabel" Name="label71" Multiline="true" Text="Địa chỉ:" TextAlignment="MiddleCenter" SizeF="81.25,32.37503" LocationFloat="0,715.385559" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="104" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item45>
+        <Item46 Ref="105" ControlType="XRLabel" Name="label70" Multiline="true" Text="Tên người nhận HH:" TextAlignment="MiddleCenter" SizeF="81.25,32.375" LocationFloat="0.000381469727,682.995056" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="106" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item46>
+        <Item47 Ref="107" ControlType="XRLabel" Name="label69" Multiline="true" TextAlignment="MiddleCenter" SizeF="111.458313,32.37503" LocationFloat="538.5417,650.6414" Padding="2,2,0,0,100" Borders="Left, Top, Right">
+          <StylePriority Ref="108" UseBorders="false" UseTextAlignment="false" />
+        </Item47>
+        <Item48 Ref="109" ControlType="XRLabel" Name="label68" Multiline="true" TextAlignment="MiddleCenter" SizeF="111.458313,32.37503" LocationFloat="538.5417,618.2665" Padding="2,2,0,0,100" Borders="Left, Top, Right">
+          <StylePriority Ref="110" UseBorders="false" UseTextAlignment="false" />
+        </Item48>
+        <Item49 Ref="111" ControlType="XRLabel" Name="label67" Multiline="true" TextAlignment="MiddleCenter" SizeF="111.458313,32.37497" LocationFloat="538.541931,585.891541" Padding="2,2,0,0,100" Borders="Left, Top, Right">
+          <StylePriority Ref="112" UseBorders="false" UseTextAlignment="false" />
+        </Item49>
+        <Item50 Ref="113" ControlType="XRLabel" Name="label66" Multiline="true" TextAlignment="MiddleCenter" SizeF="111.458313,32.375" LocationFloat="538.541931,553.516541" Padding="2,2,0,0,100" Borders="Left, Top, Right">
+          <StylePriority Ref="114" UseBorders="false" UseTextAlignment="false" />
+        </Item50>
+        <Item51 Ref="115" ControlType="XRLabel" Name="label65" Multiline="true" TextAlignment="MiddleCenter" SizeF="270.833344,32.37503" LocationFloat="267.706818,650.6466" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="116" UseBorders="false" UseTextAlignment="false" />
+        </Item51>
+        <Item52 Ref="117" ControlType="XRLabel" Name="label62" Multiline="true" TextAlignment="MiddleCenter" SizeF="270.833344,32.369812" LocationFloat="267.708466,553.510559" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="118" UseBorders="false" UseTextAlignment="false" />
+        </Item52>
+        <Item53 Ref="119" ControlType="XRLabel" Name="label61" Multiline="true" Text="Giảm giá theo QD: (TM+PK+BH)" TextAlignment="MiddleCenter" SizeF="167.708328,129.494568" LocationFloat="0.000381469727,553.5004" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="120" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item53>
+        <Item54 Ref="121" ControlType="XRLabel" Name="label60" Multiline="true" Text="Vật phẩm khác" TextAlignment="MiddleCenter" SizeF="99.99811,32.375" LocationFloat="167.70871,650.6467" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="122" UseBorders="false" UseTextAlignment="false" />
+        </Item54>
+        <Item55 Ref="123" ControlType="XRLabel" Name="label57" Multiline="true" Text="Tiền mặt" TextAlignment="MiddleCenter" SizeF="99.9999847,32.37497" LocationFloat="167.708588,553.5004" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="124" UseBorders="false" UseTextAlignment="false" />
+        </Item55>
+        <Item56 Ref="125" ControlType="XRLabel" Name="label56" Multiline="true" Text="label56" TextAlignment="MiddleCenter" SizeF="111.458313,32.375" LocationFloat="538.541931,521.135559" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top, Right">
+          <ExpressionBindings>
+            <Item1 Ref="126" EventName="BeforePrint" PropertyName="Text" Expression="[ListVehicle].[ListedPrice]" />
+          </ExpressionBindings>
+          <StylePriority Ref="127" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item56>
+        <Item57 Ref="128" ControlType="XRLabel" Name="label55" Multiline="true" Text="label55" TextAlignment="MiddleCenter" SizeF="99.99997,32.375" LocationFloat="438.541931,521.135559" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top">
+          <ExpressionBindings>
+            <Item1 Ref="129" EventName="BeforePrint" PropertyName="Text" Expression="[ListVehicle].[DepositAmount]" />
+          </ExpressionBindings>
+          <StylePriority Ref="130" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item57>
+        <Item58 Ref="131" ControlType="XRLabel" Name="label54" Multiline="true" Text="label54" TextAlignment="MiddleCenter" SizeF="100,32.375" LocationFloat="338.541931,521.135559" Font="Arial, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="Left, Top">
+          <ExpressionBindings>
+            <Item1 Ref="132" EventName="BeforePrint" PropertyName="Text" Expression="[ListVehicle].[OriginalEstDate]" />
+          </ExpressionBindings>
+          <StylePriority Ref="133" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item58>
+        <Item59 Ref="134" ControlType="XRLabel" Name="label53" Multiline="true" Text="label53" TextAlignment="MiddleCenter" SizeF="70.83334,32.375" LocationFloat="267.7085,521.135559" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top">
+          <ExpressionBindings>
+            <Item1 Ref="135" EventName="BeforePrint" PropertyName="Text" Expression="[ListVehicle].[Quantity]" />
+          </ExpressionBindings>
+          <StylePriority Ref="136" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item59>
+        <Item60 Ref="137" ControlType="XRLabel" Name="label52" Multiline="true" Text="label52" TextAlignment="MiddleCenter" SizeF="99.99997,32.36487" LocationFloat="167.708588,521.135559" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top">
+          <ExpressionBindings>
+            <Item1 Ref="138" EventName="BeforePrint" PropertyName="Text" Expression="[ListVehicle].[EColor]" />
+          </ExpressionBindings>
+          <StylePriority Ref="139" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item60>
+        <Item61 Ref="140" ControlType="XRLabel" Name="label51" Multiline="true" Text="label51" TextAlignment="MiddleCenter" SizeF="86.4583359,32.36487" LocationFloat="81.25025,521.135559" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top">
+          <ExpressionBindings>
+            <Item1 Ref="141" EventName="BeforePrint" PropertyName="Text" Expression="[ListVehicle].[IColor]" />
+          </ExpressionBindings>
+          <StylePriority Ref="142" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item61>
+        <Item62 Ref="143" ControlType="XRLabel" Name="label50" Multiline="true" TextAlignment="MiddleCenter" SizeF="81.25,32.36487" LocationFloat="0,521.135559" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top">
+          <ExpressionBindings>
+            <Item1 Ref="144" EventName="BeforePrint" PropertyName="Text" Expression="[ListVehicle].[Model]" />
+          </ExpressionBindings>
+          <StylePriority Ref="145" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item62>
+        <Item63 Ref="146" ControlType="XRLabel" Name="label49" Multiline="true" Text="Giá bán (đồng)" TextAlignment="MiddleCenter" SizeF="111.458313,39.0037842" LocationFloat="538.5419,482.1317" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top, Right">
+          <StylePriority Ref="147" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item63>
+        <Item64 Ref="148" ControlType="XRLabel" Name="label48" Multiline="true" Text="Đặt cọc (đồng)" TextAlignment="MiddleCenter" SizeF="100,39.0037842" LocationFloat="438.5417,482.131622" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="149" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item64>
+        <Item65 Ref="150" ControlType="XRLabel" Name="label47" Multiline="true" Text="Ngày nhận xe&#xD;&#xA;dự kiến" TextAlignment="MiddleCenter" SizeF="100,39.0037842" LocationFloat="338.541931,482.131622" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="151" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item65>
+        <Item66 Ref="152" ControlType="XRLabel" Name="label46" Multiline="true" Text="Số lượng" TextAlignment="MiddleCenter" SizeF="70.83334,39.0037842" LocationFloat="267.7085,482.131622" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="153" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item66>
+        <Item67 Ref="154" ControlType="XRLabel" Name="label45" Multiline="true" Text="Màu ngoại thất" TextAlignment="MiddleCenter" SizeF="100,39.0037842" LocationFloat="167.708527,482.131622" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="155" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item67>
+        <Item68 Ref="156" ControlType="XRLabel" Name="label44" Multiline="true" Text="Màu nội thất" TextAlignment="MiddleCenter" SizeF="86.4583359,39.0037842" LocationFloat="81.2501,482.1317" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="157" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item68>
+        <Item69 Ref="158" ControlType="XRLabel" Name="label43" Multiline="true" Text="Loại xe" TextAlignment="MiddleCenter" SizeF="81.25,39.0037842" LocationFloat="0,482.1317" Font="Arial, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Left, Top">
+          <StylePriority Ref="159" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item69>
+        <Item70 Ref="160" ControlType="XRLabel" Name="label39" Multiline="true" Text="label39" SizeF="148.958344,22.9999981" LocationFloat="487.499481,190.708282" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="161" EventName="BeforePrint" PropertyName="Text" Expression="[Poisition]" />
+          </ExpressionBindings>
+        </Item70>
+        <Item71 Ref="162" ControlType="XRLabel" Name="label38" Multiline="true" Text="label38" SizeF="148.958344,23" LocationFloat="487.499481,167.708328" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="163" EventName="BeforePrint" PropertyName="Text" Expression="[CreationTime]" />
+          </ExpressionBindings>
+        </Item71>
+        <Item72 Ref="164" ControlType="XRLabel" Name="label37" Multiline="true" Text="Chức vụ:" SizeF="79.16666,22.9999981" LocationFloat="408.333069,190.708282" Padding="2,2,0,0,100" />
+        <Item73 Ref="165" ControlType="XRLabel" Name="label36" Multiline="true" Text="Ngày cấp:" SizeF="79.16666,23" LocationFloat="408.333069,167.708328" Padding="2,2,0,0,100" />
+        <Item74 Ref="166" ControlType="XRLabel" Name="label35" Multiline="true" SizeF="97.9165649,23" LocationFloat="538.541,305.7084" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="167" EventName="BeforePrint" PropertyName="Text" Expression="[CustomerPlaceIssuance]" />
+          </ExpressionBindings>
+        </Item74>
+        <Item75 Ref="168" ControlType="XRLabel" Name="label34" Multiline="true" Text="Nơi cấp:" SizeF="63.5416565,23" LocationFloat="474.999176,305.7084" Padding="2,2,0,0,100" />
+        <Item76 Ref="169" ControlType="XRLabel" Name="label33" Multiline="true" Text="label33" SizeF="100,23" LocationFloat="338.541931,351.7084" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="170" EventName="BeforePrint" PropertyName="Text" Expression="[ContactTel]" />
+          </ExpressionBindings>
+        </Item76>
+        <Item77 Ref="171" ControlType="XRLabel" Name="label32" Multiline="true" Text="label32" SizeF="100,23" LocationFloat="338.541931,328.708435" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="172" EventName="BeforePrint" PropertyName="Text" Expression="[PositionRepres]" />
+          </ExpressionBindings>
+        </Item77>
+        <Item78 Ref="173" ControlType="XRLabel" Name="label31" Multiline="true" Text="SĐT:" SizeF="70.83331,23" LocationFloat="267.7085,351.7084" Padding="2,2,0,0,100" />
+        <Item79 Ref="174" ControlType="XRLabel" Name="label30" Multiline="true" Text="Chức vụ:" SizeF="70.83331,23" LocationFloat="267.7085,328.708435" Padding="2,2,0,0,100" />
+        <Item80 Ref="175" ControlType="XRLabel" Name="label29" Multiline="true" SizeF="100,23" LocationFloat="338.541931,305.7084" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="176" EventName="BeforePrint" PropertyName="Text" Expression="[CustomerDateIssuance]" />
+          </ExpressionBindings>
+        </Item80>
+        <Item81 Ref="177" ControlType="XRLabel" Name="label28" Multiline="true" Text="Ngày cấp:" SizeF="70.83331,23" LocationFloat="267.7085,305.7084" Padding="2,2,0,0,100" />
+        <Item82 Ref="178" ControlType="XRLabel" Name="label27" Multiline="true" Text="label27" SizeF="211.458481,23" LocationFloat="139.583328,443.7085" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="179" EventName="BeforePrint" PropertyName="Text" Expression="[Source]" />
+          </ExpressionBindings>
+        </Item82>
+        <Item83 Ref="180" ControlType="XRLabel" Name="label26" Multiline="true" Text="label26" SizeF="211.458481,23" LocationFloat="139.583328,420.708466" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="181" EventName="BeforePrint" PropertyName="Text" Expression="[CustomerType]" />
+          </ExpressionBindings>
+        </Item83>
+        <Item84 Ref="182" ControlType="XRLabel" Name="label25" Multiline="true" Text="label25" SizeF="211.458481,23" LocationFloat="139.583328,397.708374" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="183" EventName="BeforePrint" PropertyName="Text" Expression="[PaymentType]" />
+          </ExpressionBindings>
+        </Item84>
+        <Item85 Ref="184" ControlType="XRLabel" Name="label24" Multiline="true" Text="label24" SizeF="211.458481,23" LocationFloat="139.583328,374.708435" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="185" EventName="BeforePrint" PropertyName="Text" Expression="[Far]" />
+          </ExpressionBindings>
+        </Item85>
+        <Item86 Ref="186" ControlType="XRLabel" Name="label23" Multiline="true" Text="label23" SizeF="128.125137,23" LocationFloat="139.5834,351.7084" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="187" EventName="BeforePrint" PropertyName="Text" Expression="[ContactName]" />
+          </ExpressionBindings>
+        </Item86>
+        <Item87 Ref="188" ControlType="XRLabel" Name="label22" Multiline="true" SizeF="128.125137,23" LocationFloat="139.5834,328.708435" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="189" EventName="BeforePrint" PropertyName="Text" Expression="[RepresName]" />
+          </ExpressionBindings>
+        </Item87>
+        <Item88 Ref="190" ControlType="XRLabel" Name="label21" Multiline="true" Text="label21" SizeF="128.125137,23" LocationFloat="139.5834,305.7084" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="191" EventName="BeforePrint" PropertyName="Text" Expression="[CardID]" />
+          </ExpressionBindings>
+        </Item88>
+        <Item89 Ref="192" ControlType="XRLabel" Name="label20" Multiline="true" Text="label20" SizeF="211.458481,23" LocationFloat="139.583328,282.7083" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="193" EventName="BeforePrint" PropertyName="Text" Expression="[Tel]" />
+          </ExpressionBindings>
+        </Item89>
+        <Item90 Ref="194" ControlType="XRLabel" Name="label19" Multiline="true" SizeF="211.458481,23.00003" LocationFloat="139.583328,259.708344" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="195" EventName="BeforePrint" PropertyName="Text" Expression="[TaxCode]" />
+          </ExpressionBindings>
+        </Item90>
+        <Item91 Ref="196" ControlType="XRLabel" Name="label18" Multiline="true" SizeF="211.458481,22.9999847" LocationFloat="139.583328,236.708359" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="197" EventName="BeforePrint" PropertyName="Text" Expression="[CustomerAddress]" />
+          </ExpressionBindings>
+        </Item91>
+        <Item92 Ref="198" ControlType="XRLabel" Name="label17" Multiline="true" Text="&#xD;&#xA;" SizeF="211.458481,23" LocationFloat="139.583389,190.708282" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="199" EventName="BeforePrint" PropertyName="Text" Expression="[SalesPerson]" />
+          </ExpressionBindings>
+        </Item92>
+        <Item93 Ref="200" ControlType="XRLabel" Name="label16" Multiline="true" SizeF="211.458481,23" LocationFloat="139.583328,167.708328" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="201" EventName="BeforePrint" PropertyName="Text" Expression="[ProposalNo]" />
+          </ExpressionBindings>
+        </Item93>
+        <Item94 Ref="202" ControlType="XRLabel" Name="label15" Multiline="true" Text="Nguồn KH:" SizeF="139.583328,23" LocationFloat="0,443.7085" Padding="2,2,0,0,100" />
+        <Item95 Ref="203" ControlType="XRLabel" Name="label14" Multiline="true" Text="Loại hình KH:" SizeF="139.583328,23.00003" LocationFloat="0,420.7084" Padding="2,2,0,0,100" />
+        <Item96 Ref="204" ControlType="XRLabel" Name="label13" Multiline="true" Text="Hình thức thanh toán:" SizeF="139.583328,23" LocationFloat="0,397.708374" Padding="2,2,0,0,100" />
+        <Item97 Ref="205" ControlType="XRLabel" Name="label12" Multiline="true" Text="Hình thức mua xe:" SizeF="139.583328,23" LocationFloat="0,374.708435" Padding="2,2,0,0,100" />
+        <Item98 Ref="206" ControlType="XRLabel" Name="label11" Multiline="true" Text="Người liên hệ:" SizeF="139.583328,23" LocationFloat="0,351.7084" Padding="2,2,0,0,100" />
+        <Item99 Ref="207" ControlType="XRLabel" Name="label10" Multiline="true" Text="Người đại diện:" SizeF="139.583328,23" LocationFloat="0,328.708435" Padding="2,2,0,0,100" />
+        <Item100 Ref="208" ControlType="XRLabel" Name="label9" Multiline="true" Text="CMTND/Thẻ CC:" SizeF="139.583328,23" LocationFloat="0,305.7084" Padding="2,2,0,0,100" />
+        <Item101 Ref="209" ControlType="XRLabel" Name="label8" Multiline="true" Text="Điện thoại:" SizeF="139.583328,23" LocationFloat="0,282.708374" Padding="2,2,0,0,100" />
+        <Item102 Ref="210" ControlType="XRLabel" Name="label7" Multiline="true" Text="Mã số thuế:" SizeF="139.583328,23.00003" LocationFloat="0,259.708344" Padding="2,2,0,0,100" />
+        <Item103 Ref="211" ControlType="XRLabel" Name="label6" Multiline="true" Text="Địa chỉ:" SizeF="139.583328,22.9999847" LocationFloat="0,236.708359" Padding="2,2,0,0,100" />
+        <Item104 Ref="212" ControlType="XRLabel" Name="label5" Multiline="true" Text="Người đề nghị:" SizeF="139.583328,23" LocationFloat="0,190.7083" Padding="2,2,0,0,100" />
+        <Item105 Ref="213" ControlType="XRLabel" Name="label4" Multiline="true" Text="HĐ số:" SizeF="139.583328,23" LocationFloat="0,167.708313" Padding="2,2,0,0,100" />
+        <Item106 Ref="214" ControlType="XRTable" Name="table1" SizeF="370.833221,32.37494" LocationFloat="167.708527,585.880432">
+          <Rows>
+            <Item1 Ref="215" ControlType="XRTableRow" Name="tableRow1" Weight="2.4533493056595419">
+              <Cells>
+                <Item1 Ref="216" ControlType="XRTableCell" Name="tableCell1" Weight="99.9998779296875" Multiline="true" Text="Phụ kiện TMV" TextAlignment="MiddleCenter" Font="Arial, 9.75pt" Padding="2,2,0,0,100" Borders="Left, Top">
+                  <StylePriority Ref="217" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="218" ControlType="XRTableCell" Name="tableCell2" Weight="270.83334350585938" Multiline="true" Text="tableCell4" TextAlignment="MiddleCenter" Font="Arial, 9.75pt" Padding="2,2,0,0,100" Borders="Left, Top">
+                  <ExpressionBindings>
+                    <Item1 Ref="219" EventName="BeforePrint" PropertyName="Text" Expression="[ListAccessoriesTMV].[AccessoriesTMV]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="220" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+                </Item2>
+              </Cells>
+            </Item1>
+          </Rows>
+        </Item106>
+        <Item107 Ref="221" ControlType="XRTable" Name="table2" SizeF="370.831482,32.380127" LocationFloat="167.70871,618.2665">
+          <Rows>
+            <Item1 Ref="222" ControlType="XRTableRow" Name="tableRow2" Weight="2.4519923999895892">
+              <Cells>
+                <Item1 Ref="223" ControlType="XRTableCell" Name="tableCell3" Weight="99.998107423574424" Multiline="true" Text="Phụ kiện tặng" TextAlignment="MiddleCenter" Font="Arial, 9.75pt" Padding="2,2,0,0,100" Borders="Left, Top">
+                  <StylePriority Ref="224" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="225" ControlType="XRTableCell" Name="tableCell4" Weight="270.83336639404388" Multiline="true" Text="tableCell6" TextAlignment="MiddleCenter" Font="Arial, 9.75pt" Padding="2,2,0,0,100" Borders="Left, Top">
+                  <ExpressionBindings>
+                    <Item1 Ref="226" EventName="BeforePrint" PropertyName="Text" Expression="[ListAccessoriesFree].[AccessoriesFree]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="227" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+                </Item2>
+              </Cells>
+            </Item1>
+          </Rows>
+        </Item107>
+        <Item108 Ref="228" ControlType="XRTable" Name="table3" SizeF="568.7493,45.83844" LocationFloat="81.25025,812.5223">
+          <Rows>
+            <Item1 Ref="229" ControlType="XRTableRow" Name="tableRow3" Weight="1.0070740409155898">
+              <Cells>
+                <Item1 Ref="230" ControlType="XRTableCell" Name="tableCell5" Weight="86.458000183105469" Multiline="true" TextAlignment="MiddleCenter" Font="Arial, 9.75pt" Padding="2,2,0,0,100" Borders="Left, Top">
+                  <StylePriority Ref="231" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="232" ControlType="XRTableCell" Name="tableCell6" Weight="370.83197021484375" Multiline="true" Text="tableCell1" TextAlignment="MiddleCenter" Font="Arial, 9.75pt" Padding="2,2,0,0,100" Borders="Left, Top">
+                  <ExpressionBindings>
+                    <Item1 Ref="233" EventName="BeforePrint" PropertyName="Text" Expression=" [ListAccessoriesPurchase].[AccessoriesPurchase]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="234" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+                </Item2>
+                <Item3 Ref="235" ControlType="XRTableCell" Name="tableCell7" Weight="111.4593505859375" Multiline="true" Text="tableCell2" TextAlignment="MiddleCenter" Font="Arial, 9.75pt" Padding="2,2,0,0,100" Borders="Left, Top, Right">
+                  <ExpressionBindings>
+                    <Item1 Ref="236" EventName="BeforePrint" PropertyName="Text" Expression=" [ListAccessoriesPurchase].[AccessoriesAmount]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="237" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+                </Item3>
+              </Cells>
+            </Item1>
+          </Rows>
+        </Item108>
+      </Controls>
+    </Item3>
+  </Bands>
+</XtraReportsLayoutSerializer>

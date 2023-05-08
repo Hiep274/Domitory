@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="20.2.6.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v20.2, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="SalesFleetInquiries" Landscape="true" Margins="0, 0, 25, 38" PaperKind="A4" PageWidth="1169" PageHeight="827" Version="20.2" DataSource="#Ref-0" Font="Arial, 9.75pt">
+  <Extensions>
+    <Item1 Ref="2" Key="VSReportExtInfo" Value=".vsrepx" />
+  </Extensions>
+  <Bands>
+    <Item1 Ref="3" ControlType="TopMarginBand" Name="TopMargin" HeightF="25">
+      <Controls>
+        <Item1 Ref="4" ControlType="XRTable" Name="table1" TextAlignment="MiddleCenter" SizeF="1169,25" LocationFloat="0,0" Font="Arial, 6pt" BackColor="Chartreuse">
+          <Rows>
+            <Item1 Ref="5" ControlType="XRTableRow" Name="tableRow1" Weight="1">
+              <Cells>
+                <Item1 Ref="6" ControlType="XRTableCell" Name="tableCell1" Weight="0.050411124418532488" Text="DLR" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="Left, Top, Bottom" BorderWidth="1">
+                  <StylePriority Ref="7" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="8" ControlType="XRTableCell" Name="tableCell2" Weight="0.13462591534801252" Text="Customer name" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="Left, Top, Bottom" BorderWidth="1">
+                  <StylePriority Ref="9" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item2>
+                <Item3 Ref="10" ControlType="XRTableCell" Name="tableCell3" Weight="0.057993897504205229" Text="Status" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="Left, Top, Bottom" BorderWidth="1">
+                  <StylePriority Ref="11" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item3>
+                <Item4 Ref="12" ControlType="XRTableCell" Name="tableCell8" Weight="0.11031737237902717" Text="Số phê duyệt lô" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="Left, Top, Bottom" BorderWidth="1">
+                  <StylePriority Ref="13" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item4>
+                <Item5 Ref="14" ControlType="XRTableCell" Name="tableCell9" Weight="0.049833701649999708" Text="Giá lô" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="Left, Top, Bottom" BorderWidth="1">
+                  <StylePriority Ref="15" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item5>
+                <Item6 Ref="16" ControlType="XRTableCell" Name="tableCell10" Weight="0.055704641813731082" Text="Model" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="Left, Top, Bottom" BorderWidth="1">
+                  <StylePriority Ref="17" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item6>
+                <Item7 Ref="18" ControlType="XRTableCell" Name="tableCell11" Weight="0.055530271695468023" Text="Grade" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="Left, Top, Bottom" BorderWidth="1">
+                  <StylePriority Ref="19" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item7>
+                <Item8 Ref="20" ControlType="XRTableCell" Name="tableCell4" Weight="0.12900218696644492" Multiline="true" Text="Production Code" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="Left, Top, Bottom" BorderWidth="1">
+                  <StylePriority Ref="21" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item8>
+                <Item9 Ref="22" ControlType="XRTableCell" Name="tableCell6" Weight="0.062028718693787621" Multiline="true" Text="Color" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="Left, Top, Bottom" BorderWidth="1">
+                  <StylePriority Ref="23" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item9>
+                <Item10 Ref="24" ControlType="XRTableCell" Name="tableCell12" Weight="0.12026641820519934" Text="Production month" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="Left, Top, Bottom" BorderWidth="1">
+                  <StylePriority Ref="25" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item10>
+                <Item11 Ref="26" ControlType="XRTableCell" Name="tableCell14" Weight="0.086891233232999118" Text="Firm Order" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="Left, Top, Bottom" BorderWidth="1">
+                  <StylePriority Ref="27" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item11>
+                <Item12 Ref="28" ControlType="XRTableCell" Name="tableCell55" Weight="0.086891233232999118" Multiline="true" Text="Fleet Version" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="Left, Top, Bottom" BorderWidth="1">
+                  <StylePriority Ref="29" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item12>
+                <Item13 Ref="30" ControlType="XRTableCell" Name="tableCell15" Weight="0.07218716205953056" Text="Source" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="Left, Top, Bottom" BorderWidth="1">
+                  <StylePriority Ref="31" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item13>
+                <Item14 Ref="32" ControlType="XRTableCell" Name="tableCell20" Weight="0.20955398408447951" Multiline="true" Text="Business field " TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="Left, Top, Bottom" BorderWidth="1">
+                  <StylePriority Ref="33" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item14>
+                <Item15 Ref="34" ControlType="XRTableCell" Name="tableCell17" Weight="0.079040929472392718" Text="Region" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="Left, Top, Bottom" BorderWidth="1">
+                  <StylePriority Ref="35" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item15>
+                <Item16 Ref="36" ControlType="XRTableCell" Name="tableCell18" Weight="0.051631124159740832" Text="Jan" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="Left, Top, Bottom" BorderWidth="1">
+                  <StylePriority Ref="37" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item16>
+                <Item17 Ref="38" ControlType="XRTableCell" Name="tableCell19" Weight="0.050396200436931916" Text="Feb" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="All" BorderWidth="1">
+                  <StylePriority Ref="39" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item17>
+                <Item18 Ref="40" ControlType="XRTableCell" Name="tableCell13" Weight="0.050396200436931916" Multiline="true" Text="Mar" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="All" BorderWidth="1">
+                  <StylePriority Ref="41" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item18>
+                <Item19 Ref="42" ControlType="XRTableCell" Name="tableCell16" Weight="0.050396200436931916" Multiline="true" Text="Apr" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="All" BorderWidth="1">
+                  <StylePriority Ref="43" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item19>
+                <Item20 Ref="44" ControlType="XRTableCell" Name="tableCell24" Weight="0.050396200436931916" Multiline="true" Text="May" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="All" BorderWidth="1">
+                  <StylePriority Ref="45" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item20>
+                <Item21 Ref="46" ControlType="XRTableCell" Name="tableCell25" Weight="0.050396200436931916" Multiline="true" Text="Jun" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="All" BorderWidth="1">
+                  <StylePriority Ref="47" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item21>
+                <Item22 Ref="48" ControlType="XRTableCell" Name="tableCell26" Weight="0.050396200436931916" Multiline="true" Text="Jul" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="All" BorderWidth="1">
+                  <StylePriority Ref="49" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item22>
+                <Item23 Ref="50" ControlType="XRTableCell" Name="tableCell27" Weight="0.050396200436931916" Multiline="true" Text="Aug" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="All" BorderWidth="1">
+                  <StylePriority Ref="51" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item23>
+                <Item24 Ref="52" ControlType="XRTableCell" Name="tableCell33" Weight="0.050396200436931916" Multiline="true" Text="Sep" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="All" BorderWidth="1">
+                  <StylePriority Ref="53" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item24>
+                <Item25 Ref="54" ControlType="XRTableCell" Name="tableCell36" Weight="0.050396200436931916" Multiline="true" Text="Oct" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="All" BorderWidth="1">
+                  <StylePriority Ref="55" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item25>
+                <Item26 Ref="56" ControlType="XRTableCell" Name="tableCell41" Weight="0.050396200436931916" Multiline="true" Text="Nov" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="All" BorderWidth="1">
+                  <StylePriority Ref="57" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item26>
+                <Item27 Ref="58" ControlType="XRTableCell" Name="tableCell42" Weight="0.050396200436931916" Multiline="true" Text="Dec" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="All" BorderWidth="1">
+                  <StylePriority Ref="59" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item27>
+                <Item28 Ref="60" ControlType="XRTableCell" Name="tableCell57" Weight="0.050396200436931916" Multiline="true" Text="Volume" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="All" BorderWidth="1">
+                  <StylePriority Ref="61" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item28>
+                <Item29 Ref="62" ControlType="XRTableCell" Name="tableCell53" Weight="0.050396200436931916" Multiline="true" Text="Year" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="Yellow" BorderColor="Black" Borders="All" BorderWidth="1">
+                  <StylePriority Ref="63" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item29>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="64" UseFont="false" UseBackColor="false" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+    </Item1>
+    <Item2 Ref="65" ControlType="BottomMarginBand" Name="BottomMargin" HeightF="38" />
+    <Item3 Ref="66" ControlType="DetailBand" Name="Detail" HeightF="27.0000114">
+      <Controls>
+        <Item1 Ref="67" ControlType="XRTable" Name="table2" TextAlignment="MiddleCenter" SizeF="1169,27.0000114" LocationFloat="0,0" Font="Arial, 6pt">
+          <Rows>
+            <Item1 Ref="68" ControlType="XRTableRow" Name="tableRow2" Weight="1">
+              <Cells>
+                <Item1 Ref="69" ControlType="XRTableCell" Name="tableCell21" Weight="0.050411124418532488" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="70" EventName="BeforePrint" PropertyName="Text" Expression="[Dealer]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="71" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="72" ControlType="XRTableCell" Name="tableCell22" Weight="0.13462591534801252" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="73" EventName="BeforePrint" PropertyName="Text" Expression="[CustomerName]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="74" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item2>
+                <Item3 Ref="75" ControlType="XRTableCell" Name="tableCell23" Weight="0.057993897504205229" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="76" EventName="BeforePrint" PropertyName="Text" Expression="[Status]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="77" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item3>
+                <Item4 Ref="78" ControlType="XRTableCell" Name="tableCell28" Weight="0.11031737237902717" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="79" EventName="BeforePrint" PropertyName="Text" Expression="[FleetNo]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="80" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item4>
+                <Item5 Ref="81" ControlType="XRTableCell" Name="tableCell29" Weight="0.049833701649999708" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="82" EventName="BeforePrint" PropertyName="Text" Expression="[Price]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="83" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item5>
+                <Item6 Ref="84" ControlType="XRTableCell" Name="tableCell30" Weight="0.055704641813731082" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="85" EventName="BeforePrint" PropertyName="Text" Expression="[Model]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="86" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item6>
+                <Item7 Ref="87" ControlType="XRTableCell" Name="tableCell31" Weight="0.055530271695468023" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="88" EventName="BeforePrint" PropertyName="Text" Expression="[Grade]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="89" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item7>
+                <Item8 Ref="90" ControlType="XRTableCell" Name="tableCell5" Weight="0.12900218696644492" Multiline="true" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="91" EventName="BeforePrint" PropertyName="Text" Expression="[GradeProduction]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="92" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item8>
+                <Item9 Ref="93" ControlType="XRTableCell" Name="tableCell7" Weight="0.0620283774567776" Multiline="true" Text="Color" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="94" EventName="BeforePrint" PropertyName="Text" Expression="[Color]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="95" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item9>
+                <Item10 Ref="96" ControlType="XRTableCell" Name="tableCell32" Weight="0.12026641820519936" TextFormatString="{0:MM/yyyy}" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="97" EventName="BeforePrint" PropertyName="Text" Expression="[ProductionMonth]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="98" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item10>
+                <Item11 Ref="99" ControlType="XRTableCell" Name="tableCell34" Weight="0.086891574470009128" Multiline="true" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="100" EventName="BeforePrint" PropertyName="Text" Expression="[Type]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="101" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item11>
+                <Item12 Ref="102" ControlType="XRTableCell" Name="tableCell56" Weight="0.086891574470009128" Multiline="true" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="103" EventName="BeforePrint" PropertyName="Text" Expression="[FleetVersion]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="104" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item12>
+                <Item13 Ref="105" ControlType="XRTableCell" Name="tableCell35" Weight="0.07218716205953056" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="106" EventName="BeforePrint" PropertyName="Text" Expression="[CbuCkd]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="107" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item13>
+                <Item14 Ref="108" ControlType="XRTableCell" Name="tableCell37" Weight="0.20955398408447951" Multiline="true" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="109" EventName="BeforePrint" PropertyName="Text" Expression="[BusinessType]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="110" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item14>
+                <Item15 Ref="111" ControlType="XRTableCell" Name="tableCell38" Weight="0.07904153549793716" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="112" EventName="BeforePrint" PropertyName="Text" Expression="[Region]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="113" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item15>
+                <Item16 Ref="114" ControlType="XRTableCell" Name="tableCell39" Weight="0.051630389116477486" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="115" EventName="BeforePrint" PropertyName="Text" Expression="[Jan]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="116" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item16>
+                <Item17 Ref="117" ControlType="XRTableCell" Name="tableCell40" Weight="0.050396329454650834" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Right, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="118" EventName="BeforePrint" PropertyName="Text" Expression="[Feb]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="119" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item17>
+                <Item18 Ref="120" ControlType="XRTableCell" Name="tableCell43" Weight="0.050396200436931916" Multiline="true" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Right, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="121" EventName="BeforePrint" PropertyName="Text" Expression="[Mar]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="122" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item18>
+                <Item19 Ref="123" ControlType="XRTableCell" Name="tableCell44" Weight="0.050396200436931916" Multiline="true" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Right, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="124" EventName="BeforePrint" PropertyName="Text" Expression="[Apr]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="125" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item19>
+                <Item20 Ref="126" ControlType="XRTableCell" Name="tableCell45" Weight="0.050396200436931916" Multiline="true" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Right, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="127" EventName="BeforePrint" PropertyName="Text" Expression="[May]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="128" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item20>
+                <Item21 Ref="129" ControlType="XRTableCell" Name="tableCell46" Weight="0.050396200436931916" Multiline="true" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Right, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="130" EventName="BeforePrint" PropertyName="Text" Expression="[Jun]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="131" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item21>
+                <Item22 Ref="132" ControlType="XRTableCell" Name="tableCell47" Weight="0.050396200436931916" Multiline="true" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Right, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="133" EventName="BeforePrint" PropertyName="Text" Expression="[Jul]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="134" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item22>
+                <Item23 Ref="135" ControlType="XRTableCell" Name="tableCell48" Weight="0.050396200436931916" Multiline="true" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Right, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="136" EventName="BeforePrint" PropertyName="Text" Expression="[Aug]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="137" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item23>
+                <Item24 Ref="138" ControlType="XRTableCell" Name="tableCell49" Weight="0.050396200436931916" Multiline="true" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Right, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="139" EventName="BeforePrint" PropertyName="Text" Expression="[Sep]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="140" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item24>
+                <Item25 Ref="141" ControlType="XRTableCell" Name="tableCell50" Weight="0.050396200436931916" Multiline="true" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Right, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="142" EventName="BeforePrint" PropertyName="Text" Expression="[Oct]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="143" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item25>
+                <Item26 Ref="144" ControlType="XRTableCell" Name="tableCell51" Weight="0.050396200436931916" Multiline="true" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Right, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="145" EventName="BeforePrint" PropertyName="Text" Expression="[Nov]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="146" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item26>
+                <Item27 Ref="147" ControlType="XRTableCell" Name="tableCell52" Weight="0.050396200436931916" Multiline="true" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Right, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="148" EventName="BeforePrint" PropertyName="Text" Expression="[Dec]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="149" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item27>
+                <Item28 Ref="150" ControlType="XRTableCell" Name="tableCell58" Weight="0.050396200436931916" Multiline="true" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Right, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="151" EventName="BeforePrint" PropertyName="Text" Expression="[Volume]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="152" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item28>
+                <Item29 Ref="153" ControlType="XRTableCell" Name="tableCell54" Weight="0.050396200436931916" Multiline="true" TextAlignment="MiddleCenter" StyleName="GroupCaption1" Font="Arial, 6pt" ForeColor="Black" BackColor="White" BorderColor="Black" Borders="Left, Right, Bottom" BorderWidth="1">
+                  <ExpressionBindings>
+                    <Item1 Ref="154" EventName="BeforePrint" PropertyName="Text" Expression="[Year]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="155" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                </Item29>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="156" UseFont="false" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+    </Item3>
+  </Bands>
+  <StyleSheet>
+    <Item1 Ref="157" Name="Title" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 14.25pt" ForeColor="255,64,70,80" BackColor="Transparent" BorderColor="Black" Sides="None" StringFormat="Near;Near;0;None;Character;Default" BorderWidthSerializable="1" />
+    <Item2 Ref="158" Name="GroupCaption1" BorderStyle="Inset" Padding="6,2,0,0,100" Font="Arial, 8.25pt, style=Bold" ForeColor="255,228,228,228" BackColor="255,46,148,130" BorderColor="White" Sides="Bottom" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="2" />
+    <Item3 Ref="159" Name="GroupData1" BorderStyle="Inset" Padding="6,2,0,0,100" Font="Arial, 8.25pt, style=Bold" ForeColor="White" BackColor="255,46,148,130" BorderColor="White" Sides="Bottom" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="2" />
+    <Item4 Ref="160" Name="GroupFooterBackground3" BorderStyle="Inset" Padding="6,2,0,0,100" Font="Arial, 8.25pt, style=Bold" ForeColor="255,228,228,228" BackColor="255,109,117,129" BorderColor="White" Sides="Bottom" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="2" />
+    <Item5 Ref="161" Name="PageInfo" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 8.25pt, style=Bold" ForeColor="255,64,70,80" StringFormat="Near;Near;0;None;Character;Default" />
+  </StyleSheet>
+  <ComponentStorage>
+    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.Excel.ExcelDataSource,DevExpress.DataAccess.v20.2" Name="excelDataSource1" Base64="PEV4Y2VsRGF0YVNvdXJjZSBOYW1lPSJleGNlbERhdGFTb3VyY2UxIiBGaWxlTmFtZT0iQzpcVXNlcnNcRGVsbFxEb2N1bWVudHNcWmFsbyBSZWNlaXZlZCBGaWxlc1xEYXRhIGZvciBzeXN0ZW0ueGxzeCI+PE9wdGlvbnMgVHlwZT0iRGV2RXhwcmVzcy5EYXRhQWNjZXNzLkV4Y2VsLkV4Y2VsU291cmNlT3B0aW9ucyIgU2tpcEVtcHR5Um93cz0idHJ1ZSIgVXNlRmlyc3RSb3dBc0hlYWRlcj0idHJ1ZSIgU2tpcEhpZGRlbkNvbHVtbnM9InRydWUiIFNraXBIaWRkZW5Sb3dzPSJ0cnVlIj48SW1wb3J0U2V0dGluZ3MgVHlwZT0iRGV2RXhwcmVzcy5EYXRhQWNjZXNzLkV4Y2VsLkV4Y2VsV29ya3NoZWV0U2V0dGluZ3MiIFdvcmtzaGVldE5hbWU9IklucXVpcmllcyIgLz48L09wdGlvbnM+PFNjaGVtYT48RmllbGRJbmZvIE5hbWU9IkRMUiIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIC8+PEZpZWxkSW5mbyBOYW1lPSJDdXN0b21lciBuYW1lIiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IlN0YXR1cyIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIC8+PEZpZWxkSW5mbyBOYW1lPSJEZWxheSIgVHlwZT0iU3lzdGVtLkRvdWJsZSIgU2VsZWN0ZWQ9InRydWUiIC8+PEZpZWxkSW5mbyBOYW1lPSJPbiBwbGFuIiBUeXBlPSJTeXN0ZW0uRG91YmxlIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IsSQaeG7gXUgY2hpbmggdMSDbmcvZ2nhuqNtIiBUeXBlPSJTeXN0ZW0uRG91YmxlIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNhbmNlbCIgVHlwZT0iU3lzdGVtLkRvdWJsZSIgU2VsZWN0ZWQ9InRydWUiIC8+PEZpZWxkSW5mbyBOYW1lPSJT4buRIHBow6ogZHV54buHdCBsw7QiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiAvPjxGaWVsZEluZm8gTmFtZT0iR2nDoSBsw7QiIFR5cGU9IlN5c3RlbS5Eb3VibGUiIFNlbGVjdGVkPSJ0cnVlIiAvPjxGaWVsZEluZm8gTmFtZT0iTW9kZWwiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiAvPjxGaWVsZEluZm8gTmFtZT0iR3JhZGUiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiAvPjxGaWVsZEluZm8gTmFtZT0iUHJvZHVjdGlvbiBtb250aCIgVHlwZT0iU3lzdGVtLkRvdWJsZSIgU2VsZWN0ZWQ9InRydWUiIC8+PEZpZWxkSW5mbyBOYW1lPSJDb2xvciIgVHlwZT0iU3lzdGVtLkRvdWJsZSIgU2VsZWN0ZWQ9InRydWUiIC8+PEZpZWxkSW5mbyBOYW1lPSJTb3VyY2UiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiAvPjxGaWVsZEluZm8gTmFtZT0iMjAyMCBzYWxlcyIgVHlwZT0iU3lzdGVtLkRvdWJsZSIgU2VsZWN0ZWQ9InRydWUiIC8+PEZpZWxkSW5mbyBOYW1lPSJCdXNpbmVzcyBmaWVsZCIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIC8+PEZpZWxkSW5mbyBOYW1lPSJSZWdpb24iIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiAvPjxGaWVsZEluZm8gTmFtZT0iQXR0cmlidXRlIiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IlZhbHVlIiBUeXBlPSJTeXN0ZW0uRG91YmxlIiBTZWxlY3RlZD0idHJ1ZSIgLz48L1NjaGVtYT48UmVzdWx0U2NoZW1hPjxWaWV3PjxGaWVsZCBOYW1lPSJETFIiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQ3VzdG9tZXIgbmFtZSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJTdGF0dXMiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRGVsYXkiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iT24gcGxhbiIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSLEkGnhu4F1IGNoaW5oIHTEg25nL2dp4bqjbSIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSJDYW5jZWwiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iU+G7kSBwaMOqIGR1eeG7h3QgbMO0IiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9Ikdpw6EgbMO0IiBUeXBlPSJEb3VibGUiIC8+PEZpZWxkIE5hbWU9Ik1vZGVsIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkdyYWRlIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlByb2R1Y3Rpb24gbW9udGgiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iQ29sb3IiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iU291cmNlIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IjIwMjAgc2FsZXMiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iQnVzaW5lc3MgZmllbGQiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iUmVnaW9uIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkF0dHJpYnV0ZSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJWYWx1ZSIgVHlwZT0iRG91YmxlIiAvPjwvVmlldz48L1Jlc3VsdFNjaGVtYT48L0V4Y2VsRGF0YVNvdXJjZT4=" />
+  </ComponentStorage>
+</XtraReportsLayoutSerializer>

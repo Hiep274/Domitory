@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="20.2.5.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="SalesContractManagementExportReport" Landscape="true" Margins="0, 2, 0, 23" PaperKind="Custom" PageWidth="5150" PageHeight="1100" Version="20.2" DataSource="#Ref-0" Font="Arial, 9.75pt">
+  <Extensions>
+    <Item1 Ref="2" Key="VSReportExtInfo" Value=".vsrepx" />
+  </Extensions>
+  <Bands>
+    <Item1 Ref="3" ControlType="TopMarginBand" Name="TopMargin" HeightF="0" />
+    <Item2 Ref="4" ControlType="BottomMarginBand" Name="BottomMargin" HeightF="23" />
+    <Item3 Ref="5" ControlType="ReportHeaderBand" Name="ReportHeader" HeightF="60.0000153">
+      <Controls>
+        <Item1 Ref="6" ControlType="XRLabel" Name="label1" Text="Report Title" SizeF="2569,24.194334" LocationFloat="0,0" StyleName="Title" />
+      </Controls>
+    </Item3>
+    <Item4 Ref="7" ControlType="GroupHeaderBand" Name="GroupHeader1" GroupUnion="WithFirstDetail" HeightF="28">
+      <Controls>
+        <Item1 Ref="8" ControlType="XRTable" Name="table1" SizeF="5148,28" LocationFloat="0,0">
+          <Rows>
+            <Item1 Ref="9" ControlType="XRTableRow" Name="tableRow1" Weight="1">
+              <Cells>
+                <Item1 Ref="10" ControlType="XRTableCell" Name="tableCell1" Weight="0.071183183726297172" Text="Vehicle Information" StyleName="DetailCaption1" Borders="None">
+                  <StylePriority Ref="11" UseBorders="false" />
+                </Item1>
+                <Item2 Ref="12" ControlType="XRTableCell" Name="tableCell2" Weight="0.081860721013130855" Text="Column2" StyleName="DetailCaption1" />
+                <Item3 Ref="13" ControlType="XRTableCell" Name="tableCell3" Weight="0.063478396325326925" Text="Column3" StyleName="DetailCaption1" />
+                <Item4 Ref="14" ControlType="XRTableCell" Name="tableCell4" Weight="0.043870449489012309" Text="Column4" StyleName="DetailCaption1" />
+                <Item5 Ref="15" ControlType="XRTableCell" Name="tableCell5" Weight="0.019360695311840814" Text="Column5" StyleName="DetailCaption1" />
+                <Item6 Ref="16" ControlType="XRTableCell" Name="tableCell6" Weight="0.035292008631381877" Text="Column6" StyleName="DetailCaption1" />
+                <Item7 Ref="17" ControlType="XRTableCell" Name="tableCell7" Weight="0.0218116799111443" Text="Column7" StyleName="DetailCaption1" />
+                <Item8 Ref="18" ControlType="XRTableCell" Name="tableCell8" Weight="0.032120306505164731" Text="Column8" StyleName="DetailCaption1" />
+                <Item9 Ref="19" ControlType="XRTableCell" Name="tableCell9" Weight="0.02891735953649055" Text="Column9" StyleName="DetailCaption1" />
+                <Item10 Ref="20" ControlType="XRTableCell" Name="tableCell10" Weight="0.026466545133740138" Text="Column10" StyleName="DetailCaption1" />
+                <Item11 Ref="21" ControlType="XRTableCell" Name="tableCell11" Weight="0.026466437424596534" Text="Column11" StyleName="DetailCaption1" />
+                <Item12 Ref="22" ControlType="XRTableCell" Name="tableCell12" Weight="0.02646639632310599" Text="Contract Header" StyleName="DetailCaption1" />
+                <Item13 Ref="23" ControlType="XRTableCell" Name="tableCell13" Weight="0.031043860952291724" Text="Column13" StyleName="DetailCaption1" />
+                <Item14 Ref="24" ControlType="XRTableCell" Name="tableCell14" Weight="0.025599127390510956" Text="Column14" StyleName="DetailCaption1" />
+                <Item15 Ref="25" ControlType="XRTableCell" Name="tableCell15" Weight="0.033959906021206576" Text="Column15" StyleName="DetailCaption1" />
+                <Item16 Ref="26" ControlType="XRTableCell" Name="tableCell16" Weight="0.02646632960566786" Text="Column16" StyleName="DetailCaption1" />
+                <Item17 Ref="27" ControlType="XRTableCell" Name="tableCell17" Weight="0.026466545023954402" Text="Column17" StyleName="DetailCaption1" />
+                <Item18 Ref="28" ControlType="XRTableCell" Name="tableCell18" Weight="0.013233220172019555" Text="Column18" StyleName="DetailCaption1" />
+                <Item19 Ref="29" ControlType="XRTableCell" Name="tableCell19" Weight="0.026466429948124315" Text="Contract Cancelation" StyleName="DetailCaption1" />
+                <Item20 Ref="30" ControlType="XRTableCell" Name="tableCell20" Weight="0.029139347413097427" Text="Column20" StyleName="DetailCaption1" />
+                <Item21 Ref="31" ControlType="XRTableCell" Name="tableCell21" Weight="0.021648535532234892" Text="Column21" StyleName="DetailCaption1" />
+                <Item22 Ref="32" ControlType="XRTableCell" Name="tableCell22" Weight="0.029139328446465718" Text="Customer Information" StyleName="DetailCaption1" />
+                <Item23 Ref="33" ControlType="XRTableCell" Name="tableCell23" Weight="0.029139275607001913" Text="Column23" StyleName="DetailCaption1" />
+                <Item24 Ref="34" ControlType="XRTableCell" Name="tableCell24" Weight="0.029139203800906455" Text="Column24" StyleName="DetailCaption1" />
+                <Item25 Ref="35" ControlType="XRTableCell" Name="tableCell25" Weight="0.027121021681240809" Text="Column25" StyleName="DetailCaption1" />
+                <Item26 Ref="36" ControlType="XRTableCell" Name="tableCell26" Weight="0.029139347413097427" Text="Column26" StyleName="DetailCaption1" />
+                <Item27 Ref="37" ControlType="XRTableCell" Name="tableCell27" Weight="0.028052633964046725" Text="Column27" StyleName="DetailCaption1" />
+                <Item28 Ref="38" ControlType="XRTableCell" Name="tableCell28" Weight="0.014569747027258162" Text="Column28" StyleName="DetailCaption1" />
+                <Item29 Ref="39" ControlType="XRTableCell" Name="tableCell29" Weight="0.014569753496000482" Text="Contact Person" StyleName="DetailCaption1" />
+                <Item30 Ref="40" ControlType="XRTableCell" Name="tableCell30" Weight="0.014569603415067245" Text="Column30" StyleName="DetailCaption1" />
+                <Item31 Ref="41" ControlType="XRTableCell" Name="tableCell31" Weight="0.078990796520889514" Text="Column31" StyleName="DetailCaption1" />
+                <Item32 Ref="42" ControlType="XRTableCell" Name="tableCell32" Weight="0.122817142195861" Text="Invoice Information" StyleName="DetailCaption1" />
+                <Item33 Ref="43" ControlType="XRTableCell" Name="tableCell33" Weight="0.083130494219503" Text="Column33" StyleName="DetailCaption1" />
+                <Item34 Ref="44" ControlType="XRTableCell" Name="tableCell34" Weight="0.087417820762549864" Text="Column34" StyleName="DetailCaption1" />
+                <Item35 Ref="45" ControlType="XRTableCell" Name="tableCell35" Weight="0.099171390573420393" Text="Survey Information" StyleName="DetailCaption1" />
+                <Item36 Ref="46" ControlType="XRTableCell" Name="tableCell36" Weight="0.083673668331782192" Text="Column36" StyleName="DetailCaption1" />
+                <Item37 Ref="47" ControlType="XRTableCell" Name="tableCell37" Weight="0.08313041743624687" Text="Column37" StyleName="DetailCaption1" />
+                <Item38 Ref="48" ControlType="XRTableCell" Name="tableCell38" Weight="0.087418081731903907" Text="Column38" StyleName="DetailCaption1" />
+                <Item39 Ref="49" ControlType="XRTableCell" Name="tableCell39" Weight="0.099171402282523441" Text="Column39" StyleName="DetailCaption1" />
+                <Item40 Ref="50" ControlType="XRTableCell" Name="tableCell40" Weight="0.10198769815621195" Text="Deliver Information" StyleName="DetailCaption1" />
+                <Item41 Ref="51" ControlType="XRTableCell" Name="tableCell41" Weight="0.092822809903934711" Text="Column41" StyleName="DetailCaption1" />
+                <Item42 Ref="52" ControlType="XRTableCell" Name="tableCell42" Weight="0.081971688072584231" Text="Column42" StyleName="DetailCaption1" />
+                <Item43 Ref="53" ControlType="XRTableCell" Name="tableCell43" Weight="0.089324416899683678" Text="Column43" StyleName="DetailCaption1" />
+                <Item44 Ref="54" ControlType="XRTableCell" Name="tableCell44" Weight="0.089324775930164524" Text="Column44" StyleName="DetailCaption1" />
+                <Item45 Ref="55" ControlType="XRTableCell" Name="tableCell45" Weight="0.089324632317972164" Text="Column45" StyleName="DetailCaption1" />
+                <Item46 Ref="56" ControlType="XRTableCell" Name="tableCell46" Weight="0.084422573746252033" Text="Column46" StyleName="DetailCaption1" />
+                <Item47 Ref="57" ControlType="XRTableCell" Name="tableCell47" Weight="0.08442257374625195" Text="Column47" StyleName="DetailCaption1" />
+                <Item48 Ref="58" ControlType="XRTableCell" Name="tableCell48" Weight="0.088099189481138263" Text="Column48" StyleName="DetailCaption1" />
+                <Item49 Ref="59" ControlType="XRTableCell" Name="tableCell49" Weight="0.039247445952452581" Text="Column49" StyleName="DetailCaption1" />
+                <Item50 Ref="60" ControlType="XRTableCell" Name="tableCell50" Weight="0.041390103284750235" Text="Price &amp; Commission" StyleName="DetailCaption1" />
+                <Item51 Ref="61" ControlType="XRTableCell" Name="tableCell51" Weight="0.038399220216177032" Text="Column51" StyleName="DetailCaption1" />
+                <Item52 Ref="62" ControlType="XRTableCell" Name="tableCell52" Weight="0.3258583167030939" StyleName="DetailCaption1" />
+                <Item53 Ref="63" ControlType="XRTableCell" Name="tableCell53" Weight="0.079186573025595286" Text="Discount Price" StyleName="DetailCaption1" />
+                <Item54 Ref="64" ControlType="XRTableCell" Name="tableCell54" Weight="0.10560532435914677" Text="Other Promotion Value" StyleName="DetailCaption1" />
+                <Item55 Ref="65" ControlType="XRTableCell" Name="tableCell55" Weight="0.060321892957570566" Text="Sale Person" StyleName="DetailCaption1" />
+                <Item56 Ref="66" ControlType="XRTableCell" Name="tableCell56" Weight="0.099343385043269977" Text="DLR Remark For Sale" StyleName="DetailCaption1" />
+                <Item57 Ref="67" ControlType="XRTableCell" Name="tableCell57" Weight="0.071518913519434" Text="TMV Remark" StyleName="DetailCaption1" />
+                <Item58 Ref="68" ControlType="XRTableCell" Name="tableCell58" Weight="0.097117575587368013" Text="DLR Remark for CS" StyleName="DetailCaption1" />
+                <Item59 Ref="69" ControlType="XRTableCell" Name="tableCell59" Weight="0.080332000918151639" Text="End DLR Sales" StyleName="DetailCaption1" />
+                <Item60 Ref="70" ControlType="XRTableCell" Name="tableCell60" Weight="0.060996960635954389" Text="DLR Outlet" StyleName="DetailCaption1" />
+                <Item61 Ref="71" ControlType="XRTableCell" Name="tableCell61" Weight="0.049297399599286529" Text="District" StyleName="DetailCaption1" />
+                <Item62 Ref="72" ControlType="XRTableCell" Name="tableCell62" Weight="0.075100756549061232" Text="Buy Insurance" StyleName="DetailCaption1" />
+                <Item63 Ref="73" ControlType="XRTableCell" Name="tableCell63" Weight="0.11848005268787119" Text="InsuranceCompany Name" StyleName="DetailCaption1" />
+              </Cells>
+            </Item1>
+          </Rows>
+        </Item1>
+      </Controls>
+    </Item4>
+    <Item5 Ref="74" ControlType="DetailBand" Name="Detail" HeightF="25">
+      <Controls>
+        <Item1 Ref="75" ControlType="XRTable" Name="table2" SizeF="2569,25" LocationFloat="450,0" OddStyleName="DetailData3_Odd">
+          <Rows>
+            <Item1 Ref="76" ControlType="XRTableRow" Name="tableRow2" Weight="11.5">
+              <Cells>
+                <Item1 Ref="77" ControlType="XRTableCell" Name="tableCell64" Weight="0.025251823874080884" StyleName="DetailData1" Borders="None">
+                  <ExpressionBindings>
+                    <Item1 Ref="78" EventName="BeforePrint" PropertyName="Text" Expression="[Vehicle Information]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="79" UseBorders="false" />
+                </Item1>
+                <Item2 Ref="80" ControlType="XRTableCell" Name="tableCell65" Weight="0.013233224083395565" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="81" EventName="BeforePrint" PropertyName="Text" Expression="[Column2]" />
+                  </ExpressionBindings>
+                </Item2>
+                <Item3 Ref="82" ControlType="XRTableCell" Name="tableCell66" Weight="0.013233224083395565" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="83" EventName="BeforePrint" PropertyName="Text" Expression="[Column3]" />
+                  </ExpressionBindings>
+                </Item3>
+                <Item4 Ref="84" ControlType="XRTableCell" Name="tableCell67" Weight="0.013233224083395565" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="85" EventName="BeforePrint" PropertyName="Text" Expression="[Column4]" />
+                  </ExpressionBindings>
+                </Item4>
+                <Item5 Ref="86" ControlType="XRTableCell" Name="tableCell68" Weight="0.013233224083395565" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="87" EventName="BeforePrint" PropertyName="Text" Expression="[Column5]" />
+                  </ExpressionBindings>
+                </Item5>
+                <Item6 Ref="88" ControlType="XRTableCell" Name="tableCell69" Weight="0.013233224083395565" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="89" EventName="BeforePrint" PropertyName="Text" Expression="[Column6]" />
+                  </ExpressionBindings>
+                </Item6>
+                <Item7 Ref="90" ControlType="XRTableCell" Name="tableCell70" Weight="0.013233224083395565" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="91" EventName="BeforePrint" PropertyName="Text" Expression="[Column7]" />
+                  </ExpressionBindings>
+                </Item7>
+                <Item8 Ref="92" ControlType="XRTableCell" Name="tableCell71" Weight="0.013233224083395565" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="93" EventName="BeforePrint" PropertyName="Text" Expression="[Column8]" />
+                  </ExpressionBindings>
+                </Item8>
+                <Item9 Ref="94" ControlType="XRTableCell" Name="tableCell72" Weight="0.013233224083395565" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="95" EventName="BeforePrint" PropertyName="Text" Expression="[Column9]" />
+                  </ExpressionBindings>
+                </Item9>
+                <Item10 Ref="96" ControlType="XRTableCell" Name="tableCell73" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="97" EventName="BeforePrint" PropertyName="Text" Expression="[Column10]" />
+                  </ExpressionBindings>
+                </Item10>
+                <Item11 Ref="98" ControlType="XRTableCell" Name="tableCell74" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="99" EventName="BeforePrint" PropertyName="Text" Expression="[Column11]" />
+                  </ExpressionBindings>
+                </Item11>
+                <Item12 Ref="100" ControlType="XRTableCell" Name="tableCell75" Weight="0.021648476544548483" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="101" EventName="BeforePrint" PropertyName="Text" Expression="[Contract Header]" />
+                  </ExpressionBindings>
+                </Item12>
+                <Item13 Ref="102" ControlType="XRTableCell" Name="tableCell76" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="103" EventName="BeforePrint" PropertyName="Text" Expression="[Column13]" />
+                  </ExpressionBindings>
+                </Item13>
+                <Item14 Ref="104" ControlType="XRTableCell" Name="tableCell77" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="105" EventName="BeforePrint" PropertyName="Text" Expression="[Column14]" />
+                  </ExpressionBindings>
+                </Item14>
+                <Item15 Ref="106" ControlType="XRTableCell" Name="tableCell78" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="107" EventName="BeforePrint" PropertyName="Text" Expression="[Column15]" />
+                  </ExpressionBindings>
+                </Item15>
+                <Item16 Ref="108" ControlType="XRTableCell" Name="tableCell79" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="109" EventName="BeforePrint" PropertyName="Text" Expression="[Column16]" />
+                  </ExpressionBindings>
+                </Item16>
+                <Item17 Ref="110" ControlType="XRTableCell" Name="tableCell80" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="111" EventName="BeforePrint" PropertyName="Text" Expression="[Column17]" />
+                  </ExpressionBindings>
+                </Item17>
+                <Item18 Ref="112" ControlType="XRTableCell" Name="tableCell81" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="113" EventName="BeforePrint" PropertyName="Text" Expression="[Column18]" />
+                  </ExpressionBindings>
+                </Item18>
+                <Item19 Ref="114" ControlType="XRTableCell" Name="tableCell82" Weight="0.027120967191808364" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="115" EventName="BeforePrint" PropertyName="Text" Expression="[Contract Cancelation]" />
+                  </ExpressionBindings>
+                </Item19>
+                <Item20 Ref="116" ControlType="XRTableCell" Name="tableCell83" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="117" EventName="BeforePrint" PropertyName="Text" Expression="[Column20]" />
+                  </ExpressionBindings>
+                </Item20>
+                <Item21 Ref="118" ControlType="XRTableCell" Name="tableCell84" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="119" EventName="BeforePrint" PropertyName="Text" Expression="[Column21]" />
+                  </ExpressionBindings>
+                </Item21>
+                <Item22 Ref="120" ControlType="XRTableCell" Name="tableCell85" Weight="0.028052603777717143" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="121" EventName="BeforePrint" PropertyName="Text" Expression="[Customer Information]" />
+                  </ExpressionBindings>
+                </Item22>
+                <Item23 Ref="122" ControlType="XRTableCell" Name="tableCell86" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="123" EventName="BeforePrint" PropertyName="Text" Expression="[Column23]" />
+                  </ExpressionBindings>
+                </Item23>
+                <Item24 Ref="124" ControlType="XRTableCell" Name="tableCell87" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="125" EventName="BeforePrint" PropertyName="Text" Expression="[Column24]" />
+                  </ExpressionBindings>
+                </Item24>
+                <Item25 Ref="126" ControlType="XRTableCell" Name="tableCell88" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="127" EventName="BeforePrint" PropertyName="Text" Expression="[Column25]" />
+                  </ExpressionBindings>
+                </Item25>
+                <Item26 Ref="128" ControlType="XRTableCell" Name="tableCell89" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="129" EventName="BeforePrint" PropertyName="Text" Expression="[Column26]" />
+                  </ExpressionBindings>
+                </Item26>
+                <Item27 Ref="130" ControlType="XRTableCell" Name="tableCell90" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="131" EventName="BeforePrint" PropertyName="Text" Expression="[Column27]" />
+                  </ExpressionBindings>
+                </Item27>
+                <Item28 Ref="132" ControlType="XRTableCell" Name="tableCell91" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="133" EventName="BeforePrint" PropertyName="Text" Expression="[Column28]" />
+                  </ExpressionBindings>
+                </Item28>
+                <Item29 Ref="134" ControlType="XRTableCell" Name="tableCell92" Weight="0.020712145637063421" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="135" EventName="BeforePrint" PropertyName="Text" Expression="[Contact Person]" />
+                  </ExpressionBindings>
+                </Item29>
+                <Item30 Ref="136" ControlType="XRTableCell" Name="tableCell93" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="137" EventName="BeforePrint" PropertyName="Text" Expression="[Column30]" />
+                  </ExpressionBindings>
+                </Item30>
+                <Item31 Ref="138" ControlType="XRTableCell" Name="tableCell94" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="139" EventName="BeforePrint" PropertyName="Text" Expression="[Column31]" />
+                  </ExpressionBindings>
+                </Item31>
+                <Item32 Ref="140" ControlType="XRTableCell" Name="tableCell95" Weight="0.025116891299977021" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="141" EventName="BeforePrint" PropertyName="Text" Expression="[Invoice Information]" />
+                  </ExpressionBindings>
+                </Item32>
+                <Item33 Ref="142" ControlType="XRTableCell" Name="tableCell96" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="143" EventName="BeforePrint" PropertyName="Text" Expression="[Column33]" />
+                  </ExpressionBindings>
+                </Item33>
+                <Item34 Ref="144" ControlType="XRTableCell" Name="tableCell97" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="145" EventName="BeforePrint" PropertyName="Text" Expression="[Column34]" />
+                  </ExpressionBindings>
+                </Item34>
+                <Item35 Ref="146" ControlType="XRTableCell" Name="tableCell98" Weight="0.024851711497587317" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="147" EventName="BeforePrint" PropertyName="Text" Expression="[Survey Information]" />
+                  </ExpressionBindings>
+                </Item35>
+                <Item36 Ref="148" ControlType="XRTableCell" Name="tableCell99" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="149" EventName="BeforePrint" PropertyName="Text" Expression="[Column36]" />
+                  </ExpressionBindings>
+                </Item36>
+                <Item37 Ref="150" ControlType="XRTableCell" Name="tableCell100" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="151" EventName="BeforePrint" PropertyName="Text" Expression="[Column37]" />
+                  </ExpressionBindings>
+                </Item37>
+                <Item38 Ref="152" ControlType="XRTableCell" Name="tableCell101" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="153" EventName="BeforePrint" PropertyName="Text" Expression="[Column38]" />
+                  </ExpressionBindings>
+                </Item38>
+                <Item39 Ref="154" ControlType="XRTableCell" Name="tableCell102" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="155" EventName="BeforePrint" PropertyName="Text" Expression="[Column39]" />
+                  </ExpressionBindings>
+                </Item39>
+                <Item40 Ref="156" ControlType="XRTableCell" Name="tableCell103" Weight="0.024851711497587317" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="157" EventName="BeforePrint" PropertyName="Text" Expression="[Deliver Information]" />
+                  </ExpressionBindings>
+                </Item40>
+                <Item41 Ref="158" ControlType="XRTableCell" Name="tableCell104" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="159" EventName="BeforePrint" PropertyName="Text" Expression="[Column41]" />
+                  </ExpressionBindings>
+                </Item41>
+                <Item42 Ref="160" ControlType="XRTableCell" Name="tableCell105" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="161" EventName="BeforePrint" PropertyName="Text" Expression="[Column42]" />
+                  </ExpressionBindings>
+                </Item42>
+                <Item43 Ref="162" ControlType="XRTableCell" Name="tableCell106" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="163" EventName="BeforePrint" PropertyName="Text" Expression="[Column43]" />
+                  </ExpressionBindings>
+                </Item43>
+                <Item44 Ref="164" ControlType="XRTableCell" Name="tableCell107" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="165" EventName="BeforePrint" PropertyName="Text" Expression="[Column44]" />
+                  </ExpressionBindings>
+                </Item44>
+                <Item45 Ref="166" ControlType="XRTableCell" Name="tableCell108" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="167" EventName="BeforePrint" PropertyName="Text" Expression="[Column45]" />
+                  </ExpressionBindings>
+                </Item45>
+                <Item46 Ref="168" ControlType="XRTableCell" Name="tableCell109" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="169" EventName="BeforePrint" PropertyName="Text" Expression="[Column46]" />
+                  </ExpressionBindings>
+                </Item46>
+                <Item47 Ref="170" ControlType="XRTableCell" Name="tableCell110" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="171" EventName="BeforePrint" PropertyName="Text" Expression="[Column47]" />
+                  </ExpressionBindings>
+                </Item47>
+                <Item48 Ref="172" ControlType="XRTableCell" Name="tableCell111" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="173" EventName="BeforePrint" PropertyName="Text" Expression="[Column48]" />
+                  </ExpressionBindings>
+                </Item48>
+                <Item49 Ref="174" ControlType="XRTableCell" Name="tableCell112" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="175" EventName="BeforePrint" PropertyName="Text" Expression="[Column49]" />
+                  </ExpressionBindings>
+                </Item49>
+                <Item50 Ref="176" ControlType="XRTableCell" Name="tableCell113" Weight="0.026323091843548942" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="177" EventName="BeforePrint" PropertyName="Text" Expression="[Price &amp; Commission]" />
+                  </ExpressionBindings>
+                </Item50>
+                <Item51 Ref="178" ControlType="XRTableCell" Name="tableCell114" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="179" EventName="BeforePrint" PropertyName="Text" Expression="[Column51]" />
+                  </ExpressionBindings>
+                </Item51>
+                <Item52 Ref="180" ControlType="XRTableCell" Name="tableCell115" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="181" EventName="BeforePrint" PropertyName="Text" Expression="[Column52]" />
+                  </ExpressionBindings>
+                </Item52>
+                <Item53 Ref="182" ControlType="XRTableCell" Name="tableCell116" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="183" EventName="BeforePrint" PropertyName="Text" Expression="[Column53]" />
+                  </ExpressionBindings>
+                </Item53>
+                <Item54 Ref="184" ControlType="XRTableCell" Name="tableCell117" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="185" EventName="BeforePrint" PropertyName="Text" Expression="[Column54]" />
+                  </ExpressionBindings>
+                </Item54>
+                <Item55 Ref="186" ControlType="XRTableCell" Name="tableCell118" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="187" EventName="BeforePrint" PropertyName="Text" Expression="[Column55]" />
+                  </ExpressionBindings>
+                </Item55>
+                <Item56 Ref="188" ControlType="XRTableCell" Name="tableCell119" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="189" EventName="BeforePrint" PropertyName="Text" Expression="[Column56]" />
+                  </ExpressionBindings>
+                </Item56>
+                <Item57 Ref="190" ControlType="XRTableCell" Name="tableCell120" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="191" EventName="BeforePrint" PropertyName="Text" Expression="[Column57]" />
+                  </ExpressionBindings>
+                </Item57>
+                <Item58 Ref="192" ControlType="XRTableCell" Name="tableCell121" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="193" EventName="BeforePrint" PropertyName="Text" Expression="[Column58]" />
+                  </ExpressionBindings>
+                </Item58>
+                <Item59 Ref="194" ControlType="XRTableCell" Name="tableCell122" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="195" EventName="BeforePrint" PropertyName="Text" Expression="[Column59]" />
+                  </ExpressionBindings>
+                </Item59>
+                <Item60 Ref="196" ControlType="XRTableCell" Name="tableCell123" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="197" EventName="BeforePrint" PropertyName="Text" Expression="[Column60]" />
+                  </ExpressionBindings>
+                </Item60>
+                <Item61 Ref="198" ControlType="XRTableCell" Name="tableCell124" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="199" EventName="BeforePrint" PropertyName="Text" Expression="[Column61]" />
+                  </ExpressionBindings>
+                </Item61>
+                <Item62 Ref="200" ControlType="XRTableCell" Name="tableCell125" Weight="0.014569669611313764" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="201" EventName="BeforePrint" PropertyName="Text" Expression="[Column62]" />
+                  </ExpressionBindings>
+                </Item62>
+                <Item63 Ref="202" ControlType="XRTableCell" Name="tableCell126" Weight="2.0369228539423978" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="203" EventName="BeforePrint" PropertyName="Text" Expression="[Column63]" />
+                  </ExpressionBindings>
+                </Item63>
+              </Cells>
+            </Item1>
+          </Rows>
+        </Item1>
+      </Controls>
+    </Item5>
+  </Bands>
+  <StyleSheet>
+    <Item1 Ref="204" Name="Title" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 14.25pt" ForeColor="255,64,70,80" BackColor="Transparent" BorderColor="Black" Sides="None" StringFormat="Near;Near;0;None;Character;Default" BorderWidthSerializable="1" />
+    <Item2 Ref="205" Name="DetailCaption1" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 8.25pt, style=Bold" ForeColor="White" BackColor="255,93,98,110" BorderColor="White" Sides="Left" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="2" />
+    <Item3 Ref="206" Name="DetailData1" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 8.25pt" ForeColor="Black" BorderColor="Transparent" Sides="Left" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="2" />
+    <Item4 Ref="207" Name="DetailData3_Odd" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 8.25pt" ForeColor="Black" BackColor="255,243,245,248" BorderColor="Transparent" Sides="None" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="1" />
+    <Item5 Ref="208" Name="PageInfo" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 8.25pt, style=Bold" ForeColor="255,64,70,80" StringFormat="Near;Near;0;None;Character;Default" />
+  </StyleSheet>
+  <ComponentStorage>
+    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.Excel.ExcelDataSource,DevExpress.DataAccess.v20.2" Name="excelDataSource1" Base64="PEV4Y2VsRGF0YVNvdXJjZSBOYW1lPSJleGNlbERhdGFTb3VyY2UxIiBGaWxlTmFtZT0iQzpcVXNlcnNcQW5oIEhvYW5nXERvY3VtZW50c1xaYWxvIFJlY2VpdmVkIEZpbGVzXENvbnRyYWN0TWFuYWdlbWVudC54bHN4Ij48T3B0aW9ucyBUeXBlPSJEZXZFeHByZXNzLkRhdGFBY2Nlc3MuRXhjZWwuRXhjZWxTb3VyY2VPcHRpb25zIiBTa2lwRW1wdHlSb3dzPSJ0cnVlIiBVc2VGaXJzdFJvd0FzSGVhZGVyPSJ0cnVlIiBTa2lwSGlkZGVuQ29sdW1ucz0idHJ1ZSIgU2tpcEhpZGRlblJvd3M9InRydWUiPjxJbXBvcnRTZXR0aW5ncyBUeXBlPSJEZXZFeHByZXNzLkRhdGFBY2Nlc3MuRXhjZWwuRXhjZWxXb3Jrc2hlZXRTZXR0aW5ncyIgV29ya3NoZWV0TmFtZT0iU2hlZXQxIiAvPjwvT3B0aW9ucz48U2NoZW1hPjxGaWVsZEluZm8gTmFtZT0iVmVoaWNsZSBJbmZvcm1hdGlvbiIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIC8+PEZpZWxkSW5mbyBOYW1lPSJDb2x1bW4yIiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNvbHVtbjMiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiAvPjxGaWVsZEluZm8gTmFtZT0iQ29sdW1uNCIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIC8+PEZpZWxkSW5mbyBOYW1lPSJDb2x1bW41IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNvbHVtbjYiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiAvPjxGaWVsZEluZm8gTmFtZT0iQ29sdW1uNyIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIC8+PEZpZWxkSW5mbyBOYW1lPSJDb2x1bW44IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNvbHVtbjkiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiAvPjxGaWVsZEluZm8gTmFtZT0iQ29sdW1uMTAiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiAvPjxGaWVsZEluZm8gTmFtZT0iQ29sdW1uMTEiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiAvPjxGaWVsZEluZm8gTmFtZT0iQ29udHJhY3QgSGVhZGVyIiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNvbHVtbjEzIiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNvbHVtbjE0IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNvbHVtbjE1IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNvbHVtbjE2IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNvbHVtbjE3IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNvbHVtbjE4IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNvbnRyYWN0IENhbmNlbGF0aW9uIiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNvbHVtbjIwIiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNvbHVtbjIxIiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkN1c3RvbWVyIEluZm9ybWF0aW9uIiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNvbHVtbjIzIiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNvbHVtbjI0IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNvbHVtbjI1IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNvbHVtbjI2IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNvbHVtbjI3IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNvbHVtbjI4IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNvbnRhY3QgUGVyc29uIiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNvbHVtbjMwIiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNvbHVtbjMxIiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9Ikludm9pY2UgSW5mb3JtYXRpb24iIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiAvPjxGaWVsZEluZm8gTmFtZT0iQ29sdW1uMzMiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiAvPjxGaWVsZEluZm8gTmFtZT0iQ29sdW1uMzQiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiAvPjxGaWVsZEluZm8gTmFtZT0iU3VydmV5IEluZm9ybWF0aW9uIiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNvbHVtbjM2IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNvbHVtbjM3IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNvbHVtbjM4IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkNvbHVtbjM5IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgLz48RmllbGRJbmZvIE5hbWU9IkRlbGl2ZXIgSW5mb3JtYXRpb24iIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiAvPjxGaWVsZEluZm8gTmFtZT0iQ29sdW1uNDEiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiAvPjxGaWVsZEluZm8gTmFtZT0iQ29sdW1uNDIiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiAvPjxGaWVsZEluZm8gTmFtZT0iQ29sdW1uNDMiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiAvPjxGaWVsZEluZm8gTmFtZT0iQ29sdW1uNDQiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiAvPjxGaWVsZEluZm8gTmFtZT0iQ29sdW1uNDUiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiAvPjxGaWVsZEluZm8gTmFtZT0iQ29sdW1uNDYiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiAvPjxGaWVsZEluZm8gTmFtZT0iQ29sdW1uNDciIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiAvPjxGaWVsZEluZm8gTmFtZT0iQ29sdW1uNDgiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiAvPjxGaWVsZEluZm8gTmFtZT0iQ29sdW1uNDkiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiAvPjxGaWVsZEluZm8gTmFtZT0iUHJpY2UgJmFtcDsgQ29tbWlzc2lvbiIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIC8+PEZpZWxkSW5mbyBOYW1lPSJDb2x1bW41MSIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIC8+PEZpZWxkSW5mbyBOYW1lPSJDb2x1bW41MiIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIC8+PEZpZWxkSW5mbyBOYW1lPSJDb2x1bW41MyIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIC8+PEZpZWxkSW5mbyBOYW1lPSJDb2x1bW41NCIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIC8+PEZpZWxkSW5mbyBOYW1lPSJDb2x1bW41NSIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIC8+PEZpZWxkSW5mbyBOYW1lPSJDb2x1bW41NiIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIC8+PEZpZWxkSW5mbyBOYW1lPSJDb2x1bW41NyIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIC8+PEZpZWxkSW5mbyBOYW1lPSJDb2x1bW41OCIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIC8+PEZpZWxkSW5mbyBOYW1lPSJDb2x1bW41OSIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIC8+PEZpZWxkSW5mbyBOYW1lPSJDb2x1bW42MCIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIC8+PEZpZWxkSW5mbyBOYW1lPSJDb2x1bW42MSIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIC8+PEZpZWxkSW5mbyBOYW1lPSJDb2x1bW42MiIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIC8+PEZpZWxkSW5mbyBOYW1lPSJDb2x1bW42MyIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIC8+PC9TY2hlbWE+PFJlc3VsdFNjaGVtYT48Vmlldz48RmllbGQgTmFtZT0iVmVoaWNsZSBJbmZvcm1hdGlvbiIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDb2x1bW4yIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbHVtbjMiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQ29sdW1uNCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDb2x1bW41IiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbHVtbjYiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQ29sdW1uNyIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDb2x1bW44IiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbHVtbjkiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQ29sdW1uMTAiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQ29sdW1uMTEiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQ29udHJhY3QgSGVhZGVyIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbHVtbjEzIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbHVtbjE0IiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbHVtbjE1IiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbHVtbjE2IiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbHVtbjE3IiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbHVtbjE4IiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbnRyYWN0IENhbmNlbGF0aW9uIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbHVtbjIwIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbHVtbjIxIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkN1c3RvbWVyIEluZm9ybWF0aW9uIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbHVtbjIzIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbHVtbjI0IiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbHVtbjI1IiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbHVtbjI2IiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbHVtbjI3IiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbHVtbjI4IiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbnRhY3QgUGVyc29uIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbHVtbjMwIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbHVtbjMxIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9Ikludm9pY2UgSW5mb3JtYXRpb24iIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQ29sdW1uMzMiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQ29sdW1uMzQiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iU3VydmV5IEluZm9ybWF0aW9uIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbHVtbjM2IiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbHVtbjM3IiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbHVtbjM4IiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbHVtbjM5IiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkRlbGl2ZXIgSW5mb3JtYXRpb24iIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQ29sdW1uNDEiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQ29sdW1uNDIiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQ29sdW1uNDMiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQ29sdW1uNDQiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQ29sdW1uNDUiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQ29sdW1uNDYiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQ29sdW1uNDciIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQ29sdW1uNDgiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQ29sdW1uNDkiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iUHJpY2UgJmFtcDsgQ29tbWlzc2lvbiIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDb2x1bW41MSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDb2x1bW41MiIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDb2x1bW41MyIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDb2x1bW41NCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDb2x1bW41NSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDb2x1bW41NiIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDb2x1bW41NyIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDb2x1bW41OCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDb2x1bW41OSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDb2x1bW42MCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDb2x1bW42MSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDb2x1bW42MiIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDb2x1bW42MyIgVHlwZT0iU3RyaW5nIiAvPjwvVmlldz48L1Jlc3VsdFNjaGVtYT48L0V4Y2VsRGF0YVNvdXJjZT4=" />
+  </ComponentStorage>
+</XtraReportsLayoutSerializer>

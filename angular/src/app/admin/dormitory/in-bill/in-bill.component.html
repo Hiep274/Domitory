@@ -1,0 +1,93 @@
+
+  <div class="kt-content  kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor">
+    <div class="kt-subheader kt-grid__item redline-header">
+        <div [class]="containerClass">
+            <div class="kt-subheader__main">
+                <h3 class="kt-subheader__title">
+                    <span >{{l("Quản lý ký túc xá")}}</span>
+                </h3>
+                <span class="kt-subheader__separator kt-subheader__separator--v"></span>
+                <span class="kt-subheader__desc">{{l("Quản lý hóa đơn thu phí phát sinh")}}</span>
+            </div>
+            <div class="kt-subheader__toolbar">
+                <div class="kt-subheader__wrapper">
+
+                    <button type="button" class="tmss-btn btn-outline-primary" (click)="createMstGenProvinces()" >
+                        <i class="tmss-fa fas fa-plus mr-1"></i>{{l("Add")}}</button>
+                    <button type="button" class="tmss-btn btn-outline-primary" (click)="editMstGenProvinces()" [disabled]="!selectInBillId" >
+                        <i class="tmss-fa fas fa-edit mr-1"></i>{{l("Edit")}}
+                    </button>
+                    <button type="button" class="tmss-btn btn-outline-danger" (click)="deleteMstGenProvinces()"
+                            [disabled]="!selectInBillId"><i class="fa fa-trash mr-1"></i>{{l("Delete")}}
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div [class]="containerClass + ' kt-grid__item kt-grid__item--fluid'">
+        <div class="kt-portlet kt-portlet--mobile">
+            <div class="kt-portlet__body" style="background-color: #6b6b6e;">
+                <div [class]="containerClass + ' kt-grid__item kt-grid__item--fluid'">
+                    <div class="kt-portlet kt-portlet--mobile">
+                        <div class="kt-portlet__body">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="form-group">
+                                        <tmss-combobox [className]="'ipStRequire'"  [isRequired]="false" type="number"
+                                         [items]="listRoom" [(ngModel)]="filterRoom" [text]="l('Tên phòng')" name="room"></tmss-combobox>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <tmss-datepicker  [isRequired]="false" [showIcon]="true" [(ngModel)]="startDate" [text]="l('Từ ngày')" name="start"></tmss-datepicker>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <tmss-datepicker  [isRequired]="false" [showIcon]="true" [(ngModel)]="endDate" [text]="l('Đến ngày')" name="end"></tmss-datepicker>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="form-group">
+                                        <tmss-combobox [className]="'ipStRequire'"  [isRequired]="false" type="number"
+                                        [items]="listStatus" [(ngModel)]="filterIsPaid" [text]="l('Trạng thái')" name="status"></tmss-combobox>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="form-group">
+                                        <button type="button" class="tmss-btn btn-outline-primary" (click)="clearValueFilter()">
+                                            <i class="tmss-fa fas fa-redo mr-1"></i>{{l("Làm mới")}}
+                                        </button>
+                                        <button  (click)="search()"  class="tmss-btn btn-outline-primary"
+                                            type="submit"><i class="fa fa-search mr-1"></i>{{l("Tìm kiếm")}}
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-12">
+                        <div class="item col-12">
+                            <div class="tbContent"> {{l('Danh sách hóa đơn')}}</div>
+                            <grid-table [columnDefs]="columnDefs"
+                                [defaultColDef]="defaultColDef"
+                                (changePaginationParams)="changePage($event)"
+                                (onChangeSelection)="onChangeSelection($event)"
+                                [paginationParams]="paginationParams"
+                                [rowData]="rowData"
+                                [frameworkComponents]="frameworkComponents"
+                                [height]="'490px'"
+                            ></grid-table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<app-create-or-edit-in-bill
+    #createOrEditInBill
+    (modalSave)="onGridReady(paginationParams)">
+</app-create-or-edit-in-bill>

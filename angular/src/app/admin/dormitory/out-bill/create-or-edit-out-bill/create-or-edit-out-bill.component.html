@@ -1,0 +1,52 @@
+<div bsModal #createOrEditModal="bs-modal" class="modal fade" tabindex="-1" role="dialog"
+    aria-labelledby="createOrEditModal" aria-hidden="true" [config]="{ backdrop: 'static' }">
+    <div class="modal-dialog tmss-modal-md">
+        <div class="modal-content">
+            <form *ngIf="active" #mstGenProvincesForm="ngForm" novalidate (ngSubmit)="save()" autocomplete="off">
+                <div class="modal-header">
+                    <h4 class="modal-title">
+                        <span *ngIf="outbill.id">{{ l("Sửa thông tin hóa đơn chi tiêu") }}</span>
+                        <span *ngIf="!outbill.id">{{ l("Thêm mới hóa đơn chi tiêu") }}</span>
+                    </h4>
+                    <button type="button" class="close" (click)="close()" aria-label="Close" [disabled]="saving">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div [class]="containerClass + ' kt-grid__item kt-grid__item--fluid'">
+                        <div class="kt-portlet kt-portlet--mobile">
+                            <div class="kt-portlet__body">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <tmss-text-input [className]="'ipStRequire'" type="number" [isRequired]="true" [(ngModel)]="outbill.cost"
+                                            [text]="l('Số tiền chi tiêu : ')" name="Cost" [maxlength]="50" required></tmss-text-input>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <tmss-textarea [className]="'ipStRequire'"  [isRequired]="false" [(ngModel)]="outbill.description"
+                                            [text]="l('Mô tả lý do chi tiêu : ')" name="Description"   ></tmss-textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button [disabled]="saving" type="button" class="tmss-btn btn-outline-danger" (click)="close()">
+                        {{ l("Cancel") }}
+                    </button>
+                    <button type="submit" class="tmss-btn btn-outline-primary"
+                        [disabled]="!mstGenProvincesForm.form.valid" [buttonBusy]="saving"
+                        [busyText]="l('SavingWithThreeDot')">
+                        <i class="fa fa-save mr-1"></i> <span>{{ l("Save") }}</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

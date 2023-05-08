@@ -1,0 +1,66 @@
+<div class="container-fluid" >
+        <div class="col-md-12" >
+            <div class="row">
+                <div class="form-group">
+                    <tmss-datepicker  [isRequired]="false" [showIcon]="true" [(ngModel)]="yearFilter" [dateInputFormat]="'YYYY'"
+                    [minMode]="'year'" [text]="l('Chọn năm')" name="monthFilter"></tmss-datepicker>
+                </div>
+                <div class="form-group">
+                    <button (click)="search()"  class="tmss-btn btn-outline-primary"
+                        type="submit"><i class="fa fa-search mr-1"></i>Tìm kiếm
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="card text-left" style="margin-bottom: 5px;">
+            <div class="card-body" >
+                <h4 style="color: black; border-bottom: 1px solid #ffffff;">Thống kê số hợp đồng theo tháng</h4>
+                <ngx-charts-bar-vertical
+                    [view]="[1200,600]"
+                    [results]="contractData"
+                    [xAxisLabel]="'Tháng'"
+                    [legendTitle]="'Tháng'"
+                    [yAxisLabel]="'Số hợp đồng'"
+                    [legend]="true"
+                    [showXAxisLabel]="true"
+                    [showYAxisLabel]="true"
+                    [xAxis]="true"
+                    [yAxis]="true"
+                    [gradient]="true">
+                </ngx-charts-bar-vertical>
+            </div>
+        </div>
+        <div class="card text-left" style="margin-bottom: 5px;">
+            <div class="card-body" >
+                <h4 style="color: black; border-bottom: 1px solid #ffffff;" >Thống kê thu chi theo tháng</h4>
+                <ngx-charts-bar-vertical-2d
+                [view]="view"
+                [scheme]="colorScheme"
+                [results]="multi"
+                [gradient]="gradient"
+                [xAxis]="showXAxis"
+                [yAxis]="showYAxis"
+                [legend]="showLegend"
+                [showXAxisLabel]="showXAxisLabel"
+                [showYAxisLabel]="showYAxisLabel"
+                [xAxisLabel]="xAxisLabel"
+                [yAxisLabel]="yAxisLabel"
+                [legendTitle]="legendTitle"
+                [groupPadding]="2"
+                [barPadding]="1">
+                </ngx-charts-bar-vertical-2d>
+            </div>
+        </div>
+        <div class="card text-left" style="margin-bottom: 5px;">
+            <div class="card-body">
+                <h4 style="color: black; border-bottom: 1px solid #ffffff;">Tổng thu tiền hợp đồng các tháng</h4>
+                <ngx-charts-pie-chart
+                    [results]="contractMoney"
+                    [legend]="true"
+                    [legendTitle]="'Product Sale Report'"
+                    [view]="[1200,600]"
+                    [labels]="true" >
+                </ngx-charts-pie-chart>
+            </div>
+        </div>
+  </div>

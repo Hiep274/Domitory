@@ -1,0 +1,937 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="20.2.5.0" Ref="0" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="EmployeeSummaryRrt" Landscape="true" Margins="0, 0, 0, 114" PaperKind="Custom" PageWidth="850" PageHeight="1100" Version="21.2" Font="Arial, 9.75pt">
+  <Extensions>
+    <Item1 Ref="1" Key="VSReportExtInfo" Value=".vsrepx" />
+  </Extensions>
+  <Bands>
+    <Item1 Ref="2" ControlType="TopMarginBand" Name="TopMargin" HeightF="0" />
+    <Item2 Ref="3" ControlType="BottomMarginBand" Name="BottomMargin" HeightF="114.141525" />
+    <Item3 Ref="4" ControlType="VerticalDetailBand" Name="VerticalDetail" WidthF="100.173637" HeightF="1932.069">
+      <Controls>
+        <Item1 Ref="5" ControlType="XRTable" Name="table3" SizeF="99.82643,473.362946" LocationFloat="0,397.057343" Padding="2,2,0,0,96" Borders="Top, Right">
+          <Rows>
+            <Item1 Ref="6" ControlType="XRTableRow" Name="tableRow17" Weight="1">
+              <Cells>
+                <Item1 Ref="7" ControlType="XRTableCell" Name="tableCell17" Weight="1" Multiline="true" Text="tableCell1" BackColor="Transparent" Borders="Right">
+                  <ExpressionBindings>
+                    <Item1 Ref="8" EventName="BeforePrint" PropertyName="Text" Expression="[total9]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="9" UseBackColor="false" UseBorders="false" />
+                </Item1>
+              </Cells>
+            </Item1>
+            <Item2 Ref="10" ControlType="XRTableRow" Name="tableRow18" Weight="1">
+              <Cells>
+                <Item1 Ref="11" ControlType="XRTableCell" Name="tableCell18" Weight="1" Multiline="true" Text="tableCell2">
+                  <ExpressionBindings>
+                    <Item1 Ref="12" EventName="BeforePrint" PropertyName="Text" Expression="[total10]" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item2>
+            <Item3 Ref="13" ControlType="XRTableRow" Name="tableRow19" Weight="1">
+              <Cells>
+                <Item1 Ref="14" ControlType="XRTableCell" Name="tableCell19" Weight="1" Multiline="true" Text="tableCell3">
+                  <ExpressionBindings>
+                    <Item1 Ref="15" EventName="BeforePrint" PropertyName="Text" Expression="[total11]" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item3>
+            <Item4 Ref="16" ControlType="XRTableRow" Name="tableRow20" Weight="1">
+              <Cells>
+                <Item1 Ref="17" ControlType="XRTableCell" Name="tableCell20" Weight="1" Multiline="true" Text="tableCell4">
+                  <ExpressionBindings>
+                    <Item1 Ref="18" EventName="BeforePrint" PropertyName="Text" Expression="[total12]" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item4>
+            <Item5 Ref="19" ControlType="XRTableRow" Name="tableRow21" Weight="1">
+              <Cells>
+                <Item1 Ref="20" ControlType="XRTableCell" Name="tableCell21" Weight="1" Multiline="true" Text="tableCell5">
+                  <ExpressionBindings>
+                    <Item1 Ref="21" EventName="BeforePrint" PropertyName="Text" Expression="[total13]" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item5>
+            <Item6 Ref="22" ControlType="XRTableRow" Name="tableRow22" Weight="1">
+              <Cells>
+                <Item1 Ref="23" ControlType="XRTableCell" Name="tableCell22" Weight="1" Multiline="true" Text="tableCell6">
+                  <ExpressionBindings>
+                    <Item1 Ref="24" EventName="BeforePrint" PropertyName="Text" Expression="[total14]" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item6>
+            <Item7 Ref="25" ControlType="XRTableRow" Name="tableRow23" Weight="1">
+              <Cells>
+                <Item1 Ref="26" ControlType="XRTableCell" Name="tableCell23" Weight="1" Multiline="true" Text="tableCell7">
+                  <ExpressionBindings>
+                    <Item1 Ref="27" EventName="BeforePrint" PropertyName="Text" Expression="[total15]" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item7>
+            <Item8 Ref="28" ControlType="XRTableRow" Name="tableRow24" Weight="0.97806192632344835">
+              <Cells>
+                <Item1 Ref="29" ControlType="XRTableCell" Name="tableCell24" Weight="1" Multiline="true" Text="tableCell8">
+                  <ExpressionBindings>
+                    <Item1 Ref="30" EventName="BeforePrint" PropertyName="Text" Expression="[total16]" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item8>
+            <Item9 Ref="31" ControlType="XRTableRow" Name="tableRow25" Weight="1.0219380736765515">
+              <Cells>
+                <Item1 Ref="32" ControlType="XRTableCell" Name="tableCell25" Weight="1" Multiline="true" Text="tableCell25">
+                  <ExpressionBindings>
+                    <Item1 Ref="33" EventName="BeforePrint" PropertyName="Text" Expression="[total17]" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item9>
+            <Item10 Ref="34" ControlType="XRTableRow" Name="tableRow26" Weight="1.0131652650034089">
+              <Cells>
+                <Item1 Ref="35" ControlType="XRTableCell" Name="tableCell26" Weight="1" Multiline="true" Text="tableCell26" Borders="Top, Right, Bottom">
+                  <ExpressionBindings>
+                    <Item1 Ref="36" EventName="BeforePrint" PropertyName="Text" Expression="[total18]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="37" UseBorders="false" />
+                </Item1>
+              </Cells>
+            </Item10>
+          </Rows>
+          <StylePriority Ref="38" UseBorders="false" />
+        </Item1>
+        <Item2 Ref="39" ControlType="XRTable" Name="table4" SizeF="100,472.740479" LocationFloat="0,870.4204" Padding="2,2,0,0,96" Borders="Top, Right">
+          <Rows>
+            <Item1 Ref="40" ControlType="XRTableRow" Name="tableRow27" Weight="0.9999970953614703">
+              <Cells>
+                <Item1 Ref="41" ControlType="XRTableCell" Name="tableCell27" Weight="1" Multiline="true" Text="tableCell1" BackColor="Transparent" Borders="Right">
+                  <ExpressionBindings>
+                    <Item1 Ref="42" EventName="BeforePrint" PropertyName="Text" Expression="[total19]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="43" UseBackColor="false" UseBorders="false" />
+                </Item1>
+              </Cells>
+            </Item1>
+            <Item2 Ref="44" ControlType="XRTableRow" Name="tableRow28" Weight="0.99342156418405025">
+              <Cells>
+                <Item1 Ref="45" ControlType="XRTableCell" Name="tableCell28" Weight="1" Multiline="true" Text="tableCell2">
+                  <ExpressionBindings>
+                    <Item1 Ref="46" EventName="BeforePrint" PropertyName="Text" Expression="[total20]" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item2>
+            <Item3 Ref="47" ControlType="XRTableRow" Name="tableRow29" Weight="0.99890612241890719">
+              <Cells>
+                <Item1 Ref="48" ControlType="XRTableCell" Name="tableCell29" Weight="1" Multiline="true" Text="tableCell3">
+                  <ExpressionBindings>
+                    <Item1 Ref="49" EventName="BeforePrint" PropertyName="Text" Expression="[total21]" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item3>
+            <Item4 Ref="50" ControlType="XRTableRow" Name="tableRow30" Weight="0.99889966695959131">
+              <Cells>
+                <Item1 Ref="51" ControlType="XRTableCell" Name="tableCell30" Weight="1" Multiline="true" Text="tableCell4">
+                  <ExpressionBindings>
+                    <Item1 Ref="52" EventName="BeforePrint" PropertyName="Text" Expression="[total22]" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item4>
+            <Item5 Ref="53" ControlType="XRTableRow" Name="tableRow31" Weight="1.0021893690270147">
+              <Cells>
+                <Item1 Ref="54" ControlType="XRTableCell" Name="tableCell31" Weight="1" Multiline="true" Text="tableCell5">
+                  <ExpressionBindings>
+                    <Item1 Ref="55" EventName="BeforePrint" PropertyName="Text" Expression="[total23]" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item5>
+            <Item6 Ref="56" ControlType="XRTableRow" Name="tableRow32" Weight="0.99890224914331749">
+              <Cells>
+                <Item1 Ref="57" ControlType="XRTableCell" Name="tableCell32" Weight="1" Multiline="true" Text="tableCell6">
+                  <ExpressionBindings>
+                    <Item1 Ref="58" EventName="BeforePrint" PropertyName="Text" Expression="[total24]" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item6>
+            <Item7 Ref="59" ControlType="XRTableRow" Name="tableRow33" Weight="0.9989022491433176">
+              <Cells>
+                <Item1 Ref="60" ControlType="XRTableCell" Name="tableCell33" Weight="1" Multiline="true" Text="tableCell7">
+                  <ExpressionBindings>
+                    <Item1 Ref="61" EventName="BeforePrint" PropertyName="Text" Expression="[total25]" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item7>
+            <Item8 Ref="62" ControlType="XRTableRow" Name="tableRow34" Weight="1.0131584854967284">
+              <Cells>
+                <Item1 Ref="63" ControlType="XRTableCell" Name="tableCell34" Weight="1" Multiline="true" Text="tableCell8">
+                  <ExpressionBindings>
+                    <Item1 Ref="64" EventName="BeforePrint" PropertyName="Text" Expression="[total26]" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item8>
+            <Item9 Ref="65" ControlType="XRTableRow" Name="tableRow35" Weight="0.98354858470619">
+              <Cells>
+                <Item1 Ref="66" ControlType="XRTableCell" Name="tableCell35" Weight="1" Multiline="true" Text="tableCell25">
+                  <ExpressionBindings>
+                    <Item1 Ref="67" EventName="BeforePrint" PropertyName="Text" Expression="[total27]" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item9>
+            <Item10 Ref="68" ControlType="XRTableRow" Name="tableRow36" Weight="1.0120717089208831">
+              <Cells>
+                <Item1 Ref="69" ControlType="XRTableCell" Name="tableCell36" Weight="1" Multiline="true" Text="tableCell26" Borders="Top, Right, Bottom">
+                  <ExpressionBindings>
+                    <Item1 Ref="70" EventName="BeforePrint" PropertyName="Text" Expression="[total28]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="71" UseBorders="false" />
+                </Item1>
+              </Cells>
+            </Item10>
+          </Rows>
+          <StylePriority Ref="72" UseBorders="false" />
+        </Item2>
+        <Item3 Ref="73" ControlType="XRLabel" Name="label88" Multiline="true" CanGrow="false" Text="label5" SizeF="99.99999,86.12695" LocationFloat="0,1342.53845" Padding="2,2,0,0,100" Borders="Top, Right, Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="74" EventName="BeforePrint" PropertyName="Text" Expression="[total29]" />
+          </ExpressionBindings>
+          <StylePriority Ref="75" UseBorders="false" />
+        </Item3>
+        <Item4 Ref="76" ControlType="XRLabel" Name="label90" Multiline="true" CanGrow="false" Text="label5" SizeF="100.173569,85.71216" LocationFloat="0,1428.66553" Padding="2,2,0,0,100" Borders="Right, Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="77" EventName="BeforePrint" PropertyName="Text" Expression="[total30]" />
+          </ExpressionBindings>
+          <StylePriority Ref="78" UseBorders="false" />
+        </Item4>
+        <Item5 Ref="79" ControlType="XRLabel" Name="label92" Multiline="true" CanGrow="false" Text="label5" SizeF="99.99999,153.113525" LocationFloat="0,1514.37756" Padding="2,2,0,0,100" Borders="Right, Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="80" EventName="BeforePrint" PropertyName="Text" Expression="[total31]" />
+          </ExpressionBindings>
+          <StylePriority Ref="81" UseBorders="false" />
+        </Item5>
+        <Item6 Ref="82" ControlType="XRLabel" Name="label94" Multiline="true" CanGrow="false" Text="label5" SizeF="99.99999,85.29712" LocationFloat="0,1667.49207" Padding="2,2,0,0,100" Borders="Right, Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="83" EventName="BeforePrint" PropertyName="Text" Expression="[total32]" />
+          </ExpressionBindings>
+          <StylePriority Ref="84" UseBorders="false" />
+        </Item6>
+        <Item7 Ref="85" ControlType="XRLabel" Name="label96" Multiline="true" CanGrow="false" Text="label5" SizeF="100.17363,86.1270752" LocationFloat="0,1752.78918" Padding="2,2,0,0,100" Borders="Right, Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="86" EventName="BeforePrint" PropertyName="Text" Expression="[total33]" />
+          </ExpressionBindings>
+          <StylePriority Ref="87" UseBorders="false" />
+        </Item7>
+        <Item8 Ref="88" ControlType="XRLabel" Name="label4" Multiline="true" CanGrow="false" Text="label5" SizeF="99.99999,19.0724182" LocationFloat="0,377.985" Padding="2,2,0,0,100" Borders="Top, Right, Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="89" EventName="BeforePrint" PropertyName="Text" Expression="[total6]+ [total5]+ [total4]+ [total3]+ [total2]+ [total1]&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;" />
+          </ExpressionBindings>
+          <StylePriority Ref="90" UseBorders="false" />
+        </Item8>
+        <Item9 Ref="91" ControlType="XRTable" Name="table1" SizeF="100,378.192444" LocationFloat="0,0" Padding="2,2,0,0,96" Borders="Top, Right">
+          <Rows>
+            <Item1 Ref="92" ControlType="XRTableRow" Name="tableRow1" Weight="1">
+              <Cells>
+                <Item1 Ref="93" ControlType="XRTableCell" Name="tableCell1" Weight="1" Multiline="true" Text="tableCell1" BackColor="Gainsboro" Borders="Left, Top, Right">
+                  <ExpressionBindings>
+                    <Item1 Ref="94" EventName="BeforePrint" PropertyName="Text" Expression="[dealer]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="95" UseBackColor="false" UseBorders="false" />
+                </Item1>
+              </Cells>
+            </Item1>
+            <Item2 Ref="96" ControlType="XRTableRow" Name="tableRow2" Weight="1">
+              <Cells>
+                <Item1 Ref="97" ControlType="XRTableCell" Name="tableCell2" Weight="1" Multiline="true" Text="tableCell2">
+                  <ExpressionBindings>
+                    <Item1 Ref="98" EventName="BeforePrint" PropertyName="Text" Expression="[total1]" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item2>
+            <Item3 Ref="99" ControlType="XRTableRow" Name="tableRow3" Weight="1">
+              <Cells>
+                <Item1 Ref="100" ControlType="XRTableCell" Name="tableCell3" Weight="1" Multiline="true" Text="tableCell3">
+                  <ExpressionBindings>
+                    <Item1 Ref="101" EventName="BeforePrint" PropertyName="Text" Expression="[total2]" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item3>
+            <Item4 Ref="102" ControlType="XRTableRow" Name="tableRow4" Weight="1">
+              <Cells>
+                <Item1 Ref="103" ControlType="XRTableCell" Name="tableCell4" Weight="1" Multiline="true" Text="tableCell4">
+                  <ExpressionBindings>
+                    <Item1 Ref="104" EventName="BeforePrint" PropertyName="Text" Expression="[total3]" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item4>
+            <Item5 Ref="105" ControlType="XRTableRow" Name="tableRow5" Weight="1">
+              <Cells>
+                <Item1 Ref="106" ControlType="XRTableCell" Name="tableCell5" Weight="1" Multiline="true" Text="tableCell5">
+                  <ExpressionBindings>
+                    <Item1 Ref="107" EventName="BeforePrint" PropertyName="Text" Expression="[total4]" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item5>
+            <Item6 Ref="108" ControlType="XRTableRow" Name="tableRow6" Weight="1">
+              <Cells>
+                <Item1 Ref="109" ControlType="XRTableCell" Name="tableCell6" Weight="1" Multiline="true" Text="tableCell6">
+                  <ExpressionBindings>
+                    <Item1 Ref="110" EventName="BeforePrint" PropertyName="Text" Expression="[total5]" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item6>
+            <Item7 Ref="111" ControlType="XRTableRow" Name="tableRow7" Weight="1">
+              <Cells>
+                <Item1 Ref="112" ControlType="XRTableCell" Name="tableCell7" Weight="1" Multiline="true" Text="tableCell7">
+                  <ExpressionBindings>
+                    <Item1 Ref="113" EventName="BeforePrint" PropertyName="Text" Expression="[total6]" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item7>
+            <Item8 Ref="114" ControlType="XRTableRow" Name="tableRow8" Weight="1">
+              <Cells>
+                <Item1 Ref="115" ControlType="XRTableCell" Name="tableCell8" Weight="1" Multiline="true" Text="tableCell8">
+                  <ExpressionBindings>
+                    <Item1 Ref="116" EventName="BeforePrint" PropertyName="Text" Expression="[total7]" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item8>
+          </Rows>
+          <StylePriority Ref="117" UseBorders="false" />
+        </Item9>
+      </Controls>
+    </Item3>
+    <Item4 Ref="118" ControlType="ReportHeaderBand" Name="ReportHeader" HeightF="103.125">
+      <Controls>
+        <Item1 Ref="119" ControlType="XRLabel" Name="label3" Multiline="true" Text="Report date To:" SizeF="122.916664,23.0000019" LocationFloat="0,46.00002" Padding="2,2,0,0,100" />
+        <Item2 Ref="120" ControlType="XRLabel" Name="label99" Multiline="true" Text="label98" SizeF="100,23" LocationFloat="122.916664,46.00002" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="121" EventName="BeforePrint" PropertyName="Text" Expression="[ToDate]" />
+          </ExpressionBindings>
+        </Item2>
+        <Item3 Ref="122" ControlType="XRLabel" Name="label98" Multiline="true" Text="label98" SizeF="100,23" LocationFloat="122.916664,23.0000172" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="123" EventName="BeforePrint" PropertyName="Text" Expression="[FromDate]" />
+          </ExpressionBindings>
+        </Item3>
+        <Item4 Ref="124" ControlType="XRLabel" Name="label1" Multiline="true" Text="Human Resource Summary" SizeF="203.125,23" LocationFloat="0,0" Padding="2,2,0,0,100" />
+        <Item5 Ref="125" ControlType="XRLabel" Name="label2" Multiline="true" Text="Report date From:" SizeF="122.916664,23.0000019" LocationFloat="0,23.0000172" Padding="2,2,0,0,100" />
+      </Controls>
+    </Item4>
+    <Item5 Ref="126" ControlType="VerticalHeaderBand" Name="VerticalHeader" WidthF="437.5001" HeightF="1932.069">
+      <Controls>
+        <Item1 Ref="127" ControlType="XRLabel" Name="label43" Multiline="true" CanGrow="false" Text="Nhân viên chăm sóc khách hàng/CRM-CS" TextAlignment="MiddleLeft" SizeF="125,46.237" LocationFloat="195.833267,727.9757" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="128" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="129" ControlType="XRLabel" Name="label40" Multiline="true" CanGrow="false" SizeF="116.666595,47.222168" LocationFloat="320.832855,680.70166" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right, Bottom">
+          <StylePriority Ref="130" UseBackColor="false" UseBorders="false" />
+        </Item2>
+        <Item3 Ref="131" ControlType="XRLabel" Name="label39" Multiline="true" CanGrow="false" TextAlignment="MiddleLeft" SizeF="116.666656,47.1699829" LocationFloat="320.833344,633.583557" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="132" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="133" ControlType="XRLabel" Name="label38" Multiline="true" CanGrow="false" TextAlignment="MiddleLeft" SizeF="116.666656,47.37793" LocationFloat="320.833252,586.2056" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="134" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="135" ControlType="XRLabel" Name="label36" Multiline="true" CanGrow="false" Text="Cố vấn dịch vụ/ Service Advisor" TextAlignment="MiddleLeft" SizeF="125,47.222168" LocationFloat="195.833328,680.75354" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="136" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="137" ControlType="XRLabel" Name="label35" Multiline="true" CanGrow="false" Text="Kỹ thuật viên sửa chữa thân xe" TextAlignment="MiddleLeft" SizeF="125,47.1699829" LocationFloat="195.833282,633.583557" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="138" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="139" ControlType="XRLabel" Name="label34" Multiline="true" CanGrow="false" Text="Kỹ thuật viên đồng sơn" TextAlignment="MiddleLeft" SizeF="125,47.2222137" LocationFloat="195.833282,586.3613" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="140" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="141" ControlType="XRLabel" Name="label33" Multiline="true" CanGrow="false" Text="Kỹ thuật viên sửa chữa chung" TextAlignment="MiddleLeft" SizeF="125,47.2222443" LocationFloat="195.833282,539.139038" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="142" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="143" ControlType="XRLabel" Name="label32" Multiline="true" CanGrow="false" Text="Nhân viên KD không tính BH" TextAlignment="MiddleLeft" SizeF="125,47.2222137" LocationFloat="195.83316,491.916931" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="144" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item9>
+        <Item10 Ref="145" ControlType="XRLabel" Name="label31" Multiline="true" CanGrow="false" Text="Nhân viên kinh doanh/Salesperson" TextAlignment="MiddleLeft" SizeF="125,47.2222061" LocationFloat="195.83316,444.6946" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="146" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item10>
+        <Item11 Ref="147" ControlType="XRLabel" Name="label30" Multiline="true" CanGrow="false" Text="2" SizeF="83.33331,473.103516" LocationFloat="29.1664047,397.316772" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+          <StylePriority Ref="148" UseBackColor="false" UseBorders="false" />
+        </Item11>
+        <Item12 Ref="149" ControlType="XRLabel" Name="label29" Multiline="true" CanGrow="false" Text="NGHỈ VIỆC/ TẠM NGHỈ/ TURNOVER" SizeF="83.3333359,473.103516" LocationFloat="112.499825,397.316772" BackColor="Gainsboro" Padding="2,2,4,0,100" Borders="Right, Bottom">
+          <StylePriority Ref="150" UseBackColor="false" UsePadding="false" UseBorders="false" />
+        </Item12>
+        <Item13 Ref="151" ControlType="XRLabel" Name="label28" Multiline="true" CanGrow="false" Text="Quản lý/ Manager above" TextAlignment="MiddleLeft" SizeF="124.999985,47.37784" LocationFloat="195.833176,397.316772" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Right">
+          <StylePriority Ref="152" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item13>
+        <Item14 Ref="153" ControlType="XRLabel" Name="label27" Multiline="true" CanGrow="false" SizeF="116.666656,47.22223" LocationFloat="320.833344,538.9834" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="154" UseBackColor="false" UseBorders="false" />
+        </Item14>
+        <Item15 Ref="155" ControlType="XRLabel" Name="label26" Multiline="true" CanGrow="false" SizeF="116.666656,47.2222" LocationFloat="320.833252,491.7613" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="156" UseBackColor="false" UseBorders="false" />
+        </Item15>
+        <Item16 Ref="157" ControlType="XRLabel" Name="label25" Multiline="true" CanGrow="false" SizeF="116.666656,47.2222" LocationFloat="320.833252,444.5391" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="158" UseBackColor="false" UseBorders="false" />
+        </Item16>
+        <Item17 Ref="159" ControlType="XRLabel" Name="label24" Multiline="true" CanGrow="false" SizeF="116.666656,47.2222" LocationFloat="320.833252,397.3168" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Right">
+          <StylePriority Ref="160" UseBackColor="false" UseBorders="false" />
+        </Item17>
+        <Item18 Ref="161" ControlType="XRLabel" Name="label42" Multiline="true" CanGrow="false" SizeF="116.666626,46.2368774" LocationFloat="320.833466,727.975769" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Right, Bottom">
+          <StylePriority Ref="162" UseBackColor="false" UseBorders="false" />
+        </Item18>
+        <Item19 Ref="163" ControlType="XRLabel" Name="label45" Multiline="true" CanGrow="false" SizeF="116.666626,48.3111572" LocationFloat="320.832825,774.212646" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Right, Bottom">
+          <StylePriority Ref="164" UseBackColor="false" UseBorders="false" />
+        </Item19>
+        <Item20 Ref="165" ControlType="XRLabel" Name="label44" Multiline="true" CanGrow="false" Text="Khác/ Other" TextAlignment="MiddleLeft" SizeF="124.999985,48.3111572" LocationFloat="195.833008,774.2127" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="166" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item20>
+        <Item21 Ref="167" ControlType="XRLabel" Name="label41" Multiline="true" CanGrow="false" Text="Không xác định" TextAlignment="MiddleLeft" SizeF="125.000015,47.8964233" LocationFloat="195.833267,822.523865" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right, Bottom">
+          <StylePriority Ref="168" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item21>
+        <Item22 Ref="169" ControlType="XRLabel" Name="label37" Multiline="true" CanGrow="false" Text="n/a" TextAlignment="MiddleLeft" SizeF="116.666626,47.8963623" LocationFloat="320.8332,822.5239" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Right, Bottom">
+          <StylePriority Ref="170" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item22>
+        <Item23 Ref="171" ControlType="XRLabel" Name="label67" Multiline="true" CanGrow="false" Text="n/a" TextAlignment="MiddleLeft" SizeF="116.666626,47.6369629" LocationFloat="320.832855,1295.31628" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Right, Bottom">
+          <StylePriority Ref="172" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item23>
+        <Item24 Ref="173" ControlType="XRLabel" Name="label66" Multiline="true" CanGrow="false" Text="Không xác định" TextAlignment="MiddleLeft" SizeF="125,47.637085" LocationFloat="195.832855,1295.31616" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right, Bottom">
+          <StylePriority Ref="174" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item24>
+        <Item25 Ref="175" ControlType="XRLabel" Name="label65" Multiline="true" CanGrow="false" Text="Khác/ Other" TextAlignment="MiddleLeft" SizeF="125.000015,46.4962158" LocationFloat="195.833115,1248.82" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="176" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item25>
+        <Item26 Ref="177" ControlType="XRLabel" Name="label64" Multiline="true" CanGrow="false" SizeF="116.666626,46.4443359" LocationFloat="320.832855,1248.82" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Right, Bottom">
+          <StylePriority Ref="178" UseBackColor="false" UseBorders="false" />
+        </Item26>
+        <Item27 Ref="179" ControlType="XRLabel" Name="label63" Multiline="true" CanGrow="false" SizeF="116.666656,47.8959961" LocationFloat="320.8334,1200.92371" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Right, Bottom">
+          <StylePriority Ref="180" UseBackColor="false" UseBorders="false" />
+        </Item27>
+        <Item28 Ref="181" ControlType="XRLabel" Name="label62" Multiline="true" CanGrow="false" Text="Nhân viên chăm sóc khách hàng/ CRM-CS" TextAlignment="MiddleLeft" SizeF="125,47.8960571" LocationFloat="195.833115,1200.92371" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="182" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item28>
+        <Item29 Ref="183" ControlType="XRLabel" Name="label61" Multiline="true" CanGrow="false" SizeF="116.666656,46.8592529" LocationFloat="320.833252,870.4203" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Right">
+          <StylePriority Ref="184" UseBackColor="false" UseBorders="false" />
+        </Item29>
+        <Item30 Ref="185" ControlType="XRLabel" Name="label60" Multiline="true" CanGrow="false" SizeF="116.666656,47.2222" LocationFloat="320.833252,917.2796" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="186" UseBackColor="false" UseBorders="false" />
+        </Item30>
+        <Item31 Ref="187" ControlType="XRLabel" Name="label59" Multiline="true" CanGrow="false" SizeF="116.666656,47.2222" LocationFloat="320.833252,964.501831" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="188" UseBackColor="false" UseBorders="false" />
+        </Item31>
+        <Item32 Ref="189" ControlType="XRLabel" Name="label58" Multiline="true" CanGrow="false" SizeF="116.666656,47.22223" LocationFloat="320.833344,1011.72406" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="190" UseBackColor="false" UseBorders="false" />
+        </Item32>
+        <Item33 Ref="191" ControlType="XRLabel" Name="label57" Multiline="true" CanGrow="false" Text="Quản lý/ Manager above" TextAlignment="MiddleLeft" SizeF="125,47.0149536" LocationFloat="195.83313,870.4203" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Right">
+          <StylePriority Ref="192" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item33>
+        <Item34 Ref="193" ControlType="XRLabel" Name="label56" Multiline="true" CanGrow="false" Text="THEO CHỨC DANH/BY LEVEL" SizeF="83.3333359,472.533142" LocationFloat="112.499718,870.4202" BackColor="Gainsboro" Padding="2,2,4,0,100" Borders="Right, Bottom">
+          <StylePriority Ref="194" UseBackColor="false" UsePadding="false" UseBorders="false" />
+        </Item34>
+        <Item35 Ref="195" ControlType="XRLabel" Name="label55" Multiline="true" CanGrow="false" Text="3" SizeF="83.3333054,472.533142" LocationFloat="29.1664124,870.4202" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+          <StylePriority Ref="196" UseBackColor="false" UseBorders="false" />
+        </Item35>
+        <Item36 Ref="197" ControlType="XRLabel" Name="label54" Multiline="true" CanGrow="false" Text="Nhân viên kinh doanh/Salesperson" TextAlignment="MiddleLeft" SizeF="125,47.2222061" LocationFloat="195.833145,917.435242" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="198" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item36>
+        <Item37 Ref="199" ControlType="XRLabel" Name="label53" Multiline="true" CanGrow="false" Text="Nhân viên KD không tính BH" TextAlignment="MiddleLeft" SizeF="125,47.2222137" LocationFloat="195.833145,964.6575" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="200" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item37>
+        <Item38 Ref="201" ControlType="XRLabel" Name="label52" Multiline="true" CanGrow="false" Text="Kỹ thuật viên sửa chữa chung" TextAlignment="MiddleLeft" SizeF="125,47.2222443" LocationFloat="195.833267,1011.87958" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="202" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item38>
+        <Item39 Ref="203" ControlType="XRLabel" Name="label51" Multiline="true" CanGrow="false" Text="Kỹ thuật viên đồng sơn" TextAlignment="MiddleLeft" SizeF="124.999985,47.3775635" LocationFloat="195.833267,1059.10181" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="204" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item39>
+        <Item40 Ref="205" ControlType="XRLabel" Name="label50" Multiline="true" CanGrow="false" Text="Kỹ thuật viên sửa chữa thân xe" TextAlignment="MiddleLeft" SizeF="125,47.2222" LocationFloat="195.83316,1106.47937" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="206" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item40>
+        <Item41 Ref="207" ControlType="XRLabel" Name="label49" Multiline="true" CanGrow="false" Text="Cố vấn dịch vụ/ Service Advisor" TextAlignment="MiddleLeft" SizeF="125,47.222168" LocationFloat="195.833008,1153.70154" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="208" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item41>
+        <Item42 Ref="209" ControlType="XRLabel" Name="label48" Multiline="true" CanGrow="false" TextAlignment="MiddleLeft" SizeF="116.666656,47.3776855" LocationFloat="320.8334,1058.94629" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="210" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item42>
+        <Item43 Ref="211" ControlType="XRLabel" Name="label47" Multiline="true" CanGrow="false" TextAlignment="MiddleLeft" SizeF="116.666656,47.3775635" LocationFloat="320.833252,1106.324" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="212" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item43>
+        <Item44 Ref="213" ControlType="XRLabel" Name="label46" Multiline="true" CanGrow="false" SizeF="116.666626,47.222168" LocationFloat="320.832855,1153.70154" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right, Bottom">
+          <StylePriority Ref="214" UseBackColor="false" UseBorders="false" />
+        </Item44>
+        <Item45 Ref="215" ControlType="XRLabel" Name="label68" Multiline="true" CanGrow="false" Text="6" TextAlignment="MiddleLeft" SizeF="83.3333054,85.71216" LocationFloat="29.166254,1342.95325" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Bottom">
+          <StylePriority Ref="216" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item45>
+        <Item46 Ref="217" ControlType="XRLabel" Name="label69" Multiline="true" CanGrow="false" Text="NHÂN VIÊN BÁN HÀNG CHỈ CÓ C1" TextAlignment="MiddleLeft" SizeF="83.3333,85.7119141" LocationFloat="112.499557,1342.95337" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Bottom">
+          <StylePriority Ref="218" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item46>
+        <Item47 Ref="219" ControlType="XRLabel" Name="label70" Multiline="true" CanGrow="false" TextAlignment="MiddleLeft" SizeF="124.999664,85.71179" LocationFloat="195.833191,1342.95325" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Bottom">
+          <StylePriority Ref="220" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item47>
+        <Item48 Ref="221" ControlType="XRLabel" Name="label71" Multiline="true" CanGrow="false" TextAlignment="MiddleLeft" SizeF="116.666626,85.71179" LocationFloat="320.833038,1342.95325" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+          <StylePriority Ref="222" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item48>
+        <Item49 Ref="223" ControlType="XRLabel" Name="label75" Multiline="true" CanGrow="false" TextAlignment="MiddleLeft" SizeF="116.666626,85.71179" LocationFloat="320.832916,1428.665" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+          <StylePriority Ref="224" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item49>
+        <Item50 Ref="225" ControlType="XRLabel" Name="label74" Multiline="true" CanGrow="false" TextAlignment="MiddleLeft" SizeF="125,85.71179" LocationFloat="195.833038,1428.665" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Bottom">
+          <StylePriority Ref="226" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item50>
+        <Item51 Ref="227" ControlType="XRLabel" Name="label73" Multiline="true" CanGrow="false" Text="CHỨNG CHỈ NHÂN VIÊN BÁN HÀNG C2" TextAlignment="MiddleLeft" SizeF="83.3333,85.7119141" LocationFloat="112.499596,1428.66541" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Bottom">
+          <StylePriority Ref="228" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item51>
+        <Item52 Ref="229" ControlType="XRLabel" Name="label72" Multiline="true" CanGrow="false" Text="7" TextAlignment="MiddleLeft" SizeF="83.3333,85.71216" LocationFloat="29.1664124,1428.66528" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Bottom">
+          <StylePriority Ref="230" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item52>
+        <Item53 Ref="231" ControlType="XRLabel" Name="label79" Multiline="true" CanGrow="false" Text="8" TextAlignment="MiddleLeft" SizeF="83.3333,153.114136" LocationFloat="29.1664124,1514.37744" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Bottom">
+          <StylePriority Ref="232" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item53>
+        <Item54 Ref="233" ControlType="XRLabel" Name="label78" Multiline="true" CanGrow="false" Text="CHỨNG CHỈ NHÂN VIÊN BÁN HÀNG CỦA NHÂN VIÊN THUỘC PHÒNG KINH DOANH" TextAlignment="MiddleLeft" SizeF="83.3333054,153.113892" LocationFloat="112.499557,1514.37769" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Bottom">
+          <StylePriority Ref="234" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item54>
+        <Item55 Ref="235" ControlType="XRLabel" Name="label77" Multiline="true" CanGrow="false" TextAlignment="MiddleLeft" SizeF="125.000015,153.11377" LocationFloat="195.833008,1514.37732" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Bottom">
+          <StylePriority Ref="236" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item55>
+        <Item56 Ref="237" ControlType="XRLabel" Name="label76" Multiline="true" CanGrow="false" TextAlignment="MiddleLeft" SizeF="116.666626,153.11377" LocationFloat="320.8329,1514.37732" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+          <StylePriority Ref="238" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item56>
+        <Item57 Ref="239" ControlType="XRLabel" Name="label83" Multiline="true" CanGrow="false" Text="9" TextAlignment="MiddleLeft" SizeF="83.3333,85.71216" LocationFloat="29.1664124,1667.4917" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Bottom">
+          <StylePriority Ref="240" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item57>
+        <Item58 Ref="241" ControlType="XRLabel" Name="label82" Multiline="true" CanGrow="false" Text="QUẢN LÝ BÁN HÀNG" TextAlignment="MiddleLeft" SizeF="83.3333,85.7119141" LocationFloat="112.499756,1667.49207" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Bottom">
+          <StylePriority Ref="242" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item58>
+        <Item59 Ref="243" ControlType="XRLabel" Name="label81" Multiline="true" CanGrow="false" TextAlignment="MiddleLeft" SizeF="125,85.71179" LocationFloat="195.833191,1667.4917" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Bottom">
+          <StylePriority Ref="244" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item59>
+        <Item60 Ref="245" ControlType="XRLabel" Name="label80" Multiline="true" CanGrow="false" TextAlignment="MiddleLeft" SizeF="116.666626,85.71179" LocationFloat="320.833038,1667.4917" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+          <StylePriority Ref="246" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item60>
+        <Item61 Ref="247" ControlType="XRLabel" Name="label87" Multiline="true" CanGrow="false" Text="10" TextAlignment="MiddleLeft" SizeF="83.3333,85.71216" LocationFloat="29.1664124,1753.204" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Bottom">
+          <StylePriority Ref="248" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item61>
+        <Item62 Ref="249" ControlType="XRLabel" Name="label86" Multiline="true" CanGrow="false" Text="NVBH TUYỂN MỚI TRONG KỲ" TextAlignment="MiddleLeft" SizeF="83.3333,85.7119141" LocationFloat="112.49958,1753.20435" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Bottom">
+          <StylePriority Ref="250" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item62>
+        <Item63 Ref="251" ControlType="XRLabel" Name="label85" Multiline="true" CanGrow="false" TextAlignment="MiddleLeft" SizeF="125,85.71179" LocationFloat="195.833008,1753.204" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Bottom">
+          <StylePriority Ref="252" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item63>
+        <Item64 Ref="253" ControlType="XRLabel" Name="label84" Multiline="true" CanGrow="false" TextAlignment="MiddleLeft" SizeF="116.666626,85.71179" LocationFloat="320.832855,1753.204" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+          <StylePriority Ref="254" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item64>
+        <Item65 Ref="255" ControlType="XRLabel" Name="label5" Multiline="true" CanGrow="false" SizeF="116.666656,47.22221" LocationFloat="320.833282,47.2740479" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="256" UseBackColor="false" UseBorders="false" />
+        </Item65>
+        <Item66 Ref="257" ControlType="XRLabel" Name="label6" Multiline="true" CanGrow="false" SizeF="116.666656,47.2222366" LocationFloat="320.833282,94.4962158" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="258" UseBackColor="false" UseBorders="false" />
+        </Item66>
+        <Item67 Ref="259" ControlType="XRLabel" Name="label7" Multiline="true" CanGrow="false" SizeF="116.666656,47.22223" LocationFloat="320.833282,141.718475" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="260" UseBackColor="false" UseBorders="false" />
+        </Item67>
+        <Item68 Ref="261" ControlType="XRLabel" Name="label8" Multiline="true" CanGrow="false" SizeF="116.666656,47.222168" LocationFloat="320.8333,188.94072" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="262" UseBackColor="false" UseBorders="false" />
+        </Item68>
+        <Item69 Ref="263" ControlType="XRLabel" Name="label9" Multiline="true" CanGrow="false" Text="P.Hành Chính/ ADM Dept.&#xD;&#xA;" TextAlignment="MiddleLeft" SizeF="125,47.22222" LocationFloat="195.833191,47.4296265" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="264" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item69>
+        <Item70 Ref="265" ControlType="XRLabel" Name="label10" Multiline="true" CanGrow="false" Text="THEO PHÒNG BAN/ BY DEPT" SizeF="83.33331,349.835327" LocationFloat="112.499825,47.481472" BackColor="Gainsboro" Padding="2,2,4,0,100" Borders="Top, Right, Bottom">
+          <StylePriority Ref="266" UseBackColor="false" UsePadding="false" UseBorders="false" />
+        </Item70>
+        <Item71 Ref="267" ControlType="XRLabel" Name="label11" Multiline="true" CanGrow="false" Text="1" SizeF="83.3333,349.835327" LocationFloat="29.1664085,47.481472" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="268" UseBackColor="false" UseBorders="false" />
+        </Item71>
+        <Item72 Ref="269" ControlType="XRLabel" Name="label12" Multiline="true" CanGrow="false" Text="P.Kế toán/ Accounting Dept." TextAlignment="MiddleLeft" SizeF="125,47.2222061" LocationFloat="195.833191,94.651825" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="270" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item72>
+        <Item73 Ref="271" ControlType="XRLabel" Name="label13" Multiline="true" CanGrow="false" Text="P.Kinh doanh/ Sales Dept." TextAlignment="MiddleLeft" SizeF="125,47.2222137" LocationFloat="195.833191,141.874084" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="272" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item73>
+        <Item74 Ref="273" ControlType="XRLabel" Name="label14" Multiline="true" CanGrow="false" Text="P.Dịch vụ/ Service Dept." TextAlignment="MiddleLeft" SizeF="125,47.2222443" LocationFloat="195.833267,189.096222" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="274" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item74>
+        <Item75 Ref="275" ControlType="XRLabel" Name="label15" Multiline="true" CanGrow="false" Text="P.Quan hệ khách hàng/ CRM Dept." TextAlignment="MiddleLeft" SizeF="125,47.2222137" LocationFloat="195.833267,236.3185" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="276" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item75>
+        <Item76 Ref="277" ControlType="XRLabel" Name="label16" Multiline="true" CanGrow="false" Text="Các phòng khác/ Others Dept." TextAlignment="MiddleLeft" SizeF="125,47.2222" LocationFloat="195.833267,283.5407" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="278" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item76>
+        <Item77 Ref="279" ControlType="XRLabel" Name="label17" Multiline="true" CanGrow="false" Text="Thử việc/ Học việc/ Cộng tác viên" TextAlignment="MiddleLeft" SizeF="125,47.222168" LocationFloat="195.833191,330.762878" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="280" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item77>
+        <Item78 Ref="281" ControlType="XRLabel" Name="label18" Multiline="true" CanGrow="false" Text="Total" TextAlignment="MiddleLeft" SizeF="125,19.2797852" LocationFloat="195.833191,377.985" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right, Bottom">
+          <StylePriority Ref="282" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item78>
+        <Item79 Ref="283" ControlType="XRLabel" Name="label19" Multiline="true" CanGrow="false" SizeF="116.666656,47.2222748" LocationFloat="320.833282,236.162857" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="284" UseBackColor="false" UseBorders="false" />
+        </Item79>
+        <Item80 Ref="285" ControlType="XRLabel" Name="label20" Multiline="true" CanGrow="false" SizeF="116.666626,47.2222" LocationFloat="320.8334,283.385071" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right">
+          <StylePriority Ref="286" UseBackColor="false" UseBorders="false" />
+        </Item80>
+        <Item81 Ref="287" ControlType="XRLabel" Name="label21" Multiline="true" CanGrow="false" SizeF="116.666626,47.8445435" LocationFloat="320.833221,330.607269" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Top, Right, Bottom">
+          <StylePriority Ref="288" UseBackColor="false" UseBorders="false" />
+        </Item81>
+        <Item82 Ref="289" ControlType="XRLabel" Name="label22" Multiline="true" CanGrow="false" SizeF="116.666595,18.86499" LocationFloat="320.832855,378.4518" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="Right, Bottom">
+          <StylePriority Ref="290" UseBackColor="false" UseBorders="false" />
+        </Item82>
+      </Controls>
+    </Item5>
+    <Item6 Ref="291" ControlType="VerticalTotalBand" Name="VerticalTotal" WidthF="160.243088" HeightF="1932.069">
+      <Controls>
+        <Item1 Ref="292" ControlType="XRTable" Name="table5" SizeF="100,473.362976" LocationFloat="0,397.0574" Padding="2,2,0,0,96" Borders="Top, Right">
+          <Rows>
+            <Item1 Ref="293" ControlType="XRTableRow" Name="tableRow37" Weight="1">
+              <Cells>
+                <Item1 Ref="294" ControlType="XRTableCell" Name="tableCell37" Weight="1" Multiline="true" Text="tableCell1" BackColor="Transparent" Borders="Right">
+                  <Summary Ref="295" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="296" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total9])" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="297" UseBackColor="false" UseBorders="false" />
+                </Item1>
+              </Cells>
+            </Item1>
+            <Item2 Ref="298" ControlType="XRTableRow" Name="tableRow38" Weight="0.99999911237431538">
+              <Cells>
+                <Item1 Ref="299" ControlType="XRTableCell" Name="tableCell38" Weight="1" Multiline="true" Text="tableCell2">
+                  <Summary Ref="300" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="301" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total10])" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item2>
+            <Item3 Ref="302" ControlType="XRTableRow" Name="tableRow39" Weight="1.0000008876256845">
+              <Cells>
+                <Item1 Ref="303" ControlType="XRTableCell" Name="tableCell39" Weight="1" Multiline="true" Text="tableCell3">
+                  <Summary Ref="304" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="305" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total11])" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item3>
+            <Item4 Ref="306" ControlType="XRTableRow" Name="tableRow40" Weight="1">
+              <Cells>
+                <Item1 Ref="307" ControlType="XRTableCell" Name="tableCell40" Weight="1" Multiline="true" Text="tableCell4">
+                  <Summary Ref="308" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="309" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total12])" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item4>
+            <Item5 Ref="310" ControlType="XRTableRow" Name="tableRow41" Weight="1">
+              <Cells>
+                <Item1 Ref="311" ControlType="XRTableCell" Name="tableCell41" Weight="1" Multiline="true" Text="tableCell5">
+                  <Summary Ref="312" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="313" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total13])" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item5>
+            <Item6 Ref="314" ControlType="XRTableRow" Name="tableRow42" Weight="1">
+              <Cells>
+                <Item1 Ref="315" ControlType="XRTableCell" Name="tableCell42" Weight="1" Multiline="true" Text="tableCell6">
+                  <Summary Ref="316" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="317" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total14])" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item6>
+            <Item7 Ref="318" ControlType="XRTableRow" Name="tableRow43" Weight="1">
+              <Cells>
+                <Item1 Ref="319" ControlType="XRTableCell" Name="tableCell43" Weight="1" Multiline="true" Text="tableCell7">
+                  <Summary Ref="320" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="321" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total15])" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item7>
+            <Item8 Ref="322" ControlType="XRTableRow" Name="tableRow44" Weight="0.97806200843289592">
+              <Cells>
+                <Item1 Ref="323" ControlType="XRTableCell" Name="tableCell44" Weight="1" Multiline="true" Text="tableCell8">
+                  <Summary Ref="324" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="325" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total16])" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item8>
+            <Item9 Ref="326" ControlType="XRTableRow" Name="tableRow45" Weight="1.0219379915671041">
+              <Cells>
+                <Item1 Ref="327" ControlType="XRTableCell" Name="tableCell45" Weight="1" Multiline="true" Text="tableCell25">
+                  <Summary Ref="328" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="329" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total17])" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item9>
+            <Item10 Ref="330" ControlType="XRTableRow" Name="tableRow46" Weight="1.0131652641535305">
+              <Cells>
+                <Item1 Ref="331" ControlType="XRTableCell" Name="tableCell46" Weight="1" Multiline="true" Text="tableCell26" Borders="Top, Right, Bottom">
+                  <Summary Ref="332" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="333" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total18])" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="334" UseBorders="false" />
+                </Item1>
+              </Cells>
+            </Item10>
+          </Rows>
+          <StylePriority Ref="335" UseBorders="false" />
+        </Item1>
+        <Item2 Ref="336" ControlType="XRTable" Name="table6" SizeF="100,472.7925" LocationFloat="0,870.3683" Padding="2,2,0,0,96" Borders="Top, Right">
+          <Rows>
+            <Item1 Ref="337" ControlType="XRTableRow" Name="tableRow47" Weight="1.0010997679039979">
+              <Cells>
+                <Item1 Ref="338" ControlType="XRTableCell" Name="tableCell47" Weight="1" Multiline="true" Text="tableCell1" BackColor="Transparent" Borders="Right">
+                  <Summary Ref="339" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="340" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total19])" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="341" UseBackColor="false" UseBorders="false" />
+                </Item1>
+              </Cells>
+            </Item1>
+            <Item2 Ref="342" ControlType="XRTableRow" Name="tableRow48" Weight="0.99342414631511555">
+              <Cells>
+                <Item1 Ref="343" ControlType="XRTableCell" Name="tableCell48" Weight="1" Multiline="true" Text="tableCell2">
+                  <Summary Ref="344" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="345" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total20])" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item2>
+            <Item3 Ref="346" ControlType="XRTableRow" Name="tableRow49" Weight="0.9989035402264">
+              <Cells>
+                <Item1 Ref="347" ControlType="XRTableCell" Name="tableCell49" Weight="1" Multiline="true" Text="tableCell3">
+                  <Summary Ref="348" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="349" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total21])" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item3>
+            <Item4 Ref="350" ControlType="XRTableRow" Name="tableRow50" Weight="0.99450317634842278">
+              <Cells>
+                <Item1 Ref="351" ControlType="XRTableCell" Name="tableCell50" Weight="1" Multiline="true" Text="tableCell4">
+                  <Summary Ref="352" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="353" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total22])" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item4>
+            <Item5 Ref="354" ControlType="XRTableRow" Name="tableRow51" Weight="1.0065868279658095">
+              <Cells>
+                <Item1 Ref="355" ControlType="XRTableCell" Name="tableCell51" Weight="1" Multiline="true" Text="tableCell5">
+                  <Summary Ref="356" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="357" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total23])" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item5>
+            <Item6 Ref="358" ControlType="XRTableRow" Name="tableRow52" Weight="0.99890224913452652">
+              <Cells>
+                <Item1 Ref="359" ControlType="XRTableCell" Name="tableCell52" Weight="1" Multiline="true" Text="tableCell6">
+                  <Summary Ref="360" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="361" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total24])" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item6>
+            <Item7 Ref="362" ControlType="XRTableRow" Name="tableRow53" Weight="0.994510922899664">
+              <Cells>
+                <Item1 Ref="363" ControlType="XRTableCell" Name="tableCell53" Weight="1" Multiline="true" Text="tableCell7">
+                  <Summary Ref="364" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="365" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total25])" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item7>
+            <Item8 Ref="366" ControlType="XRTableRow" Name="tableRow54" Weight="1.0175481979721255">
+              <Cells>
+                <Item1 Ref="367" ControlType="XRTableCell" Name="tableCell54" Weight="1" Multiline="true" Text="tableCell8">
+                  <Summary Ref="368" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="369" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total26])" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item8>
+            <Item9 Ref="370" ControlType="XRTableRow" Name="tableRow55" Weight="0.98245180202787463">
+              <Cells>
+                <Item1 Ref="371" ControlType="XRTableCell" Name="tableCell55" Weight="1" Multiline="true" Text="tableCell25">
+                  <Summary Ref="372" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="373" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total27])" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item9>
+            <Item10 Ref="374" ControlType="XRTableRow" Name="tableRow56" Weight="1.0131672004722512">
+              <Cells>
+                <Item1 Ref="375" ControlType="XRTableCell" Name="tableCell56" Weight="1" Multiline="true" Text="tableCell26" Borders="Top, Right, Bottom">
+                  <Summary Ref="376" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="377" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total28])" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="378" UseBorders="false" />
+                </Item1>
+              </Cells>
+            </Item10>
+          </Rows>
+          <StylePriority Ref="379" UseBorders="false" />
+        </Item2>
+        <Item3 Ref="380" ControlType="XRLabel" Name="label89" Multiline="true" CanGrow="false" Text="label5" SizeF="99.99999,86.1270752" LocationFloat="0,1342.53845" Padding="2,2,0,0,100" Borders="Top, Right, Bottom">
+          <Summary Ref="381" Running="Report" />
+          <ExpressionBindings>
+            <Item1 Ref="382" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total29])" />
+          </ExpressionBindings>
+          <StylePriority Ref="383" UseBorders="false" />
+        </Item3>
+        <Item4 Ref="384" ControlType="XRLabel" Name="label91" Multiline="true" CanGrow="false" Text="label5" SizeF="99.99999,85.7114258" LocationFloat="0,1428.66553" Padding="2,2,0,0,100" Borders="Right, Bottom">
+          <Summary Ref="385" Running="Report" />
+          <ExpressionBindings>
+            <Item1 Ref="386" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total30])" />
+          </ExpressionBindings>
+          <StylePriority Ref="387" UseBorders="false" />
+        </Item4>
+        <Item5 Ref="388" ControlType="XRLabel" Name="label93" Multiline="true" CanGrow="false" Text="label5" SizeF="99.99999,153.11438" LocationFloat="0,1514.37671" Padding="2,2,0,0,100" Borders="Right, Bottom">
+          <Summary Ref="389" Running="Report" />
+          <ExpressionBindings>
+            <Item1 Ref="390" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total31])" />
+          </ExpressionBindings>
+          <StylePriority Ref="391" UseBorders="false" />
+        </Item5>
+        <Item6 Ref="392" ControlType="XRLabel" Name="label95" Multiline="true" CanGrow="false" Text="label5" SizeF="99.99999,85.29761" LocationFloat="0,1667.49158" Padding="2,2,0,0,100" Borders="Right, Bottom">
+          <Summary Ref="393" Running="Report" />
+          <ExpressionBindings>
+            <Item1 Ref="394" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total32])" />
+          </ExpressionBindings>
+          <StylePriority Ref="395" UseBorders="false" />
+        </Item6>
+        <Item7 Ref="396" ControlType="XRLabel" Name="label97" Multiline="true" CanGrow="false" Text="label5" SizeF="99.99999,85.71216" LocationFloat="0,1752.78918" Padding="2,2,0,0,100" Borders="Right, Bottom">
+          <Summary Ref="397" Running="Report" />
+          <ExpressionBindings>
+            <Item1 Ref="398" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total33])" />
+          </ExpressionBindings>
+          <StylePriority Ref="399" UseBorders="false" />
+        </Item7>
+        <Item8 Ref="400" ControlType="XRLabel" Name="label23" Multiline="true" CanGrow="false" Text="label5" SizeF="99.99999,19.1242676" LocationFloat="0,377.985" Padding="2,2,0,0,100" Borders="Top, Right, Bottom">
+          <Summary Ref="401" Running="Report" />
+          <ExpressionBindings>
+            <Item1 Ref="402" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total8])" />
+          </ExpressionBindings>
+          <StylePriority Ref="403" UseBorders="false" />
+        </Item8>
+        <Item9 Ref="404" ControlType="XRTable" Name="table2" SizeF="100,378.192444" LocationFloat="0,0" Padding="2,2,0,0,96">
+          <Rows>
+            <Item1 Ref="405" ControlType="XRTableRow" Name="tableRow9" Weight="1">
+              <Cells>
+                <Item1 Ref="406" ControlType="XRTableCell" Name="tableCell9" Weight="1" Multiline="true" Text="Grand total" BackColor="Gainsboro" Borders="Top, Right">
+                  <StylePriority Ref="407" UseBackColor="false" UseBorders="false" />
+                </Item1>
+              </Cells>
+            </Item1>
+            <Item2 Ref="408" ControlType="XRTableRow" Name="tableRow10" Weight="1">
+              <Cells>
+                <Item1 Ref="409" ControlType="XRTableCell" Name="tableCell10" Weight="1" Multiline="true" Text="tableCell2" Borders="Top, Right">
+                  <Summary Ref="410" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="411" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total1])" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="412" UseBorders="false" />
+                </Item1>
+              </Cells>
+            </Item2>
+            <Item3 Ref="413" ControlType="XRTableRow" Name="tableRow11" Weight="1">
+              <Cells>
+                <Item1 Ref="414" ControlType="XRTableCell" Name="tableCell11" Weight="1" Multiline="true" Text="tableCell3" Borders="Top, Right">
+                  <Summary Ref="415" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="416" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total2])" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="417" UseBorders="false" />
+                </Item1>
+              </Cells>
+            </Item3>
+            <Item4 Ref="418" ControlType="XRTableRow" Name="tableRow12" Weight="1">
+              <Cells>
+                <Item1 Ref="419" ControlType="XRTableCell" Name="tableCell12" Weight="1" Multiline="true" Text="tableCell4" Borders="Top, Right">
+                  <Summary Ref="420" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="421" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total3])" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="422" UseBorders="false" />
+                </Item1>
+              </Cells>
+            </Item4>
+            <Item5 Ref="423" ControlType="XRTableRow" Name="tableRow13" Weight="1">
+              <Cells>
+                <Item1 Ref="424" ControlType="XRTableCell" Name="tableCell13" Weight="1" Multiline="true" Text="tableCell5" Borders="Top, Right">
+                  <Summary Ref="425" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="426" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total4])" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="427" UseBorders="false" />
+                </Item1>
+              </Cells>
+            </Item5>
+            <Item6 Ref="428" ControlType="XRTableRow" Name="tableRow14" Weight="1">
+              <Cells>
+                <Item1 Ref="429" ControlType="XRTableCell" Name="tableCell14" Weight="1" Multiline="true" Text="tableCell6" Borders="Top, Right">
+                  <Summary Ref="430" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="431" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total5])" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="432" UseBorders="false" />
+                </Item1>
+              </Cells>
+            </Item6>
+            <Item7 Ref="433" ControlType="XRTableRow" Name="tableRow15" Weight="1">
+              <Cells>
+                <Item1 Ref="434" ControlType="XRTableCell" Name="tableCell15" Weight="1" Multiline="true" Text="tableCell7" Borders="Top, Right">
+                  <Summary Ref="435" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="436" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total6])" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="437" UseBorders="false" />
+                </Item1>
+              </Cells>
+            </Item7>
+            <Item8 Ref="438" ControlType="XRTableRow" Name="tableRow16" Weight="1">
+              <Cells>
+                <Item1 Ref="439" ControlType="XRTableCell" Name="tableCell16" Weight="1" Multiline="true" Text="tableCell8" Borders="Top, Right">
+                  <Summary Ref="440" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="441" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([total7])" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="442" UseBorders="false" />
+                </Item1>
+              </Cells>
+            </Item8>
+          </Rows>
+        </Item9>
+      </Controls>
+    </Item6>
+  </Bands>
+</XtraReportsLayoutSerializer>

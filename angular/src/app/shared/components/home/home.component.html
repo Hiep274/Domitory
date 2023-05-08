@@ -1,0 +1,23 @@
+<!-- <div> -->
+    <!-- <div> -->
+            <!-- <tabset class="tab-container">
+                <tab title="tetstabcds" *ngFor="let tab of openedTabsObj" heading="{{tab.name | localize}}" [active]="tab.active"
+                    (selectTab)="displayTab(tab.code, $event)" [removable]="true" (removed)="removeTabHandler(tab)">
+                </tab>
+            </tabset> -->
+
+        <div>
+            <dynamic-tab
+                #dynamic_tab
+                *ngFor="let tab of openedTabsObj"
+                [tabDisplay]="tab.code === currentTabCode"
+                [tabCode]="tab.code"
+                [currentTabCode]="currentTabCode"
+                (setShortcuts)="setShortcuts($event)"
+                [params]="tab.params">
+            </dynamic-tab>
+        </div>
+  <!-- </div> -->
+<!-- </div> -->
+
+<ng-keyboard-shortcuts [shortcuts]="shortcuts"></ng-keyboard-shortcuts>

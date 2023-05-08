@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="20.2.5.0" Ref="0" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="DemoChartReport" Margins="48, 40, 36, 28" PageWidth="850" PageHeight="1100" Version="20.2">
+  <Extensions>
+    <Item1 Ref="1" Key="VSReportExtInfo" Value=".repx" />
+  </Extensions>
+  <Bands>
+    <Item1 Ref="2" ControlType="TopMarginBand" Name="topMarginBand1" HeightF="36" />
+    <Item2 Ref="3" ControlType="DetailBand" Name="detailBand1" HeightF="698.375">
+      <Controls>
+        <Item1 Ref="4" ControlType="XRChart" Name="chart2" SizeF="695.8333,433.5833" LocationFloat="30.20835,254.791672" BorderColor="Black" Borders="None">
+          <Chart Ref="5">
+            <DataContainer Ref="6" ValidateDataMembers="true">
+              <SeriesSerializable>
+                <Item1 Ref="7" Name="Demo Cool Report">
+                  <View Ref="8" TypeNameSerializable="PieSeriesView">
+                    <Titles>
+                      <Item1 Ref="9" WordWrap="true" TextColor="Black" />
+                    </Titles>
+                  </View>
+                  <Points>
+                    <Item1 Ref="10" ValuesSerializable="10" ArgumentSerializable="A" SeriesPointID="0" />
+                    <Item2 Ref="11" ValuesSerializable="7" ArgumentSerializable="B" SeriesPointID="1" />
+                    <Item3 Ref="12" ValuesSerializable="30" ArgumentSerializable="C" SeriesPointID="2" />
+                    <Item4 Ref="13" ValuesSerializable="20" ArgumentSerializable="D" SeriesPointID="3" />
+                    <Item5 Ref="14" ValuesSerializable="3" ArgumentSerializable="E" SeriesPointID="4" />
+                    <Item6 Ref="15" ValuesSerializable="5" ArgumentSerializable="F" SeriesPointID="5" />
+                    <Item7 Ref="16" ValuesSerializable="17" ArgumentSerializable="G" SeriesPointID="6" />
+                    <Item8 Ref="17" ValuesSerializable="25" ArgumentSerializable="H" SeriesPointID="7" />
+                  </Points>
+                </Item1>
+              </SeriesSerializable>
+            </DataContainer>
+            <OptionsPrint Ref="18" ImageFormat="Metafile" />
+          </Chart>
+        </Item1>
+        <Item2 Ref="19" ControlType="XRChart" Name="chart1" SizeF="695.8333,230.208344" LocationFloat="30.20835,10.0000067" BorderColor="Black" Borders="None">
+          <Chart Ref="20" AutoLayout="true">
+            <DataContainer Ref="21" ValidateDataMembers="true">
+              <SeriesSerializable>
+                <Item1 Ref="22" Name="Buble Chart">
+                  <View Ref="23" TypeNameSerializable="PointSeriesView" />
+                  <Points>
+                    <Item1 Ref="24" ValuesSerializable="2.4" ArgumentSerializable="A" />
+                    <Item2 Ref="25" ValuesSerializable="3.9" ArgumentSerializable="B" />
+                    <Item3 Ref="26" ValuesSerializable="5.3" ArgumentSerializable="C" />
+                    <Item4 Ref="27" ValuesSerializable="6.9" ArgumentSerializable="D" />
+                    <Item5 Ref="28" ValuesSerializable="9.2" ArgumentSerializable="E" />
+                  </Points>
+                </Item1>
+              </SeriesSerializable>
+            </DataContainer>
+            <Diagram Ref="29" TypeNameSerializable="XYDiagram">
+              <AxisX Ref="30" VisibleInPanesSerializable="-1" />
+              <AxisY Ref="31" VisibleInPanesSerializable="-1" />
+              <DefaultPane Ref="32" EnableAxisXScrolling="False" EnableAxisYScrolling="False" EnableAxisXZooming="False" EnableAxisYZooming="False">
+                <StackedBarTotalLabel Ref="33">
+                  <ConnectorLineStyle Ref="34" />
+                </StackedBarTotalLabel>
+              </DefaultPane>
+            </Diagram>
+            <OptionsPrint Ref="35" ImageFormat="Metafile" />
+          </Chart>
+        </Item2>
+      </Controls>
+    </Item2>
+    <Item3 Ref="36" ControlType="BottomMarginBand" Name="bottomMarginBand1" HeightF="28" />
+  </Bands>
+</XtraReportsLayoutSerializer>
